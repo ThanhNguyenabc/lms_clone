@@ -13,10 +13,11 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ftp.breadme.co
-          username: admin@breadme.co
-          password: bestpos2023@
+          username: e821015
+          password: Hosting.com12345*
           port: 21
-          server-dir: lms_clone/
+          timeout: 60000
+          server-dir: home/e821015/
           exclude: |
             **/contents/**
       - run: 🍏 This job's status is ${{ job.status }}
