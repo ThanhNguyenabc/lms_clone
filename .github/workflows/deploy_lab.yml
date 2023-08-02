@@ -1,0 +1,21 @@
+name: Deploy Files To LMS_LAB 🚀 🚀 🚀
+on:
+  push:
+    branches: build
+jobs:
+  web-deploy:
+    name: 🐧 This job will deploy code to lab
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out latest code
+        uses: actions/checkout@v3
+      - name: 📂 Sync files to  LMS_LAB
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ftp.breadme.co
+          username: e821015
+          password: Hosting.com12345*
+          server-dir: lms_clone/
+          exclude: |
+            **/contents/**
+      - run: echo "🍏 This job's status is ${{ job.status }}."
