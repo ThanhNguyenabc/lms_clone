@@ -16,9 +16,7 @@ jobs:
           username: admin@breadme.co
           password: bestpos2023@
           port: 21
-          protocol: ftps
           timeout: 60000
-          server-dir: /lms_clone/
           exclude: |
             **/contents/**
       - run: 🍏 This job's status is ${{ job.status }}
