@@ -1,0 +1,92 @@
+
+[section schedule]
+en = "SCHEDULE AND CONFIGURATION"
+vn = "THIẾT LẬP THỜI KHÓA BIỂU VÀ LỚP HỌC"
+
+[section staff]
+en = "CLASSROOM"
+vn = "PHÒNG HỌC VÀ NHÂN VIÊN"
+
+[id]
+en = "Id"
+vn = "Số id"
+
+[name]
+en = "Name"
+vn = "Tên Lớp"
+
+[status]
+en = "Status"
+vn = "Trạng thái"
+
+[program]
+en = "Program"
+vn = "Chương trình"
+
+[level]
+en = "Level"
+vn = "Cấp độ"
+
+[center_id]
+en = "Center"
+vn = "Trung tâm"
+
+[date_start]
+en = "Date Start"
+vn = "Ngày bắt đầu"
+
+[date_end]
+en = "Date End"
+vn = "Ngày kết thúc"
+
+[lesson_duration]
+en = "Lesson Duration"
+vn = "Thời lượng buổi học"
+
+[teacher_config]
+en = "Teacher Config"
+vn = "Cấu hình giáo viên"
+
+[room]
+en = "Room"
+vn = "Phòng học"
+
+[seats]
+en = "Seats"
+vn = "Ghế ngồi"
+
+[schedule]
+en = "Schedule"
+vn = "Ngày học"
+
+[staff]
+en = "Teachers & TAs"
+vn = "Giáo viên và Trợ giảng"
+
+[students]
+en = "Students"
+vn = "Học viên"
+
+[classes]
+en = "Calendar"
+vn = "Lịch"
+
+[config]
+en = "Configuration"
+vn = "Cấu hình"
+
+[notes]
+en = "Notes"
+vn = "Ghi chú"
+
+[button rollout]
+en = "ROLL OUT ➞"
+vn = "TRIỂN KHAI ➞"
+
+[no program]
+en = "No Program"
+vn = "Không có Chương trình"
+
+[no level]
+en = "No Level"
+vn = "Không có Cấp độ"

@@ -1,0 +1,9 @@
+
+[module]
+menu-icon = "blackboard"
+en = "Teach"
+vn = "Dạy"
+
+[module header title]
+en = "TEACH"
+vn = "DẠY"

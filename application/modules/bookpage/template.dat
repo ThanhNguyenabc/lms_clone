@@ -1,0 +1,35 @@
+[page]
+template = "type:select"
+title    = "type:text"
+
+
+[intro]
+template = "type:select"
+picture  = "type:select"
+title    = "type:text"
+subtitle = "type:text"
+text     = "type:text"
+
+
+[grammar]
+template = "type:select"
+picture  = "type:select"
+title    = "type:text"
+subtitle = "type:text"
+text     = "type:text"
+
+
+[outro]
+template = "type:select"
+picture  = "type:select"
+title    = "type:text"
+subtitle = "type:text"
+text     = "type:text"
+
+
+[lessonplan]
+template = "type:select"
+picture  = "type:select"
+title    = "type:text"
+subtitle = "type:text"
+text     = "type:text"

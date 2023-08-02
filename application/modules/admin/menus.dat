@@ -1,0 +1,20 @@
+
+[courses]
+en = "COURSES"
+vn = "KHÓA HỌC"
+
+[lessons]
+en = "LESSONS"
+vn = "BÀI HỌC"
+
+[timeoff]
+en = "TIME OFF"
+vn = "THỜI GIAN NGHỈ"
+
+[assessment]
+en = "ASSESSMENT"
+vn = "BÀI ĐÁNH GIÁ"
+
+[projects]
+en = "PROJECTS"
+vn = "DỰ ÁN"

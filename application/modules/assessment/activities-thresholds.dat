@@ -1,0 +1,15 @@
+
+[bad]
+en = "Poor"
+vn = "Yếu"
+threshold = 0.25
+
+[soso]
+en = "Can Improve"
+vn = "Có thể tiến bộ hơn"
+threshold = 0.5
+
+[good]
+en = "Good"
+vn = "Tốt"
+threshold = 1

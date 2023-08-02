@@ -1,0 +1,40 @@
+
+[search box student]
+en = "Student"
+vn = "Học viên"
+
+[search box type]
+en = "Type"
+vn = "Thể loại"
+
+[search box lesson]
+en = "Lesson"
+vn = "Bài học"
+
+[search box center]
+en = "Center"
+vn = "Trung tâm"
+
+[search box date]
+en = "Date"
+vn = "Ngày Tháng Năm"
+
+[search box time]
+en = "Time"
+vn = "Thời gian"
+
+[search box online]
+en = "Online"
+vn = "Trực tuyến"
+
+[search box overbook]
+en = "Overbook"
+vn = "Vượt mức đăng ký"
+
+[button search]
+en = "SEARCH"
+vn = "TÌM KIẾM"
+
+[button book]
+en = "BOOK"
+vn = "ĐĂNG KÝ"

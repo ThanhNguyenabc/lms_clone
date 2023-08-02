@@ -1,0 +1,24 @@
+
+[0]
+en = "None"
+vn = "Không có"
+
+[1px]
+en = "Minimal"
+vn = "Tối thiểu"
+
+[2px]
+en = "Small"
+vn = "Nhỏ"
+
+[4px]
+en = "Medium"
+vn = "Vừa"
+
+[12px]
+en = "Big"
+vn = "To"
+
+[24px]
+en = "Huge"
+vn = "Khổng lồ"

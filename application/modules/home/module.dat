@@ -1,0 +1,9 @@
+
+[module]
+menu-icon = "home"
+en = "Home"
+vn = "Nhà"
+
+[module header title]
+en = "HOME"
+vn = "NHÀ"

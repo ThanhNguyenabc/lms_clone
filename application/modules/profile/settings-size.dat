@@ -1,0 +1,25 @@
+
+[tiny]
+en = "Tiny"
+zoom = 0.5
+vn = "Nhỏ xíu"
+
+[small]
+en = "Small"
+zoom = 0.75
+vn = "Nhỏ"
+
+[normal]
+en = "Normal"
+zoom = ""
+vn = "Bình thường"
+
+[large]
+en = "Large"
+zoom = 1.5
+vn = "To"
+
+[huge]
+en = "Huge"
+zoom = 2
+vn = "Khổng lồ"

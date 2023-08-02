@@ -1,0 +1,25 @@
+
+[grade 5]
+en = "Great!"
+vn = "Xuất sắc"
+color = "good"
+
+[grade 4]
+en = "Good"
+vn = "Giỏi"
+color = "good"
+
+[grade 3]
+en = "Average"
+vn = "Trung bình"
+color = "soso"
+
+[grade 2]
+en = "So so"
+vn = "Trung bình yếu"
+color = "bad"
+
+[grade 1]
+en = "Poor"
+vn = "Yếu"
+color = "bad"

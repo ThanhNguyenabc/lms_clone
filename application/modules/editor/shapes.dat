@@ -1,0 +1,50 @@
+
+[triangle]
+en = "Triangle"
+src = "triangle.svg"
+vn = "Hình tam giác"
+
+[triangle outline]
+en = "Triangle Outline"
+src = "triangle-outline.svg"
+vn = "Đường viền tam giác"
+
+[square]
+en = "Square"
+src = "square.svg"
+vn = "Hình vuông"
+
+[square outline]
+en = "Square Outline"
+src = "square-outline.svg"
+vn = "Đường viền vuông"
+
+[circle]
+en = "circle"
+src = "circle.svg"
+vn = "Hình tròn"
+
+[circle outline]
+en = "circle Outline"
+src = "circle-outline.svg"
+vn = "Đường viền hình tròn"
+
+[star]
+en = "star"
+src = "star.svg"
+vn = "Hình ngôi sao"
+
+[star outline]
+en = "star Outline"
+src = "star-outline.svg"
+vn = "Đường viền ngôi sao"
+
+[arrow]
+en = "arrow"
+src = "arrow.svg"
+vn = "Hình mũi tên"
+
+[arrow outline]
+en = "arrow Outline"
+src = "arrow-outline.svg"
+vn = "Đường viền mũi tên"

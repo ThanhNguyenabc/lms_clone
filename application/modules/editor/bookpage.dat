@@ -1,0 +1,39 @@
+
+[title]
+en = "Book Page →"
+vn = "Trang sách →"
+
+[text]
+en = "Edit Book Page paragraphs and layout"
+vn = "Chỉnh sửa các đoạn và bố cục của trang sách"
+
+[media]
+card = "cover-test.jpg"
+
+[paragraphs title]
+en = "PARAGRAPHS"
+vn = "ĐOẠN"
+
+[paragraph title placeholder]
+en = "Paragraph Title"
+vn = "Tựa đề đoạn"
+
+[paragraph subtitle placeholder]
+en = "Paragraph Subtitle"
+vn = "Phụ đề đoạn"
+
+[paragraph text placeholder]
+en = "Paragraph Text"
+vn = "Đoạn văn bản"
+
+[page title]
+en = "PAGE"
+vn = "TRANG"
+
+[page preview]
+en = "PREVIEW"
+vn = "XEM TRƯỚC"
+
+[page template]
+en = "TEMPLATE"
+vn = "BẢN MẪU"

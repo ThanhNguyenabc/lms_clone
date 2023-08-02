@@ -1,0 +1,13 @@
+
+[module]
+menu-icon = "envelope"
+en = "MESSAGES"
+vn = "THÔNG ĐIỆP"
+
+[module header title]
+en = "MESSAGES"
+vn = "THÔNG ĐIỆP"
+
+[messages none]
+en = "No messages to show"
+vn = "Chưa có tin nhắn để xem"

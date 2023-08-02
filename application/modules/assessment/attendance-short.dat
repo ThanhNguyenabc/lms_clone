@@ -1,0 +1,12 @@
+
+[yes]
+en = "Attended"
+vn = "Có mặt"
+
+[late]
+en = "Late"
+vn = "Trễ"
+
+[miss]
+en = "Missed"
+vn = "Vắng"

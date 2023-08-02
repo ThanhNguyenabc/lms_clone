@@ -1,0 +1,56 @@
+
+[class date]
+en = "Date"
+vn = "Ngày Tháng Năm"
+
+[class time]
+en = "Time"
+vn = "Thời gian"
+
+[class type]
+en = "Type"
+vn = "Thể loại"
+
+[class room]
+en = "Room"
+vn = "Phòng học"
+
+[class online]
+en = "Online"
+vn = "Trực tuyến"
+
+[class classroom_url]
+en = "Stream"
+vn = "Phát trực tuyến"
+
+[class center]
+en = "Center"
+vn = "Trung tâm"
+
+[class lesson]
+en = "Lesson"
+vn = "Bài học"
+
+[class title]
+en = "Title"
+vn = "Tựa đề"
+
+[class seats]
+en = "Seats"
+vn = "Ghế ngồi"
+
+[class duration]
+en = "Duration"
+vn = "Thời lượng"
+
+[class notes]
+en = "Notes"
+vn = "Ghi chú"
+
+[class staff]
+en = "STAFF"
+vn = "NHÂN VIÊN"
+
+[class students]
+en = "STUDENTS"
+vn = "HỌC VIÊN"

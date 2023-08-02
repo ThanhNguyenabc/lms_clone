@@ -1,0 +1,32 @@
+
+[blue pen]
+en = "Blue Pen"
+vn = "Bút Xanh"
+type = "round"
+color = "blue"
+size = 16
+mode = "source-over"
+
+[red pen]
+en = "Red Pen"
+vn = "Bút Đỏ"
+type = "round"
+color = "red"
+size = 16
+mode = "source-over"
+
+[highlighter]
+en = "Highlighter"
+type = "square"
+color = "rgb(255, 255, 50, 0.05)"
+size = 32
+mode = "source-over"
+vn = "Làm nổi bật"
+
+[eraser]
+en = "Eraser"
+type = "square"
+color = "white"
+size = 32
+mode = "destination-out"
+vn = "Tẩy"

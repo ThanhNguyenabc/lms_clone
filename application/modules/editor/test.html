@@ -1,0 +1,66 @@
+<div class = "container-row padding-small gap-medium" style = "overflow:hidden; height:100%; width:100%;">
+   
+    <div class = "container-column gap-medium" style = "width:320px; height:100%">
+	
+		<div class = "container-row gap-medium" style = "width:100%">
+			<li data-uid = "editor-lesson-back" class = "fa-solid fa-arrow-left style-clickable" style = "display:none"></li> 
+			<a class = "text-title-medium">%test test-edit title%</a>
+		</div>
+	
+		<div class = "container-column gap-medium padding-medium border-rounded" style = "width:100%; flex-grow:1; flex-shrink:0; background-color:var(--color-light)">
+			
+			<div class = "container-row" style = "width:100%; justify-content:space-between">
+				<a class = "text-title-medium">%test sheets title%</a>
+				
+				<div class = "container-row gap-medium">
+					<li data-uid = "preview-practice"   class = "style-clickable fa-solid fa-clipboard-question"></li>
+					<li data-uid = "preview-test"       class = "style-clickable fa-solid fa-clipboard-check"></li>
+					<li data-uid = "export"             class = "style-clickable fa-solid fa-cloud-arrow-down"></li>
+				</div>
+			</div>
+			
+
+			<element data-uid = "test-sheets-list" style = "width:100%; height:256px; overflow-y:scroll" control-listbox-plain />
+			
+			
+			<div class = "container-row" style = "width:100%; justify-content:space-between">
+				<a class = "text-title-medium">%test sheet-resources title%</a>
+				<li data-uid = "upload-resources" class = "style-clickable fa-solid fa-folder-open"></li>
+			</div>
+			
+			
+			<element data-uid = "resources-list" style = "width:100%; flex-grow:1" control-listbox-plain />
+			
+			<div data-uid = "resource-preview" class = "container-column content-centered" style = "width:100%; height:128; overflow:hidden"></div>
+		
+		</div>
+		
+	</div>
+
+    <div data-uid = "sheet-panel-edit" class = "container-column gap-medium" style = "width:384px; height:100%; visibility:hidden; flex-shrink:0; scrollbar-gutter: stable;">
+	
+		<a class = "text-title-medium">%test sheet-edit title%</a>
+	
+		<!--
+		<element data-uid = "test-sheet-edit" style = "width:100%; height:100%; overflow:scroll; xwhite-space:nowrap;" control-text-plain />
+		-->
+		
+		<div data-uid = "test-sheet-edit" class = "border-rounded" style = "width:100%; height:100%; overflow:hidden; background-color:var(--color-white)"></div>
+	
+	</div>
+	
+	
+	<div data-uid = "sheet-panel-preview" class = "container-column gap-medium" style = "height:100%; flex-grow:1; visibility:hidden; overflow:hidden">
+		
+		<a class = "text-title-medium">%test sheet-preview title%</a>
+		
+		<div class = "container-row gap-medium padding-large border-rounded" style = "width:100%; height:100%; overflow:hidden; background-color:var(--color-light); justify-content:center">
+		
+			<div data-uid = "test-sheet-display" class = "container-row gap-medium padding-medium" style = "xwidth:100%; xheight:100%; overflow:auto">
+			</div>
+			
+		</div>
+		
+	</div>
+    
+</div>

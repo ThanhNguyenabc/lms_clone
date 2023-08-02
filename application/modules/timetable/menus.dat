@@ -1,0 +1,16 @@
+
+[lesson new]
+en = "Create Lesson"
+vn = "Tạo buổi học"
+
+[lesson delete]
+en = "Cancel Lesson"
+vn = "Hủy buổi học"
+
+[lesson copy]
+en = "Copy"
+vn = "Sao chép"
+
+[lesson paste]
+en = "Paste"
+vn = "Dán"

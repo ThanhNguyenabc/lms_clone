@@ -1,0 +1,10 @@
+
+[module]
+menu-icon = "users"
+en = "USERS"
+vn = "NGƯỜI DÙNG"
+page = 100
+
+[module header title]
+en = "USERS"
+vn = "NGƯỜI DÙNG"

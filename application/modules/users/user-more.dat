@@ -1,0 +1,45 @@
+
+[products]
+en = "Products"
+vn = "Sản phẩm"
+roles = "student"
+
+[files]
+en = "Files"
+vn = "Tài liệu"
+
+[placements]
+en = "Placements"
+vn = "Bài thi xếp lớp"
+roles = "student"
+
+[classes]
+en = "Lessons"
+vn = "Bài học"
+roles = "student"
+
+[family]
+en = "Family/Company"
+vn = "Gia đình/Công ty"
+roles = "student"
+
+[manages]
+en = "Manages"
+vn = "Quản lý"
+roles = ""
+
+[settings]
+en = "Settings"
+vn = "Cài đặt"
+
+[permissions]
+en = "Permissions"
+vn = "Quyền"
+
+[button book placement]
+en = "BOOK PLACEMENT"
+vn = "ĐĂNG KÝ BÀI THI XẾP"
+
+[permissions centers]
+en = "Centers"
+vn = "Trung tâm"

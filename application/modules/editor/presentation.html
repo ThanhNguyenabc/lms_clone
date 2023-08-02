@@ -1,0 +1,499 @@
+<div class = "container-row" style = "height:100%; width:100%; overflow:hidden">
+   
+    <!-- SLIDE -->
+   
+    <div data-uid = "slides-edit" class = "container-column padding-medium gap-medium" style = "height:100%; flex-grow:1;">
+	
+		<div class = "container-row gap-medium text-title-medium" style = "height:32px">
+			
+			<div data-uid = "editor-lesson-back" class = "fa-solid fa-arrow-left style-clickable" style = "display:none"></div>
+			
+			<div data-uid = "slide-title" class = "style-underlined" xclass = "text-vertical-downup" style = "text-transform:uppercase"></div> 
+			
+		</div>
+
+		<div data-uid = "slides-slide" class = "container-column color-light border-rounded shadow-sharp-bottom" style = "position:relative; width:1024px; height:768px; flex-grow:0; flex-shrink:0; overflow:hidden;">
+		</div>
+		
+	</div>
+	
+	
+	
+	<!-- PANELS -->
+		
+	<div data-uid = "slide-panels" class = "container-column padding-medium gap-medium" style = "width:600px; height:100%; overflow:hidden;">
+	
+	    <!-- PANEL SELECTOR --> 
+		<div data-uid = "slide-panels-selector" class = "container-row text-title-medium" style = "width:100%; height:32px; justify-content:space-between; flex-shrink:0">
+	      
+		</div>
+		
+		<!-- PANELS -->
+
+        <div data-uid="slide-panels-panels" class="container-column border-rounded padding-medium" style="width:100%; flex-grow:1; overflow:hidden; background-color:var(--color-light)" contenteditable="false">			
+			
+		
+			<!-- SLIDES -->
+			
+			<div data-uid = "panel-slide" data-panel = "slide" class = "container-column gap-medium" style = "display:none; width:100%; height:100%; overflow:hidden;">
+			    
+		
+				<element data-uid = "slides-list" style = "width:100%; height:256px;" control-listbox-plain />
+		
+				
+				<div data-uid = "slide-properties" class = "container-column gap-medium" style = "width:100%; flex-grow:1; overflow-y:auto; overflow-x:hidden; visibility:visible">
+			
+					<!-- NAME -->
+					<div class = "container-row text-caption-medium gap-medium" style = "width:100%;">
+								
+						<div class = "container-column gap-small" style = "width:100%">
+							%slide-name%
+							<element data-uid = "slide-name" style = "width:100%;" control-edit-plain />
+						</div>
+								
+					</div>
+					
+					<!-- STAGE -->
+					<div class = "container-row text-caption-medium gap-medium" style = "width:100%;">
+								
+						<div class = "container-column gap-small" style = "width:100%">
+							%slide-stage%
+							<element data-uid = "slide-stage" style = "width:100%;" control-dropdown-plain />
+						</div>
+					</div>
+					
+					
+					
+					<!-- COLOR -->
+					<div class = "container-row text-caption-medium" style = "width:100%">
+								
+						<div class = "container-column gap-small" style = "width:100%">
+							%slide-color%
+							
+							<element data-uid = "slide-color" data-source = "colors" style = "width:100%" control-dropdown-plain />
+						</div>
+							
+					</div>
+					
+					<!-- MUSIC -->
+					<!--div class = "container-row text-caption-medium" style = "width:100%">
+								
+						<div class = "container-column gap-small" style = "width:100%">
+							%slide-music%
+							
+							<element data-uid = "slide-music" style = "width:100%" control-dropdown-plain />
+						</div>
+							
+					</div-->
+					
+					<!-- TEACHER TEXT -->
+					<div class = "container-row text-caption-medium" style = "width:100%">
+					
+						<div class = "container-column gap-small" style = "width:100%">
+							%slide-teachertext%
+			
+							<element data-uid = "slide-teachertext" style = "width:100%; height:128px" control-text-plain />
+						</div>
+							
+					</div>
+					
+					<!-- STUDENT TEXT -->
+					<div class = "container-row text-caption-medium" style = "width:100%">
+					
+						<div class = "container-column gap-small" style = "width:100%">
+							%slide-studenttext%
+							
+							<element data-uid = "slide-studenttext" style = "width:100%; height:128px" control-text-plain />
+						</div>
+							
+					</div>
+					
+				</div>
+				
+			</div>
+			
+			<!-- ELEMENTS -->
+			
+			<div data-uid = "panel-elements" data-panel = "elements" class = "container-column gap-medium" style = "display:none; width:100%; height:100%; overflow:hidden;">
+			
+				<element data-uid = "elements-list" style = "width:100%; height:256px; visibility:hidden" control-listbox-plain />
+		
+				<div data-uid = "element-properties" class = "container-column gap-medium" style = "width:100%; height:100%; overflow-y:auto; overflow-x:hidden; visibility:hidden">
+				
+
+					<!-- NAME   -->
+					<div class = "container-column text-caption-medium" style = "width:100%">
+								
+						<div class = "container-column gap-small" style = "width:100%">
+							%element-name%
+							
+							<element data-uid = "element-name" style = "width:100%;" control-edit-plain />
+						</div>
+					
+
+					</div>
+					
+
+				
+					<!-- SOURCE   -->
+					<div class = "container-column gap-small text-caption-medium" data-filter = "image, video" style = "width:100%">
+								
+						<div class = "container-column gap-small" style = "width:100%">
+							%element-src%
+
+							<element data-uid = "element-src" data-source = "media" style = "width:100%" control-dropdown-plain />
+						</div>
+					
+					</div>
+					
+					
+					
+					<!-- URL   -->
+					<div class = "container-column gap-small text-caption-medium" data-filter = "iframe" style = "width:100%">
+								
+						<div class = "container-column gap-small" style = "width:100%">
+							%element-url%
+							
+							<element data-uid = "element-url"  style = "width:100%" control-edit-plain />
+						</div>
+					
+					</div>
+					
+					
+					
+					<!-- TEXT -->
+					<div class = "container-column gap-small text-caption-medium" data-filter = "text" style = "width:100%">
+					
+						<div class = "container-column" style = "width:100%">
+							%element-text%
+
+							<element data-uid = "element-innerHTML" style = "width:100%; height:128px" control-text-plain />
+						</div>
+					
+					</div>
+					
+					
+					
+					<!-- VALUE -->
+					<div class = "container-column gap-small text-caption-medium" data-filter = "input" style = "width:100%">
+					
+						<div class = "container-column" style = "width:100%">
+							%element-value%
+						
+							<element data-uid = "element-value" style = "width:100%; height:128px" control-text-plain />
+						</div>
+
+					</div>
+					
+					
+					
+					<!-- SHAPE COLOR (SPECIAL) -->
+					<div class = "container-column gap-medium text-caption-medium" data-filter = "shape" style = "width:100%">
+						
+						<div class = "container-row gap-small text-caption-medium" style = "width:100%">
+							
+							<div class = "container-column gap-small" style = "width:33%">
+								%shape-color%
+								
+								<element data-uid = "element-filter" data-source = "colors" data-sourcevalue = "filter" style = "width:100%" control-dropdown-plain />
+							</div>
+							
+							
+							<div class = "container-column" style = "width:33%">
+							</div>
+							
+
+							<div class = "container-column" style = "width:33%">
+							</div>
+							
+					    </div>
+
+					</div>
+					
+					
+					
+					<!-- COLOR  -->
+					<div class = "container-column gap-medium text-caption-medium" data-filter = "text, input" style = "width:100%">
+						
+						<div class = "container-row gap-small text-caption-medium" style = "width:100%">
+							<div class = "container-column" style = "width:33%">
+								%element-color%
+								
+								<element data-uid = "element-color" data-source = "colors" style = "width:100%" control-dropdown-plain />
+							</div>
+							
+							
+							<div class = "container-column" style = "width:33%">
+								%element-bgcolor%
+			
+								<element data-uid = "element-backgroundColor" data-source = "colors" style = "width:100%" control-dropdown-plain />
+							</div>	
+							
+
+							<div class = "container-column" style = "width:33%">
+							</div>
+							
+					    </div>
+
+					</div>
+					
+					
+				
+					
+					<!-- FONT 1-->
+					<div class = "container-column gap-medium text-caption-medium" data-filter = "text, input" style = "width:100%">
+						
+						<div class = "container-row gap-small text-caption-medium" style = "width:100%">
+							
+							<div class = "container-column gap-small" style = "width:33%">
+								%element-fontfamily%
+
+								<element data-uid = "element-fontFamily" data-source = "fonts" style = "width:100%" control-dropdown-plain />
+							</div>	
+							
+
+							<div class = "container-column gap-small" style = "width:33%">
+								%element-fontsize%
+
+								<element data-uid = "element-fontSize" data-source = "font-size" style = "width:100%" control-dropdown-plain />
+							</div>
+							
+							
+							<div class = "container-column" style = "width:33%">
+							</div>
+							
+					    </div>
+					   
+					</div>
+					
+					
+					<!-- FONT 2 -->
+					<div class = "container-column gap-medium text-caption-medium" data-filter = "text, input" style = "width:100%">
+						
+						<div class = "container-row gap-small text-caption-medium" style = "width:100%">
+							
+							<div class = "container-column gap-small" style = "width:33%">
+								%element-fontweight%
+
+								<element data-uid = "element-fontWeight" data-source = "font-weight" style = "width:100%" control-dropdown-plain />
+							</div>	
+							
+
+							<div class = "container-column gap-small" style = "width:33%">
+								%element-fontstyle%
+
+								<element data-uid = "element-fontStyle" data-source = "font-style" style = "width:100%" control-dropdown-plain />
+							</div>
+							
+							
+							<div class = "container-column gap-small" style = "width:33%">
+								%element-textdecoration%
+
+								<element data-uid = "element-textDecoration" data-source = "text-decoration" style = "width:100%" control-dropdown-plain />
+							</div>
+							
+							
+					    </div>
+					   
+					</div>
+					
+				
+					
+					<!-- PARAGRAPH  -->
+					<div class = "container-column gap-medium text-caption-medium" data-filter = "text, input" style = "width:100%">
+						
+						<div class = "container-row gap-small text-caption-medium" style = "width:100%">
+							
+							<div class = "container-column gap-small" style = "width:33%">
+								%element-lineheight%
+
+								<element data-uid = "element-lineHeight" data-source = "line-height" style = "width:100%" control-dropdown-plain />
+							</div>
+							
+							
+							<div class = "container-column gap-small" style = "width:33%">
+								%element-textalign%
+
+								<element data-uid = "element-textAlign" data-source = "text-align" style = "width:100%" control-dropdown-plain />
+							</div>
+							
+							
+					    </div>
+					   
+					</div>
+					
+					
+					
+					<!-- BORDER  -->
+					<div class = "container-column gap-medium text-caption-medium" style = "width:100%">
+						
+						<div class = "container-row gap-small text-caption-medium" style = "width:100%">
+							<div class = "container-column gap-small" style = "width:33%">
+								%element-bordercolor%
+							
+								<element data-uid = "element-borderColor" data-source = "colors" style = "width:100%" control-dropdown-plain />
+							</div>
+							
+
+							<div class = "container-column gap-small" style = "width:33%">
+								%element-borderstyle%
+
+								<element data-uid = "element-borderStyle" data-source = "linestyles" style = "width:100%" control-dropdown-plain />
+							</div>	
+							
+
+							<div class = "container-column gap-small" style = "width:33%">
+								%element-borderwidth%
+
+								<element data-uid = "element-borderWidth" data-source = "widths" style = "width:100%" control-dropdown-plain />
+							</div>	
+							
+					    </div>
+					   
+					</div>
+					
+					
+					
+					
+					
+					<!-- MORE BORDER ETC.  -->
+					<div class = "container-column gap-medium text-caption-medium" style = "width:100%">
+						
+						<div class = "container-row gap-small text-caption-medium" style = "width:100%">
+							<div class = "container-column gap-small" style = "width:33%">
+								%element-borderradius%
+							
+								<element data-uid = "element-borderRadius" data-source = "radiuses" style = "width:100%" control-dropdown-plain />
+							</div>
+							
+
+							<div class = "container-column gap-small" style = "width:33%">
+								%element-padding%
+
+								<element data-uid = "element-padding" data-source = "paddings" style = "width:100%" control-dropdown-plain />
+							</div>	
+							
+
+							<div class = "container-column" style = "width:33%">
+							</div>
+							
+					    </div>
+					   
+					</div>
+					
+					
+					
+					<!-- FLAGS  -->
+					<div class = "container-column gap-medium text-caption-medium" style = "width:100%">
+						
+						<div class = "container-row gap-small text-caption-medium" style = "width:100%">
+							<div class = "container-column gap-small" style = "width:33%">
+								%element-moveable%
+						
+								<element data-uid = "element-moveable" data-optsource = "core/yesno" style = "width:100%;" control-dropdown-plain />
+							</div>
+							
+							<div class = "container-column gap-small" style = "width:33%">
+								%element-visible%
+								
+								<element data-uid = "element-visible" data-optsource = "core/yesno" style = "width:100%" control-dropdown-plain />
+							</div>
+							
+							<div class = "container-column gap-small" style = "width:33%">
+								%element-readonly%
+								
+								<element data-uid = "element-readonly" data-optsource = "core/yesno" style = "width:100%" control-dropdown-plain />
+							</div>
+					    </div>
+						
+					</div>
+					
+					
+					<!-- ON CLICK -->
+					<div class = "container-row gap-small text-caption-medium" style = "width:100%">
+					
+						<div class = "container-column gap-small" style = "width:33%">
+							%element-onclick%<br>
+							%element-animation%
+							
+							<element data-uid = "element-onclick_animation" data-source = "commands" data-allow = "standalone:yes" style = "width:100%" control-dropdown-plain />
+						</div>
+								
+						<div class = "container-column gap-small" style = "width:33%">
+							<br>
+							%element-sound%
+						
+							<element data-uid = "element-onclick_sound" data-source = "sounds" style = "width:100%" control-dropdown-plain />
+						</div>
+							
+						<div class = "container-column" style = "width:33%">
+						</div>
+							
+					</div>
+					
+					
+					<!-- STYLE -->
+					<div class = "container-column gap-small text-caption-medium" style = "width:100%">
+					
+					    %element-style%
+						
+						<element data-uid = "element-style" style = "width:100%; height:196px;" multiple control-listbox-plain />
+
+					</div>
+					
+					
+				</div>
+			
+		
+			</div>
+		
+			
+			
+			
+			<!-- SCRIPTS -->
+			
+			<div data-uid = "panel-scripts" data-panel = "scripts" class = "container-column gap-medium" style = "display:none; width:100%; height:100%; overflow:hidden;">
+		
+				<element data-uid = "scripts-list" style = "width:100%; height:256px; visibility:hidden" control-listbox-plain />
+					
+				<div data-uid = "script-properties" class = "container-column gap-medium" style = "width:100%; height:100%; overflow-y:auto; overflow-x:hidden; visibility:hidden">
+
+					<!-- NAME -->
+					<div class = "container-column gap-medium text-caption-medium" style = "width:100%">
+								
+						<div class = "container-column gap-small" style = "width:100%">
+							%script name%
+
+							<element data-uid = "script-name" style = "width:100%;" control-edit-plain />
+						</div>
+				
+					</div>
+				
+				    <!-- LINES -->
+					<div data-uid = "script-lines" class = "container-column text-caption-medium gap-small"  style = "width:100%; flex-grow:1; overflow-y:auto">
+								
+					</div>	
+				
+				</div>
+			
+			</div>
+			
+			
+			
+			
+			<!-- RESOURCES -->
+			
+			<div data-uid = "panel-resources" data-panel = "resources" class = "container-column gap-medium" style = "display:none; width:100%; height:100%; overflow:hidden;">
+		
+				<element data-uid = "resources-list" style = "width:100%; flex-grow:1;"  control-listbox-plain />
+				
+				<div data-uid = "resource-preview" class = "container-column content-centered" style = "width:100%; height:256px;"></div>
+								
+			</div>
+			
+			
+			
+		   
+	</div>
+    
+</div>

@@ -1,0 +1,35 @@
+
+[title]
+en = "Outcomes →"
+vn = "Kết quả →"
+
+[text]
+en = "Edit outcome data used for Assessment and Progress Visualization"
+vn = "Chỉnh sửa dữ liệu kết quả được sử dụng cho Đánh giá và Hình dung tiến trình"
+
+[media]
+card = "cover-certificate.jpg"
+
+[popup new title]
+en = "Enter an ID for the new Outcome"
+vn = "Nhập ID cho kết quả mới"
+
+[popup new placeholder]
+en = "XX-YYY"
+vn = "XX-YYY"
+
+[popup delete title]
+en = "DELETE OUTCOME"
+vn = "XÓA KẾT QUẢ"
+
+[popup delete subtitle]
+en = "Are you sure to delete this Outcome? To confirm, type the Outcome ID <b>$id$</b>"
+vn = "Bạn có chắc xóa kết quả này không? Để xác nhận thao tác này, nhập ID của kết quả <b>$id$</b>"
+
+[popup overwrite title]
+en = "OVERWRITING"
+vn = "VIẾT ĐÈ LÊN"
+
+[popup overwrite text]
+en = "Outcome '<b>$id$</b>' already exists. Are you sure to overwrite it?"
+vn = "Kết quả '<b>$id$</b>' đã tồn tại. Bạn có chắc viết đè lên không?"

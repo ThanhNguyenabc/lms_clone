@@ -1,0 +1,24 @@
+
+[staff delete title]
+en = "Remove $role$"
+vn = "Xóa $role$"
+
+[staff delete text]
+en = "Are you sure to remove this $role$?"
+vn = "Bạn có chắc chắn muốn xóa $role$ này không?"
+
+[student delete title]
+en = "Remove Student"
+vn = "Xóa học viên"
+
+[student delete text]
+en = "Are you sure to remove <b>$name$</b> from this lesson?"
+vn = "Bạn có chắc chắn muốn xóa <b>$name$</b> khỏi bài học này không?"
+
+[book confirm title]
+en = "Book Class"
+vn = "Đăng ký lớp học"
+
+[book confirm text]
+en = "Confirm booking <b>“$title$„</b> ($lesson$) on <b>$date$</b> for <b>$name$</b>?"
+vn = "Xác nhận đăng ký <b>“$title$„</b> ($lesson$) vào <b>$date$</b> cho <b>$name$</b>"

@@ -1,0 +1,149 @@
+<div class = "container-column padding-medium gap-large border-rounded" style = "height:100%; flex-shrink:0; background-color:var(--color-light)">
+	
+	
+	
+	<!-- ID, NAME, STATUS -->
+	
+	<div class = "container-row gap-medium" style = "width:100%">
+	
+		<div class = "container-column gap-small" style = "width:192px">
+			<div class = "text-title-medium">%id%</div>
+			<element data-uid = "course-id" style = "width:100%" control-edit-plain />
+		</div>
+		
+		<div class = "container-column gap-small" style = "width:192px">
+			<div class = "text-title-medium">%name%</div>
+			<element data-uid = "course-name" style = "width:100%" control-edit-plain />
+		</div>
+		
+		<div class = "container-column gap-small" style = "width:192px">
+			<div class = "text-title-medium">%center_id%</div>
+			<element data-uid = "course-center_id" style = "width:100%" control-dropdown-plain />
+		</div>
+		
+		<div class = "container-column gap-small" style = "width:192px">
+			<div class = "text-title-medium">%status%</div>
+			<element data-uid = "course-status" style = "width:100%" control-dropdown-plain />
+		</div>
+		
+	</div>
+	
+	
+		
+	<!-- SCHEDULE AND CONFIGURATION -->
+    <div data-uid = "section-schedule" class = "container-column gap-medium" style = "width:100%">
+	
+		<div class = "container-row gap-medium text-title-medium" style = "width:100%; color:var(--color-noted)">
+		
+			%section schedule%
+		
+		</div>
+		
+		<div class = "container-row gap-medium" style = "width:100%">
+			
+			<div class = "container-column gap-small" style = "width:192px">
+				<div class = "text-title-medium">%program%</div>
+				<element data-uid = "course-program" style = "width:100%" control-dropdown-plain />
+			</div>
+			
+			<div class = "container-column gap-small" style = "width:192px">
+				<div class = "text-title-medium">%level%</div>
+				<element data-uid = "course-level" style = "width:100%" control-dropdown-plain />
+			</div>
+			
+			<div class = "container-column gap-small" style = "width:192px">
+				<div class = "text-title-medium">%date_start%</div>
+				<element data-uid = "course-date_start" data-type = "date" style = "width:100%" control-date-plain />
+			</div>
+		
+			<div class = "container-column gap-small" style = "width:192px">
+				<div class = "container-row gap-medium" style = "width:100%; justify-content:space-between">
+					<div class = "text-title-medium">%date_end%</div>
+				</div>
+				<element data-uid = "course-date_end" data-type = "date" style = "width:100%" control-date-plain />
+			</div>
+			
+		</div>
+		
+		
+		<div class = "container-row gap-medium" style = "width:100%; height:256px; overflow:hidden">
+		
+			<div class = "container-column gap-small" style = "height:100%; overflow:hidden;">
+				
+				<div class = "container-column gap-small" style = "width:192px">
+					<div class = "text-title-medium">%lesson_duration%</div>
+					<element data-uid = "course-lesson_duration" style = "width:100%" control-dropdown-plain />
+				</div>
+				
+				<div class = "container-column gap-small" style = "width:192px">
+					<div class = "text-title-medium">%teacher_config%</div>
+					<element data-uid = "course-teacher_config" style = "width:100%" control-dropdown-plain />
+				</div>
+				
+				<div class = "container-column gap-small" style = "width:192px; height:100%; overflow:hidden">
+					<div class = "text-title-medium">%schedule%</div>
+					<element data-uid = "course-schedule" style = "width:100%; flex-grow:1; overflow:hidden auto" control-box-plain />
+				</div>
+				
+			</div>
+		
+			<div class = "container-column gap-small" style = "width:608px; height:100%; overflow:hidden">			
+				<div class = "container-row gap-medium" style = "width:100%; justify-content:space-between">
+					<div class = "text-title-medium">%classes%</div>
+					<div class = "container-row gap-medium">
+						<div data-uid = "course-classes-rollout"  class = "fa-solid fa-calendar-days style-clickable"></div>
+						<div data-uid = "course-classes-rollback" class = "fa-solid fa-trash-can style-clickable"></div>
+					</div>
+				</div>
+				<element data-uid = "course-classes" class = "padding-minimal" style = "width:100%; flex-grow:1; gap:0px; overflow:hidden auto" control-box-plain />
+			</div>
+				
+		</div>
+	</div>
+	
+	
+	
+	<!-- STUDENTS STAFF ETC.  -->
+	<div data-uid = "section-staff" class = "container-column gap-medium" style = "width:100%; flex-grow:1">
+	
+		<div class = "container-row gap-medium text-title-medium" style = "width:100%; color:var(--color-noted)">
+		
+			%section staff%
+		
+		</div>
+		
+		<div class = "container-row gap-medium" style = "width:100%; flex-grow:1">
+		
+			<div class = "container-column gap-small" style = "height:100%; overflow:hidden">
+			
+				<div class = "container-column gap-small" style = "width:192px">
+					<div class = "text-title-medium">%seats%</div>
+					<element data-uid = "course-seats" style = "width:100%" control-dropdown-plain />
+				</div>
+				
+				<div class = "container-column gap-small" style = "width:192px">
+					<div class = "text-title-medium">%room%</div>
+					<element data-uid = "course-room" style = "width:100%" control-dropdown-plain />
+				</div>
+				
+			</div>
+			
+			<div class = "container-column gap-small" style = "width:192px; height:100%; flex-shrink:0">
+				<div class = "text-title-medium">%staff%</div>
+				<element data-uid = "course-staff" style = "width:100%; flex-grow:1; overflow:hidden auto" control-box-plain />
+			</div>
+			
+			<div class = "container-column gap-small" style = "width:192px; height:100%">
+				<div class = "text-title-medium">%students%</div>
+				<element data-uid = "course-students" style = "width:100%; flex-grow:1; overflow:hidden auto" control-box-plain />
+			</div>
+			
+			<div class = "container-column gap-small" style = "width:192px; height:100%">
+				<div class = "text-title-medium">%notes%</div>
+				<element data-uid = "course-notes" style = "width:100%; flex-grow:1; overflow:hidden auto" control-text-plain />
+			</div>
+			
+		</div>
+	</div>
+	
+</div>

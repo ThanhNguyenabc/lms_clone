@@ -1,0 +1,63 @@
+
+[correct]
+en = "Correct!"
+vn = "Chính xác!"
+category = "evaluation"
+icon = "✔️"
+sound = "right"
+
+[wrong]
+en = "Wrong"
+vn = "Sai"
+category = "evaluation"
+icon = "❌"
+sound = "wrong"
+
+[shush]
+en = "Quiet please!"
+vn = "Hãy giữ im lặng!"
+icon = "🤫"
+category = "request"
+sound = "bell"
+
+[attention]
+en = "Attention please!"
+vn = "Chú ý nhé!"
+icon = "🔔"
+category = "request"
+sound = "bell"
+
+[best]
+en = "You're the best!"
+vn = "Bạn là nhất!"
+icon = "🏆"
+category = "reward"
+sound = "right"
+
+[brilliant]
+en = "Brilliant!"
+vn = "Xuất sắc!"
+category = "reward"
+icon = "✨"
+sound = "magic"
+
+[nice]
+en = "So Nice!"
+vn = "Rất tốt!"
+category = "reward"
+icon = "❤️"
+sound = "magic"
+
+[welldone]
+en = "Well done!"
+vn = "Tuyệt vời!"
+category = "reward"
+icon = "👍🏼"
+sound = "right"
+
+[funny]
+en = "Funny!"
+vn = "Vui thế!"
+category = "reward"
+icon = "🤣"
+sound = "goof"

@@ -1,0 +1,72 @@
+
+[name]
+en = "Name"
+vn = "Họ tên"
+
+[center]
+en = "Center"
+vn = "Trung tâm"
+
+[type]
+en = "Type"
+vn = "Thể loại"
+
+[status]
+en = "Status"
+vn = "Trạng thái"
+
+[firstname]
+en = "First Name"
+vn = "Tên"
+
+[contact]
+en = "CONTACT PERSON"
+vn = "NGƯỜI LIÊN LẠC"
+
+[position]
+en = "Position"
+vn = "Vị trí"
+
+[lastname]
+en = "Last Name"
+vn = "Họ"
+
+[idnumber]
+en = "Id / Number"
+vn = "ID / Số"
+
+[taxcode]
+en = "Tax Code"
+vn = "Mã thuế"
+
+[country]
+en = "Country"
+vn = "Nước"
+
+[city]
+en = "City"
+vn = "Thành phố"
+
+[province]
+en = "Province"
+vn = "Tỉnh"
+
+[address]
+en = "Address"
+vn = "Địa chỉ"
+
+[email]
+en = "Email"
+vn = "Email"
+
+[mobile]
+en = "Mobile"
+vn = "Số điện thoại"
+
+[manager_id]
+en = "Managed By"
+vn = "Quản lý bởi"
+
+[notes]
+en = "Notes"
+vn = "Ghi chú"

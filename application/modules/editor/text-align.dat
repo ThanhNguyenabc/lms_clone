@@ -1,0 +1,16 @@
+
+[justify]
+en = "Justified"
+vn = "Cân bằng 2 lề"
+
+[start]
+en = "Left"
+vn = "Trái"
+
+[end]
+en = "Right"
+vn = "Phải"
+
+[center]
+en = "Center"
+vn = "Giữa"

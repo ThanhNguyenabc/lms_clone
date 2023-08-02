@@ -1,0 +1,27 @@
+
+[title]
+en = "Lessons →"
+vn = "Bài học →"
+
+[text]
+en = "Edit lesson packages that will be used in the classroom by Teachers, and at home by Students"
+vn = "Chỉnh sửa gói bài học sẽ được sử dụng trong lớp học bởi giáo viên, và ở nhà bởi học sinh"
+
+[media]
+card = "cover-lesson.jpg"
+
+[popup new title]
+en = "Enter an ID for the new Lesson"
+vn = "Nhập một ID cho bài học mới"
+
+[popup new placeholder]
+en = "XX-YY-ZZZ"
+vn = "XX-YY-ZZZ"
+
+[popup delete title]
+en = "DELETE LESSON"
+vn = "XÓA LỚP HỌC"
+
+[popup delete subtitle]
+en = "Are you sure to delete this Lesson? To confirm, type the Lesson ID <b>$id$</b>"
+vn = "Bạn có chắc chắn xóa bài học này? Để xác nhận thao tác này, hãy nhập ID bài học <b>$id$</b>"

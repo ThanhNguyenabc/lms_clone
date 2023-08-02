@@ -1,0 +1,36 @@
+<div class = "container-column border-rounded" style = "width:100%; height:100%; overflow:hidden">
+
+	<!-- UPPER ROW: NAV AND HEADERS -->
+	<div class = "container-row" style = "width:100%; height:80px; flex-grow:1; flex-shrink:0; overflow:hidden">
+		
+		<div data-uid = "nav" class = "container-column gap-medium padding-small content-centered" style = "width:128px; height:100%; flex-shrink:0; background-color:var(--color-black); color:var(--color-white)">
+		
+			<div class = "container-row gap-small content-centered" style = "width:100%; flex-shrink:0">
+				<li data-uid = "nav-goto"   class = "fa-solid fa-calendar-days    style-clickable"></li>
+				<li data-uid = "nav-search" class = "fa-solid fa-magnifying-glass style-clickable" style = "display:none"></li> <!-- disabled for now -->
+				<li data-uid = "nav-prev"   class = "fa-solid fa-chevron-left     style-clickable"></li>
+				<li data-uid = "nav-next"   class = "fa-solid fa-chevron-right    style-clickable"></li>
+				<li data-uid = "nav-update" class = "fa-solid fa-arrows-rotate    style-clickable"></li>
+			</div>
+			
+			<div data-uid = "nav-date" class = "container-row gap-small content-centered caption-cursive-small" style = "width:100%; flex-shrink:0; color:var(--color-white)">
+				
+			</div>
+			
+		</div>
+		
+		<div data-uid = "headers" class = "container-row" style = "height:100%; flex-grow:1; overflow:hidden">
+		</div>
+		
+	</div>
+
+	<!-- LOWER ROW: HOURS AND CELLS -->
+	<div class = "container-row" style = "width:100%; flex-grow:1; overflow:hidden">
+		
+		<div data-uid = "time" class = "container-column" style = "height:100%; overflow:hidden; flex-shrink:0"></div>
+		
+		<div data-uid = "slots" class = "container-row" style = "height:100%; flex-grow:1; overflow:auto"></div>
+		
+	</div>
+	
+</div>

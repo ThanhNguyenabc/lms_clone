@@ -1,0 +1,104 @@
+.element-border-rounded
+{
+ border-radius:10%;
+}
+
+
+
+.element-border-circle
+{
+ border-radius:50%;
+}
+
+
+.element-content-padded
+{
+ padding:2em;
+}
+
+.element-content-centered
+{
+ display:         flex;
+ align-items:     center;
+ justify-content: center;
+}
+
+
+.element-rotate-right-30
+{
+ transform: rotate(30deg);
+}
+
+.element-rotate-left-30
+{
+ transform: rotate(-30deg);
+}
+
+.element-rotate-right-45
+{
+ transform: rotate(45deg);
+}
+
+.element-rotate-left-45
+{
+ transform: rotate(-45deg);
+}
+
+.element-rotate-right-60
+{
+ transform: rotate(60deg);
+}
+
+.element-rotate-left-60
+{
+ transform: rotate(-60deg);
+}
+
+.element-rotated-right-90
+{
+ transform: rotate(90deg);
+}
+
+.element-rotated-left-90
+{
+ transform: rotate(-90deg);
+}
+
+.element-mirrored-horizontal
+{
+ transform: scale(-1, 1);
+}
+
+.element-mirrored-vertical
+{
+ transform: scale(1, -1);
+}
+
+
+.element-shadowed-outline
+{
+ box-shadow: 0px 10px 5px 0px #000000;
+}
+
+.element-shadowed-text
+{
+ text-shadow: 0px 5px 5px #000000;
+}
+
+
+.element-shadowed-image
+{
+ filter: drop-shadow(0px 10px 5px #000000);
+}
+
+
+.element-translucent
+{
+ opacity: 0.5;
+}
+
+
+.element-blurred
+{
+ filter: blur(8px);
+}

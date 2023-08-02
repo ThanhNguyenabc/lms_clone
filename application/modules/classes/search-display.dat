@@ -1,0 +1,44 @@
+
+[search center]
+en = "Center"
+vn = "Trung tâm"
+
+[search type]
+en = "Type"
+vn = "Thể loại"
+
+[search lesson]
+en = "Lesson"
+vn = "Bài học"
+
+[search datefrom]
+en = "Date From"
+vn = "Từ ngày"
+
+[search dateto]
+en = "Date To"
+vn = "Đến ngày"
+
+[search time]
+en = "Time"
+vn = "Thời gian"
+
+[options teacher]
+en = "Teacher"
+vn = "Giáo viên"
+
+[options online]
+en = "Online"
+vn = "Trực tuyến"
+
+[options seat]
+en = "Available Seats"
+vn = "Ghế ngồi khả dụng"
+
+[button search]
+en = "SEARCH"
+vn = "TÌM KIẾM"
+
+[button book]
+en = "BOOK"
+vn = "ĐĂNG KÝ"

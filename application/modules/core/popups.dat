@@ -1,0 +1,24 @@
+
+[button ok]
+en = "OK"
+vn = "OK"
+
+[button yes]
+en = "YES"
+vn = "Có"
+
+[button no]
+en = "NO"
+vn = "Không"
+
+[button cancel]
+en = "CANCEL"
+vn = "Hủy bỏ"
+
+[button confirm]
+en = "CONFIRM"
+vn = "Xác nhận"
+
+[button select]
+en = "SELECT"
+vn = "Chọn"

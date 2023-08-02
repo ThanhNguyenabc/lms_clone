@@ -1,0 +1,180 @@
+
+[staff delete title]
+en = "Remove $role$"
+vn = "Xóa $role$"
+
+[staff delete text]
+en = "Are you sure to remove <b>$name$</b> from the course configuration?"
+vn = "Bạn có chắc chắn muốn xóa <b>$name$</b> khỏi cấu hình khóa học không?"
+
+[schedule add button]
+en = "ADD"
+vn = "THÊM"
+
+[status to-design title]
+en = "LOCK COURSE"
+vn = "KHÓA KHÓA HỌC"
+
+[status to-design text]
+en = "Switch back to Design State? This will make the Course unavailable for Student Registrations"
+vn = "Chuyển về lại trạng thái thiết kế? Điều này sẽ làm cho khóa học không sẵn sàng cho học viên đăng ký"
+
+[status to-open title]
+en = "OPEN COURSE"
+vn = "MỞ KHÓA HỌC"
+
+[status to-open text]
+en = "Confirm opening this Course? This will make the Course available for Student Registrations, and course configuration will be locked"
+vn = "Xác nhận mở khóa học này? Thao tác này sẽ cho học viên đăng ký vào khóa học và cấu hình khóa học sẽ bị khóa"
+
+[status delete title]
+en = "DELETE COURSE"
+vn = "XÓA KHÓA HỌC"
+
+[status delete text]
+en = "Are you sure to delete this Course? The course will be completely erased and all resources (Teachers, TAs, Classrooms) will be released. To confirm, type the course ID $id$"
+vn = "Bạn có chắc xóa khóa học này không? Khóa học này sẽ bị xóa hoàn toàn và tất cả tài nguyên (Giáo viên, Trợ giảng, Phòng học) sẽ trả lại. Xin hãy nhập ID của khóa học $id$ để xác nhận thao tác này"
+
+[open cant classes]
+en = "CAN'T OPEN"
+vn = "KHÔNG THỂ MỞ"
+
+[open missing classes]
+en = "Before a course can be open for registrations, the lesson calendar must be planned and end date set"
+vn = "Trước khi một khóa học có thể được mở để đăng ký, lịch học phải được lên kế hoạch và ấn định ngày kết thúc"
+highlight = "classes"
+
+[addstaff cant title]
+en = "CAN'T ADD STAFF"
+vn = "KHÔNG THỂ THÊM NHÂN VIÊN"
+
+[addstaff missing center_id]
+en = "Before you can select staff for this course, the course's center must be specified"
+vn = "Vui lòng chọn trung tâm của khóa học trước khi chọn nhân viên cho khóa học"
+highlight = "center_id"
+
+[addstaff missing classes]
+en = "Before you can select staff for this course, the lesson calendar must be planned"
+vn = "Vui lòng lên kế hoạch lịch học trước khi chọn nhân viên cho khóa học này"
+highlight = "classes"
+
+[addstaff nolocalteacher title]
+en = "Local Teacher Disabled"
+vn = "Vô hiệu hóa giáo viên Việt Nam"
+highlight = "config"
+
+[addstaff nolocalteacher text]
+en = "Due to this course's configuration, you can't add a Local Teacher"
+vn = "Do cấu hình của khóa học này, bạn không thể thêm giáo viên Việt Nam."
+highlight = "config"
+
+[rollout cant title]
+en = "CAN'T ROLL OUT"
+vn = "KHÔNG THỂ TRIỂN KHAI"
+
+[rollout missing staff]
+en = "Required Teachers or TAs are missing from assigned staff"
+vn = "Vui lòng thêm Giáo Viên và Trợ Giảng vào khóa học"
+highlight = "staff"
+
+[rollout missing teacher]
+en = "At least one Teacher needs to be assigned"
+vn = "Cần chỉ định ít nhất một Giáo viên"
+highlight = "staff"
+
+[rollout missing ta]
+en = "At least one TA needs to be assigned"
+vn = "Cần chỉ định ít nhất một Trợ giảng"
+highlight = "staff"
+
+[rollout missing center_id]
+en = "A Center must be specified for this course"
+vn = "Vui lòng thêm trung tâm cho khóa học này"
+highlight = "center_id"
+
+[rollout missing classes]
+en = "Before the course can be rolled out, the course's calendar and end date must be planned"
+vn = "Trước khi một khóa học có thể triển khai, vui lòng lên kế hoạch lịch khóa học và ngày kết thúc."
+highlight = "classes"
+
+[rollout confirm title]
+en = "ROLL OUT COURSE"
+vn = "TRIỂN KHAI KHÓA HỌC"
+
+[rollout confirm text]
+en = "Are you sure to Roll Out this Course? Classes will be created, resources will be allocated, and the course configuration will be locked"
+vn = "Bạn có chắc triển khai khóa học này? Thao tác này sẽ tạo lớp học, tài nguyên sẽ được phân bổ và cấu hình lớp sẽ bị khóa"
+
+[rollback confirm title]
+en = "ROLL BACK COURSE"
+vn = "THU HỒI KHÓA HỌC"
+
+[rollback confirm text]
+en = "Are you sure to Roll Back this Course? All Classes <b>not yet delivered</b> will be removed and the course will be closed. To confirm, type the course code <b>$code$</b>"
+vn = "Bạn có chắc thu hồi khóa học này không? Tất cả lớp học <b>chưa được đưa ra</b> sẽ bị xóa và khóa học sẽ bị đóng. Để xác nhận thao tác này, xin hãy nhập mã khóa học <b>$code$</b>."
+
+[allocate cant title]
+en = "CAN'T PLAN CALENDAR"
+vn = "KHÔNG THỂ LÊN KẾ HOẠCH LỊCH HỌC"
+
+[allocate missing schedule]
+en = "In order to plan the lessons calendar, a schedule must be configured first"
+vn = "Xin hãy điều chỉnh cấu hình lịch học để lập kế hoach lịch học."
+highlight = "schedule"
+
+[allocate missing program]
+en = "In order to plan the lessons calendar, a program must be selected for this course"
+vn = "Xin hãy chọn chương trình học cho khóa học này để lập kế hoạch lịch học."
+highlight = "program"
+
+[allocate missing level]
+en = "In order to plan the lessons calendar, a level must be selected for this course"
+vn = "Xin hãy chọn cấp độ cho khóa học này để lập kế hoạch lịch học"
+highlight = "level"
+
+[allocate missing lesson_duration]
+en = "In order to plan the lessons calendar, a lesson duration must be selected for this course"
+vn = "Xin hãy chọn thời lượng cho khóa học này để lập kế hoạch lịch học"
+highlight = "lesson_duration"
+
+[config nolocalteacher title]
+en = "Local Teacher Disabled"
+vn = "Vô hiệu hóa giáo viên Việt Nam"
+highlight = "staff"
+
+[config nolocalteacher text]
+en = "Due to this configuration change, the Local Teacher will be removed"
+vn = "Do cấu hình của khóa học này, bạn không thể thêm giáo viên Việt Nam"
+highlight = "staff"
+
+[create course title]
+en = "Create Course"
+vn = "Tạo khóa học"
+
+[create course text]
+en = "Enter a name for this Course"
+vn = "Nhập tên cho khóa học này"
+
+[room unavailable title]
+en = "Room Unavailable"
+vn = "Không có phòng học"
+
+[room unavailable text]
+en = "The selected room is not available for all lessons. Available rooms are: $rooms$. Use this room anyway?"
+vn = "Phòng đã chọn không có sẵn cho các bài học này. Đây là phòng học có sẵn: $rooms$. Bạn có muốn sử dụng phòng này không?"
+
+[room unavailable none]
+en = "None"
+vn = "Không có"
+
+[cancel class title]
+en = "Cancel class"
+vn = "Hủy lớp học"
+
+[cancel class message]
+en = "Are you sure to cancel class?"
+vn = "Bạn chắc chắn hủy buổi học?"
+
+[cancel class description]
+en = "create make up class in the future"
+vn = "tạo một buổi học bù"

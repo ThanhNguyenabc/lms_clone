@@ -1,0 +1,12 @@
+
+[normal]
+en = "normal"
+vn = "Chữ bình thường"
+
+[italic]
+en = "Italic"
+vn = "Chữ in nghiêng"
+
+[oblique]
+en = "Oblique"
+vn = "Chữ Oblique"

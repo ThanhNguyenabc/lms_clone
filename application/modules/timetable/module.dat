@@ -1,0 +1,25 @@
+
+[module]
+menu-icon = "timetable"
+en = "TIMETABLE"
+vn = "THỜI KHÓA BIỂU"
+
+[module header title]
+en = "TIMETABLE"
+vn = "THỜI KHÓA BIỂU"
+
+[header teachers]
+en = "Teachers"
+vn = "Giáo viên"
+
+[header rooms]
+en = "Rooms"
+vn = "Phòng học"
+
+[header courses]
+en = "Courses"
+vn = "Khóa học"
+
+[header all]
+en = "All"
+vn = "Tất cả"

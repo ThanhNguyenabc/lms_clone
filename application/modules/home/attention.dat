@@ -1,0 +1,20 @@
+
+[outcomes]
+en = "Outcomes"
+vn = "Kết quả"
+icon = "book"
+
+[core skills]
+en = "Core Skills"
+vn = "Kỹ năng cốt lõi"
+icon = "chart-line"
+
+[extra skills]
+en = "21th Century Skills"
+vn = "Kỹ năng thế kỉ 21"
+icon = "diagram-project"
+
+[attendance]
+en = "Attendance"
+vn = "Điểm danh"
+icon = "person-circle-check"

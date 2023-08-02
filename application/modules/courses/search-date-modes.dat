@@ -1,0 +1,16 @@
+
+[ongoing]
+en = "Ongoing"
+vn = "Đang diễn ra"
+
+[starts-after]
+en = "Starts after"
+vn = "Bắt đầu sau"
+
+[ends-after]
+en = "Ends after"
+vn = "Kết thúc sau"
+
+[ends-before]
+en = "Ends before"
+vn = "Kết thúc trước"

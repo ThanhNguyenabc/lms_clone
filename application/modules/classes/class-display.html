@@ -1,0 +1,139 @@
+<div class = "container-column gap-large" style = "overflow:hidden">
+
+	<div class = "container-row gap-medium text-title-medium" style = "width:100%; align-items:center; justify-content:space-between; color:var(--color-noted)">
+		
+		<div style = "text-transform:uppercase">$title$</div>
+		
+		<div style = "text-transform:uppercase">$id$</div>
+	
+	</div>
+
+	<div class = "container-row gap-medium" style = "overflow:hidden; height:368px; width:100%">
+
+
+		<!-- LEFT COLUMN: CLASS INFO -->
+		<div data-uid = "class-info" class = "container-column gap-medium" style = "flex-shrink:0; height:100%; overflow:hidden"> 
+			
+			<!-- TYPE -->
+			<div class = "container-row gap-medium" style = "align-items:center">
+				<div class = "text-title-small" style = "width:96px">%class type%</div>
+				
+				<element data-uid = "class-type"   style = "width:192px" control-dropdown-plain />
+			</div>
+			
+			<!-- CENTER CURRENTLY HIDDEN -->
+			<div class = "container-row gap-medium" style = "align-items:center; display:none">
+				<div class = "text-title-small" style = "width:96px">%class center%</div>
+				
+				<element data-uid = "class-center" style = "width:192px" control-edit-plain /> 
+			</div>
+			
+			<!-- ROOM -->
+			<div class = "container-row gap-medium" style = "align-items:center">
+				<div class = "text-title-small" style = "width:96px">%class room%</div>
+				
+				<element data-uid = "class-room"   style = "width:192px" control-edit-plain />
+			</div>
+						
+			<!-- DATE CURRENTLY HIDDEN -->
+			<div class = "container-row gap-medium"  style = "align-items:center; display:none">
+				<div class = "text-title-small" style = "width:96px">%class date%</div>
+				
+				<element data-uid = "class-date" style = "width:192px" control-date-plain /> 	
+			</div>
+		
+		    <!-- TIME CURRENTLY HIDDEN -->
+			<div class = "container-row gap-medium" style = "align-items:center; display:none">
+			
+				<div class = "text-title-small" style = "width:96px">%class time%</div>
+				
+				<element data-uid = "class-time" style = "width:192px" control-time-plain />
+			
+			</div>
+			
+			<!-- SEATS -->
+			<div class = "container-row gap-medium" style = "align-items:center">
+				<div class = "text-title-small" style = "width:96px">%class seats%</div>
+				
+				<element data-uid = "class-seats"  style = "width:192px" control-edit-plain />
+			</div>
+			
+			<!-- LESSON -->
+			<div class = "container-row gap-medium" style = "align-items:center">
+				<div class = "text-title-small" style = "width:96px">%class lesson%</div>
+				
+				<element data-uid = "class-lesson" style = "width:192px" control-edit-plain /> 
+			</div>
+			
+			
+			<!-- DURATION -->
+			<div class = "container-row gap-medium" style = "align-items:center">
+				<div class = "text-title-small" style = "width:96px">%class duration%</div>
+				
+				<element data-uid = "class-duration"  style = "width:192px" control-edit-plain />
+			</div>
+			
+			
+			<!-- NOTES -->
+			<div class = "container-row gap-medium" style = "align-items:flex-start">
+				<div class = "text-title-small" style = "width:96px">%class notes%</div>
+				
+				<element data-uid = "class-notes"  style = "width:192px; height:96px" control-text-plain />
+			</div>
+		
+		</div>
+		
+		
+		<element style = "height:100%; width:10px" separator-vertical-minimal />
+		
+		
+		<!-- RIGHT COLUMN -->
+		<div class = "container-column gap-medium" style = "height:100%; overflow:hidden; flex-grow:1">
+		
+			<!-- UPPER PORTION -->
+			<div class = "container-row gap-medium" style = "width:100%; flex-grow:1; overflow:hidden; flex-shrink:0; justify-content:space-between;">
+				
+				<!-- UPPER PORTION LEFT: STAFF -->
+				<div class = "container-column gap-small" style = "overflow:hidden; flex-shrink:0; height:100%">
+				
+					<div class = "text-title-small">%class staff%</div>
+				
+					<div data-uid = "class-staff"    class = "container-column gap-medium" style = "width:192px; height:280px; overflow:hidden auto; flex-shrink:0">
+					</div>
+				</div>
+		
+		
+				<!-- UPPER PORTION RIGHT: STUDENTS -->
+				<div class = "container-column gap-small" style = "overflow:hidden; flex-shrink:0; height:100%">
+					
+					<div class = "text-title-small">%class students%</div>
+					
+					<div data-uid = "class-students" class = "container-column gap-medium" style = "width:192px; height:280px; overflow:hidden auto; flex-shrink:0">
+					</div>
+				</div>
+			</div>
+			
+			
+			<!-- LOWER PORTION: ONLINE -->
+			<div class = "container-row gap-medium" style = "overflow:hidden; width:100%">
+			
+				<!-- ONLINE -->
+				<div class = "container-row gap-medium" style = "align-items:center">
+					<div class = "text-title-small" style = "">%class online%</div>
+				
+					<element data-uid = "class-online"   style = "width:96px" control-dropdown-plain />
+				</div>
+				
+				<!-- CLASSROOM URL -->
+				<div data-uid = "row-stream" class = "container-row gap-medium" style = "align-items:center">
+					<div class = "text-title-small" style = "">%class classroom_url%</div>
+				
+					<element data-uid = "class-classroom_url"   style = "width:192px" control-edit-plain />
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+</div>

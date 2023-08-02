@@ -1,0 +1,89 @@
+<div class = "container-row padding-small gap-large" style = "overflow:hidden; height:100%; width:100%;">
+   
+    <!-- LEFT PANEL -->
+	<div class = "container-column gap-medium" style = "height:100%; overflow:hidden">
+   
+		<div class = "container-row gap-medium text-title-medium" style = "width:100%">
+			
+			<div data-uid = "editor-lesson-back" class = "container-row style-clickable" style = "display:none">
+				<li class = "fa-solid fa-arrow-left"></li>
+			</div>
+			
+			<div class = "container-row">
+				%page title%
+			</div>
+			
+		</div>
+   
+		<div data-uid = "dialogue-panel-edit" class = "container-column gap-medium border-rounded padding-medium" style = "width:100%; flex-grow:1; flex-shrink:0; scrollbar-gutter: stable; background-color:var(--color-light)">
+		
+			<div class = "container-row gap-medium text-title-medium" style = "width:100%; justify-content:space-between">	
+				%page template%
+			</div>
+			
+			<element data-uid = "page-template" style = "width:100%;" control-dropdown-plain />
+			
+			<div class = "container-row text-title-medium">
+				%paragraphs title%
+			</div>
+				
+			<element data-uid = "paragraphs-list" style = "width:100%; overflow:hidden auto;" control-listbox-plain />
+		
+			<div data-uid = "paragraph-edit" class = "container-column gap-medium padding-smal" style = "visibility:hidden; width:100%; flex-grow:1; overflow:hidden auto">
+			
+				<!-- HEADER -->
+				
+				<div class = "container-row gap-small padding-smal" style = "overflow:hidden; width:100%">
+					<element data-uid = "paragraph-title"                                        style = "width:100%" placeholder = "%paragraph title placeholder%"    style = "display:none" control-edit-plain />
+					<element data-uid = "paragraph-subtitle"                                     style = "width:100%" placeholder = "%paragraph subtitle placeholder%" style = "display:none" control-edit-plain />
+				</div>
+				
+				<element data-uid = "paragraph-template"                                     style = "width:100%" control-dropdown-plain />
+				<element data-uid = "paragraph-text"                                         style = "display:none; width:100%; height:240px; flex-shrink:0; overflow:auto auto; background-color:var(--color-white)" placeholder = "%paragraph text placeholder%" control-text-plain />
+				
+				<!-- TEXTS -->
+				<div     data-uid = "paragraph-texts"      class = "container-row gap-small padding-small" style = "width:100%; flex-grow:1; flex-shrink:0; overflow:auto hidden">
+					<element data-uid = "paragraph-text-1" style = "width:240px; height:100%; flex-shrink:0; overflow:auto auto; background-color:var(--color-white)" placeholder = "%paragraph text placeholder%" control-text-plain />
+					<element data-uid = "paragraph-text-2" style = "width:240px; height:100%; flex-shrink:0; overflow:auto auto; background-color:var(--color-white)" placeholder = "%paragraph text placeholder%" control-text-plain />
+					<element data-uid = "paragraph-text-3" style = "width:240px; height:100%; flex-shrink:0; overflow:auto auto; background-color:var(--color-white)" placeholder = "%paragraph text placeholder%" control-text-plain />
+					<element data-uid = "paragraph-text-4" style = "width:240px; height:100%; flex-shrink:0; overflow:auto auto; background-color:var(--color-white)" placeholder = "%paragraph text placeholder%" control-text-plain />
+					<element data-uid = "paragraph-text-5" style = "width:240px; height:100%; flex-shrink:0; overflow:auto auto; background-color:var(--color-white)" placeholder = "%paragraph text placeholder%" control-text-plain />
+					<element data-uid = "paragraph-text-6" style = "width:240px; height:100%; flex-shrink:0; overflow:auto auto; background-color:var(--color-white)" placeholder = "%paragraph text placeholder%" control-text-plain />
+				</div>
+				
+				<!-- IMAGES -->
+				<div     data-uid = "paragraph-pictures"   class = "container-row gap-small" style = "width:100%; overflow:hidden; justify-content:space-between">
+					<img data-uid = "paragraph-picture-1"  class = "style-clickable border-dark border-rounded"         style = "width:64px; aspect-ratio:1; object-fit:cover; "/>
+					<img data-uid = "paragraph-picture-2"  class = "style-clickable border-dark border-rounded"         style = "width:64px; aspect-ratio:1; object-fit:cover;"/>
+					<img data-uid = "paragraph-picture-3"  class = "style-clickable border-dark border-rounded"         style = "width:64px; aspect-ratio:1; object-fit:cover;"/>
+					<img data-uid = "paragraph-picture-4"  class = "style-clickable border-dark border-rounded"         style = "width:64px; aspect-ratio:1; object-fit:cover;"/>
+					<img data-uid = "paragraph-picture-5"  class = "style-clickable border-dark border-rounded"         style = "width:64px; aspect-ratio:1; object-fit:cover;"/>
+					<img data-uid = "paragraph-picture-6"  class = "style-clickable border-dark border-rounded"         style = "width:64px; aspect-ratio:1; object-fit:cover;"/>
+				</div>
+			
+			</div>
+		 
+		</div>
+		
+	</div>
+	
+	
+	<!-- PAGE PREVIEW -->
+	<div class = "container-column gap-medium" style = "height:100%; flex-grow:1">
+	
+		<div data-uid = "page-header" class = "container-row gap-medium text-title-medium" style = "width:100%; align-items:center">
+		 
+		 <div>%page preview%</div>
+		 
+		 <li data-uid = "page-render" class = "fa-solid   fa-rotate       style-clickable"></li>
+		 <li data-uid = "page-layout" class = "fa-regular fa-object-group style-clickable"></li>
+		 <li data-uid = "page-window" class = "fa-solid   fa-book-open    style-clickable"></li>
+		 
+		</div>
+	
+		<div data-uid = "page-preview" class = "container-column" style = "width:100%; flex-grow:1; overflow:hidden">
+		</div>
+					
+	</div>
+	
+</div>

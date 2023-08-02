@@ -1,0 +1,18 @@
+
+[info]
+type = "type:select; source:types; default:open-answers; edit:hidden"
+en = "type:text;default:Type an answer for each item"
+vn = "type:text;default:Nhập một câu trả cho mỗi mục"
+outcome = "type:select; source:outcomes"
+
+[question]
+text = "type:text"
+picture = "type:select; source:image"
+audio = "type:select; source:audio"
+pdf = "type:select; source:pdf"
+
+[answer NN]
+text = "type:text"
+picture = "type:select; source:image"
+audio = "type:select; source:audio"
+answers = "type:text; default:___ / ___ / ___"

@@ -1,0 +1,26 @@
+<div class = "container-column color-medium content-centered" style = "width:100%; height:100%; position:relative"> 
+
+   <video data-uid = "background-video" class = "structure-overlay" style = "z-index:10; object-fit:cover; filter:blur(8px)" autoplay="autoplay" muted loop>
+   </video>
+
+	<div data-uid = "box-main" class = "structure-overlay container-column content-centered" style = "z-index:20; opacity:0.67">
+		
+		<img data-uid = "logo" src = "" style = "width:256px; height:256px;" />
+
+		<div data-uid = "login" class = "container-column gap-large content-centered" style = "visibility:hidden; width:256px; height:256px;">
+			
+			<element data-uid = "username" style = "width:240px;" placeholder = "%placeholder username%" control-edit-plain />
+	
+			<element data-uid = "password" style = "width:240px;" placeholder = "%placeholder password%" control-password-plain />
+		
+			<div data-uid = "button" class = "container-row gap-large content-centered">
+
+				<element data-uid = "button-login" button-medium-plain />
+
+			</div>
+			
+		</div>
+		
+	</div>
+
+</div>

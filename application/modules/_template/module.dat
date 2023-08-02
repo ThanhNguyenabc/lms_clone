@@ -1,0 +1,9 @@
+
+[module]
+menu-icon = ""
+en = ""
+vn = ""
+
+[module header title]
+en = "TEMPLATE"
+vn = "BẢN MẪU"

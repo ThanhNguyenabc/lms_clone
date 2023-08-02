@@ -1,0 +1,12 @@
+
+[name]
+en = "Name"
+vn = "Tên"
+
+[type]
+en = "Type"
+vn = "Thể loại"
+
+[id]
+en = "Id"
+vn = "Id"

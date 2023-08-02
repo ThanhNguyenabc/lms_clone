@@ -1,0 +1,9 @@
+
+[module]
+menu-icon = "course"
+en = "Course"
+vn = "Khóa học"
+
+[module header title]
+en = "COURSE"
+vn = "KHÓA HỌC"

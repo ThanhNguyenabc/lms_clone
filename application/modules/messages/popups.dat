@@ -1,0 +1,40 @@
+
+[delete title]
+en = "DELETE MESSAGE"
+vn = "XÓA TIN NHẮN"
+
+[delete text]
+en = "Are you sure you want to delete this message? It will not be possible to undo this action, or recover the deleted message"
+vn = "Bạn có chắc bạn muốn xóa tin nhắn này không?"
+
+[button send]
+en = "SEND"
+vn = "GỬI"
+
+[message subject]
+en = "Subject"
+vn = "Chủ đề"
+
+[message template]
+en = "Template"
+vn = "Bản mẫu"
+
+[message type]
+en = "Type"
+vn = "Thể loại"
+
+[message expiration]
+en = "Expiration"
+vn = "Hết hạn"
+
+[template placeholder]
+en = "Message Template"
+vn = "Bản mẫu tin nhắn"
+
+[messages send title]
+en = "MASS MESSAGING"
+vn = "TIN NHẮN HÀNG LOẠT"
+
+[messages send text]
+en = "Are you sure to send this message to <b>$count$</b> users?"
+vn = "Bạn có chắc chắn muốn gửi tin nhắn này tới người dùng <b>$count$</b> không?"

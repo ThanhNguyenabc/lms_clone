@@ -1,0 +1,16 @@
+
+[button classroom]
+en = "CLASSROOM"
+vn = "LỚP HỌC"
+
+[button assessment]
+en = "ASSESSMENT"
+vn = "BÀI ĐÁNH GIÁ"
+
+[caption online]
+en = "Online"
+vn = "Trực tuyến"
+
+[caption stream]
+en = "Streaming Address"
+vn = "Địa chỉ phát trực tuyến"

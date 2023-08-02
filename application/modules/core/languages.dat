@@ -1,0 +1,18 @@
+
+[en]
+en = "English"
+vn = "Tiếng Anh"
+zh = "英文"
+code = "en-US"
+
+[vn]
+en = "Vietnamese"
+vn = "Tiếng Việt"
+zh = "越南话"
+code = "vi-VN"
+
+[zh]
+en = "Chinese"
+vn = "Tiếng Trung Quốc"
+zh = "中文"
+code = "zh-CN"

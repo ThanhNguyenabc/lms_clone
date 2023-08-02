@@ -1,0 +1,18 @@
+
+[info]
+type = "type:select; source:types; default:speech-recognition; edit:hidden"
+en = "type:text;default:Click on the microphones and record your answers"
+vn = "type:text;default:Nhấp vào microphone và thu âm lại câu trả lời của bạn"
+outcome = "type:select; source:outcomes"
+
+[question]
+text = "type:text"
+picture = "type:select; source:image"
+audio = "type:select; source:audio"
+pdf = "type:select; source:pdf"
+
+[item NN]
+text = "type:text"
+picture = "type:select; source:image"
+audio = "type:select; source:audio"
+answers = "type:text;   default:_____ / _____ / _____"

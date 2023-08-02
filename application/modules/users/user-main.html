@@ -1,0 +1,189 @@
+<div data-uid = "user-display" class = "container-column gap-large">
+
+	<!-- CORE -->
+	<div class = "container-row gap-medium">
+	
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%id%</div>
+			<element data-uid = "user-id" style = "width:100%" readonly control-edit-plain />
+		</div>
+	
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%role%</div>
+			<element data-uid = "user-role"     style = "width:100%" control-dropdown-plain />
+		</div>
+		
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%center%</div>
+			<element data-uid = "user-center"   style = "width:100%" control-dropdown-plain />
+		</div>
+		
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%status%</div>
+			<element data-uid = "user-status"   style = "width:100%" control-dropdown-plain />
+		</div>
+
+	</div>
+	
+	
+	<!-- NAMES -->
+	<div class = "container-row gap-medium">
+	
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%firstname%</div>
+			<element data-uid = "user-firstname"  style = "width:100%" control-edit-plain />
+		</div>
+		
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%lastname%</div>
+			<element data-uid = "user-lastname"   style = "width:100%" control-edit-plain />
+		</div>
+		
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%midname%</div>
+			<element data-uid = "user-midname" style = "width:100%" control-edit-plain />
+		</div>
+		
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%nickname%</div>
+			<element data-uid = "user-nickname"   style = "width:100%" control-edit-plain />
+		</div>
+
+	</div>
+	
+	
+	
+	<div class = "container-row gap-medium">
+	
+		<!-- PERSONAL & IDENTIFICATION -->
+		<div class = "container-column gap-large">
+			<!-- PERSONAL -->
+			<div class = "container-row gap-medium">
+			
+				<div class = "container-column gap-small" style = "width:128px">
+					<div class = "text-title-small">%nationality%</div>
+					<element data-uid = "user-nationality"  style = "width:100%" control-dropdown-plain />
+				</div>
+				
+				<div class = "container-column gap-small" style = "width:128px">
+					<div class = "text-title-small">%birthdate%</div>
+					<element data-uid = "user-birthdate"   style = "width:100%" control-date-plain />
+				</div>
+				
+				<div class = "container-column gap-small" style = "width:128px">
+					<div class = "text-title-small">%gender%</div>
+					<element data-uid = "user-gender" style = "width:100%" control-dropdown-plain />
+				</div>
+				
+			</div>
+			
+			
+			<!-- IDENTIFICATION -->
+			<div class = "container-row gap-medium">
+			
+				<div class = "container-column gap-small" style = "width:128px">
+					<div class = "text-title-small">%idcard%</div>
+					<element data-uid = "user-idcard"  style = "width:100%" control-edit-plain />
+				</div>
+				
+				<div class = "container-column gap-small" style = "width:128px">
+					<div class = "text-title-small">%taxcode%</div>
+					<element data-uid = "user-taxcode"   style = "width:100%" control-edit-plain />
+				</div>
+				
+				<div class = "container-column gap-small" style = "width:128px">
+					<div class = "text-title-small">%staffcode%</div>
+					<element data-uid = "user-staffcode"    style = "width:100%" control-edit-plain />
+				</div>
+				
+			</div>
+		</div>
+		
+		
+		<!-- PICTURE -->
+		<div class = "container-column gap-small" style = "flex-grow:1; width:128px; height:144px">
+			<div class = "text-title-small">%picture%</div>
+			<img data-uid = "user-picture" class = "border-rounded border-dark" style = "width:128px; aspect-ratio:1; object-fit:cover" />
+		</div>
+	
+	</div>
+	
+	
+	<!-- ADDRESS -->
+	<div class = "container-row gap-medium">
+	
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%country%</div>
+			<element data-uid = "user-country"     style = "width:100%" control-edit-plain />
+		</div>
+		
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%city%</div>
+			<element data-uid = "user-city"   style = "width:100%" control-edit-plain />
+		</div>
+		
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%province%</div>
+			<element data-uid = "user-province" style = "width:100%" control-edit-plain />
+		</div>
+		
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%address%</div>
+			<element data-uid = "user-address"   style = "width:100%" control-edit-plain />
+		</div>
+
+	</div>
+	
+	
+	<!-- CONTACTS -->
+	<div class = "container-row gap-medium">
+	
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%email%</div>
+			<element data-uid = "user-email"     style = "width:100%" control-edit-plain />
+		</div>
+		
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%mobile%</div>
+			<element data-uid = "user-mobile"   style = "width:100%" control-edit-plain />
+		</div>
+		
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%im%</div>
+			<element data-uid = "user-im" style = "width:100%" control-edit-plain />
+		</div>
+		
+	</div>
+	
+	
+	<!-- RELATIONSHIPS -->
+	<div class = "container-row gap-medium">
+		
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%manager_id%</div>
+			<element data-uid = "user-manager_id" readonly  style = "width:100%" control-edit-plain />
+		</div>
+	
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%family_id%</div>
+			<element data-uid = "user-family_id" readonly style = "width:100%" control-edit-plain />
+		</div>
+		
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%password%</div>
+			<element data-uid = "user-password" style = "width:100%" control-password-plain />
+		</div>
+	
+	</div>
+	
+	<!-- NOTES -->
+	<div class = "container-row gap-medium" style = "width:100%">
+	
+		<div class = "container-column gap-small" style = "width:100%">
+			<div class = "text-title-small">%notes%</div>
+			<element data-uid = "user-notes"     style = "width:100%; height:64px; overflow:hidden auto" control-text-plain />
+		</div>
+		
+	</div>
+	
+</div>

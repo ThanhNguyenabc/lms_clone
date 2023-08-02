@@ -1,0 +1,8 @@
+
+[book confirm title]
+en = "Book Class"
+vn = "Đăng ký lớp học"
+
+[book confirm text]
+en = "Confirm booking <b>“$title$„</b> ($lesson$) on <b>$date$?</b>"
+vn = "Xác nhận đăng ký lớp học <b>“$title$„</b> ($lesson$) on <b>$date$?</b>"

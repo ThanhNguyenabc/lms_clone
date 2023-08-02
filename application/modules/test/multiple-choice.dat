@@ -1,0 +1,20 @@
+
+[info]
+type = "type:select; source:types; default:multiple-choice; edit:hidden"
+en = "type:text;default:Select one or more answers"
+vn = "type:text;default:Chọn một hoặc nhiều câu trả lời"
+outcome = "type:select; source:outcomes"
+multiple = "type:select; values:yes,no"
+assisted = "type:select; values:yes,no"
+
+[question]
+text = "type:text"
+picture = "type:select; source:image"
+audio = "type:select; source:audio"
+pdf = "type:select; source:pdf"
+
+[answer NN]
+correct = "type:select; values:yes,no; default:no"
+picture = "type:select; source:image"
+text = "type:text"
+audio = "type:select; source:audio"

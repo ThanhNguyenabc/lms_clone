@@ -1,0 +1,43 @@
+<div class = "container-row gap-large" style = "min-height:210px; width:100%; align-items:center">
+
+	<!--div class = "container-column" style = "width:320px; height:240px;">
+		<img data-uid = "cover" style = "width:100%; height:100%; object-fit:cover"/>
+	</div-->
+	
+	<div class = "container-row gap-medium" style = "height:100%; flex-grow:1; overflow:hidden">
+		
+		<element cover-wide-shaded />
+	
+		<element style = "height:100%" separator-vertical-minimal />
+	
+		<div data-uid = "actions" class = "container-column gap-medium" style = "flex-grow:1; overflow:hidden">
+		</div>
+		
+	</div>
+	
+	
+	<div class = "container-row gap-large" style = "height:100%;">
+	
+		<element style = "height:100%" separator-vertical-minimal />
+		
+		<div data-uid = "row-chart" class = "container-column content-centered" style = "position:relative; height:100%; aspect-ratio:1;">
+			
+			<div data-uid = "chart" class = "container-column content-centered" style = "position:absolute; height:100%; aspect-ratio:1; z-index:20">
+		
+			</div>
+			
+			<div class = "container-column content-centered gap-small" style = "width:50%; height:50%; position:absolute; z-index:10; overflow:hidden">
+			
+				<div data-uid = "chart-text"    class = "caption-cursive-big"    style = "text-align:center"></div>
+				<div data-uid = "chart-subtext" class = "caption-cursive-medium" style = "text-align:center"></div>
+				 
+			</div>
+		</div>
+		
+		<!-- scrollbar spacer -->
+		<element class = "padding-large" style = "visibility:hidden; height:100%" separator-vertical-minimal />
+		
+	</div>
+	
+	
+</div>

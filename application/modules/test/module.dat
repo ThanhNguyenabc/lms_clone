@@ -1,0 +1,37 @@
+
+[module]
+menu-icon = ""
+en = ""
+vn = ""
+
+[test title]
+en = "TEST"
+vn = "BÀI KIỂM TRA"
+
+[test confirm text]
+en = "CONFIRM"
+vn = "XÁC NHẬN"
+
+[item placeholder type]
+en = "Type here"
+vn = "Nhập vào đây"
+
+[item answers yours]
+en = "Your answer:"
+vn = "Câu trả lời của bạn:"
+
+[item answers valid]
+en = "Valid answers:"
+vn = "Câu trả lời hợp lệ:"
+
+[test button confirm]
+en = "CONFIRM"
+vn = "XÁC NHẬN"
+
+[test button next]
+en = "NEXT QUESTION"
+vn = "CÂU HỎI TIẾP THEO"
+
+[test button finish]
+en = "FINISH"
+vn = "XONG"

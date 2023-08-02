@@ -1,0 +1,29 @@
+<div class = "container-row padding-small gap-medium" style = "overflow:hidden; height:100%; width:100%;">
+   
+	<div class = "container-column gap-medium" style = "width:600px; height:100%">
+		
+		<div class = "container-row" style = "width:100%; justify-content:space-between; align-items:center">
+			
+			<a class = "text-title-medium">%outcomes title%</a>
+			
+			<div class = "container-row gap-medium" style = "overflow:hidden">
+				<li data-uid = "outcome-find"   class = "fa-solid fa-magnifying-glass style-clickable" style = "display:none"></li> <!-- DISABLED FOR NOW -->
+				<li data-uid = "outcome-new"    class = "fa-solid fa-folder-plus style-clickable"></li>
+				<li data-uid = "outcome-delete" class = "fa-solid fa-trash-can style-clickable"></li>
+			</div>
+		</div>
+		
+		<element data-uid = "outcomes-list" style = "width:100%; flex-grow:1; overflow-y:scroll; text-overflow:ellipsis" control-listbox-plain />
+				
+	</div>
+
+
+    <div data-uid = "outcome-panel-edit" class = "container-column gap-medium" style = "flex-grow:1; height:100%; visibility:hidden; flex-shrink:0; scrollbar-gutter: stable;">
+	
+		<a class = "text-title-medium">%outcome edit title%</a>
+		
+		<div data-uid = "outcome-edit" class = "border-rounded" style = "width:100%; height:100%; overflow:hidden; background-color:var(--color-white)"></div>
+	
+	</div>
+	    
+</div>

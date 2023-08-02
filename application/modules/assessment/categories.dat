@@ -1,0 +1,15 @@
+
+[core skills]
+en = "Core Skills"
+icon = "chart-line"
+vn = "Kỹ năng cốt lõi"
+
+[outcomes]
+en = "Outcomes"
+icon = "clipboard-list"
+vn = "Kết quả"
+
+[attendance]
+en = "Attendance"
+icon = "calendar-check"
+vn = "Điểm danh"

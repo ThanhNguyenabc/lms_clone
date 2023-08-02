@@ -1,0 +1,68 @@
+
+[assessment nothing]
+en = "Hold on. Your performance for this Lesson is still being assessed. Please check again later."
+vn = "Chờ đã. Bài làm của bạn trong bài học này vẫn còn đang được đánh giá. Vui lòng kiểm tra lại sau."
+
+[section attendance]
+en = "Attendance"
+vn = "Điểm danh"
+
+[section outcomes]
+en = "Lesson Aims"
+vn = "Mục tiêu bài học"
+
+[section core skills]
+en = "Core Skills"
+vn = "Kỹ năng cốt lõi"
+
+[section extra skills]
+en = "21th Century Skills"
+vn = "Kỹ năng thế kỉ 21"
+
+[section feedback]
+en = "Feedback"
+vn = "Nhận xét"
+
+[section project]
+en = "Project"
+vn = "Dự án"
+
+[item feedback]
+en = "Feedback"
+vn = "Nhận xét"
+
+[item behavior]
+en = "Behavior"
+vn = "Hành vi cư xử"
+
+[item attendance]
+en = "Attendance"
+vn = "Điểm danh"
+
+[readable assessment but]
+en = "but"
+vn = "nhưng"
+
+[readable assessment however]
+en = "however"
+vn = "tuy nhiên"
+
+[readable assessment you]
+en = "you"
+vn = "bạn"
+
+[readable assessment and]
+en = "and"
+vn = "và"
+
+[readable assessment grading]
+en = "your overall grade"
+vn = "điểm tổng thể của bạn"
+
+[readable assessment behavior]
+en = "Your class behavior was $text$"
+vn = "Hành vi cư xử trong lớp học của bạn là $text$ "
+
+[readable assessment attendance]
+en = "You $text$"
+vn = "Bạn $text$"

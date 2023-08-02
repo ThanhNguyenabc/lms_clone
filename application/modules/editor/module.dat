@@ -1,0 +1,526 @@
+
+[module]
+menu-icon = "editor"
+en = "Editor"
+vn = "Chỉnh sửa"
+pages = "lesson,outcome,vocabulary,presentation,test,dialogue"
+
+[page lesson]
+en = "LESSONS"
+vn = "BÀI HỌC"
+
+[page outcome]
+en = "OUTCOMES"
+vn = "KẾT QUẢ"
+
+[page vocabulary]
+en = "VOCABULARY"
+vn = "TỪ VỰNG"
+
+[page presentation]
+en = "PRESENTATIONS"
+vn = "BÀI THUYẾT TRÌNH"
+
+[page test]
+en = "TESTS"
+vn = "BÀI KIỂM TRA"
+
+[page dialogue]
+en = "DIALOGUES"
+vn = "ĐỐI THOẠI"
+
+[module header title]
+en = "EDITOR"
+vn = "CHỈNH SỬA"
+
+[resources menu delete]
+en = "Delete"
+vn = "Xóa"
+
+[popup delete title]
+en = "Delete"
+vn = "Xóa"
+
+[popup delete subtitle]
+en = "Are you sure to delete the resource “$item$„?"
+vn = "Bạn có chắc xóa tài nguyên “$item$„?"
+
+[popup upload title]
+en = "Uploading"
+vn = "Đang tải lên"
+
+[popup upload subtitle]
+en = "Please wait while files are being uploaded"
+vn = "Vui lòng đợi trong khi tệp đang được tải lên"
+
+[popup name title]
+en = "Name"
+vn = "Tên"
+
+[popup name subtitle]
+en = "Assign a name to this resource"
+vn = "Đặt tên cho tài nguyên này"
+
+[slides addnew]
+en = "New"
+vn = "Mới"
+
+[slide menu delete]
+en = "Delete"
+vn = "Xóa"
+
+[slide menu moveup]
+en = "Move Up"
+vn = "Di chuyển lên"
+
+[slide menu reset]
+en = "Reset"
+vn = "Đặt lại"
+
+[slide menu movedown]
+en = "Move Down"
+vn = "Di chuyển xuống"
+
+[slide menu new]
+en = "New Slide"
+vn = "Bài thuyết trình mới"
+
+[slide menu duplicate]
+en = "Duplicate"
+vn = "Nhân bản"
+
+[slide menu savetemplate]
+en = "Save As Template"
+vn = "Lưu dưới dạng mẫu"
+
+[slide menu loadtemplate]
+en = "Load From Template"
+vn = "Tải từ mẫu"
+
+[slide caption]
+en = "SLIDE"
+vn = "TRANG THUYẾT TRÌNH"
+
+[selector elements caption]
+en = "ELEMENTS"
+vn = "YẾU TỐ"
+
+[selector scripts caption]
+en = "SCRIPTS"
+vn = "KỊCH BẢN"
+
+[selector slide caption]
+en = "SLIDES"
+vn = "TRANG THUYẾT TRÌNH"
+
+[selector resources caption]
+en = "RESOURCES"
+vn = "TÀI NGUYÊN"
+
+[elements menu newimage]
+en = "New Image"
+vn = "Hình ảnh mới"
+
+[elements menu newvideo]
+en = "New Video"
+vn = "Video mới"
+
+[elements menu newtext]
+en = "New Text"
+vn = "Văn bản mới"
+
+[elements menu newshape]
+en = "New Shape"
+vn = "Hình dạng mới"
+
+[elements menu newinput]
+en = "New Input"
+vn = "Dữ liệu vào mới"
+
+[elements menu newiframe]
+en = "New Iframe"
+vn = "Iframe mới"
+
+[elements menu media]
+en = "Load Media"
+vn = "Phương tiện truyền thông mới"
+
+[elements menu style]
+en = "Style"
+vn = "Phong cách"
+
+[elements menu transform]
+en = "Transform"
+vn = "Biến đổi"
+
+[elements menu delete]
+en = "Delete"
+vn = "Xóa"
+
+[elements menu duplicate]
+en = "Duplicate"
+vn = "Nhân bản"
+
+[elements menu copy]
+en = "Copy"
+vn = "Sao chép"
+
+[elements menu paste]
+en = "Paste"
+vn = "Dán"
+
+[elements menu addresources]
+en = "Upload Resources"
+vn = "Tải lên tài nguyên"
+
+[elements menu fullpage]
+en = "Full Page"
+vn = "Trang đầy đủ"
+
+[elements menu sendback]
+en = "Send Back"
+vn = "Gửi lại"
+
+[elements menu bringfront]
+en = "Bring Front"
+vn = "Mang phông chữ"
+
+[element-name]
+en = "Name"
+vn = "Tên"
+
+[shape-color]
+en = "Color"
+vn = "Màu sắc"
+
+[element-color]
+en = "Color"
+vn = "Màu sắc"
+
+[element-bgcolor]
+en = "Background"
+vn = "Hình nền"
+
+[element-bordercolor]
+en = "Border Color"
+vn = "Màu đường viền"
+
+[element-borderstyle]
+en = "Border Style"
+vn = "Phong cách đường viền"
+
+[element-borderwidth]
+en = "Border Width"
+vn = "Chiều rộng đường viền"
+
+[element-borderradius]
+en = "Border Radius"
+vn = "Bán kính đường viền"
+
+[element-padding]
+en = "Padding"
+vn = "Đệm"
+
+[element-textdecoration]
+en = "Font Decoration"
+vn = "Trang trí phông chữ"
+
+[element-textalign]
+en = "Alignment"
+vn = "Căn chỉnh"
+
+[element-fontsize]
+en = "Font Size"
+vn = "Kích cỡ phông chữ"
+
+[element-fontfamily]
+en = "Font Family"
+vn = "Nhóm phông chữ"
+
+[element-fontstyle]
+en = "Font Style"
+vn = "Phong cách phông chữ"
+
+[element-fontweight]
+en = "Font Weight"
+vn = "Độ dàn phông chữ"
+
+[element-lineheight]
+en = "Line Spacing"
+vn = "Khoảng cách dòng"
+
+[element-url]
+en = "Url"
+vn = "Url"
+
+[element-src]
+en = "Source Media"
+vn = "Nguồn phương tiện truyền thông"
+
+[element-moveable]
+en = "Moveable"
+vn = "Có thể di chuyển"
+
+[element-visible]
+en = "Visible"
+vn = "Xem được"
+
+[element-readonly]
+en = "Readonly"
+vn = "Chỉ có thể đọc"
+
+[element-text]
+en = "Text"
+vn = "Văn bản"
+
+[element-value]
+en = "Placeholder"
+vn = "Ký tự"
+
+[element-style]
+en = "Style"
+vn = "Phong cách"
+
+[element-onclick]
+en = "ON CLICK"
+vn = "THỰC HIỆN NHẤP CHUỘT TRÁI"
+
+[element-ondrop]
+en = "ON DROP"
+vn = "THỰC HIỆN THẢ"
+
+[element-onshow]
+en = "ON SHOW"
+vn = "THỰC HIỆN TRÌNH BÀY"
+
+[element-onhide]
+en = "ON HIDE"
+vn = "THỰC HIỆN GIẤU"
+
+[element-animation]
+en = "Animation"
+vn = "Hoạt hình"
+
+[element-sound]
+en = "Sound"
+vn = "Âm thanh"
+
+[slide-name]
+en = "Name"
+vn = "Tên"
+
+[slide-stage]
+en = "Stage"
+vn = "Giai đoạn"
+
+[slide-music]
+en = "Music"
+vn = "Nhạc"
+
+[slide-color]
+en = "Color"
+vn = "Màu sắc"
+
+[slide-teachertext]
+en = "Teacher Text"
+vn = "Văn bản cho Giáo viên"
+
+[slide-studenttext]
+en = "Student Text"
+vn = "Văn bản cho Học viên"
+
+[scripts menu create]
+en = "New Script"
+vn = "Kịch bản mới"
+
+[scripts menu delete]
+en = "Delete"
+vn = "Xóa"
+
+[scripts menu moveup]
+en = "Move Up"
+vn = "Di chuyển lên"
+
+[scripts menu movedown]
+en = "Move Down"
+vn = "Di chuyển xuống"
+
+[scripts menu test]
+en = "Test"
+vn = "Kiểm tra thử"
+
+[script name]
+en = "Name"
+vn = "Tên"
+
+[script line time]
+en = "Time"
+vn = "Thời gian"
+
+[script line element]
+en = "Element"
+vn = "Yếu tố"
+
+[script line command]
+en = "Command"
+vn = "Mệnh lệnh"
+
+[script line params]
+en = "Params"
+vn = "Tham số"
+
+[script line sound]
+en = "Sound"
+vn = "Âm thanh"
+
+[script line delete]
+en = "Delete"
+vn = "Xóa"
+
+[script line create]
+en = "New Line"
+vn = "Dòng mới"
+
+[script line sort]
+en = "Sort Lines"
+vn = "Sắp xếp dòng"
+
+[test test-edit title]
+en = "EDIT TEST"
+vn = "CHỈNH SỬA BÀI KIỂM TRA"
+
+[test sheets title]
+en = "SHEETS"
+vn = "TRANG LÀM BÀI"
+
+[test sheet-edit title]
+en = "EDIT SHEET"
+vn = "CHỈNH SỬA TRANG LÀM BÀI"
+
+[test sheet-resources title]
+en = "RESOURCES"
+vn = "TÀI NGUYÊN"
+
+[test sheet-preview title]
+en = "PREVIEW"
+vn = "XEM TRƯỚC"
+
+[test sheets-menu new]
+en = "New Sheet"
+vn = "Trang bài làm mới"
+
+[test sheets-menu duplicate]
+en = "Duplicate Sheet"
+vn = "Nhân bản trang bài làm"
+
+[test sheets-menu moveup]
+en = "Move Up"
+vn = "Di chuyển lên"
+
+[test sheets-menu movedown]
+en = "Move Down"
+vn = "Di chuyển xuống"
+
+[test sheets-menu delete]
+en = "Delete Sheet"
+vn = "Xóa trang bài làm"
+
+[test menu addresources]
+en = "Upload Resources"
+vn = "Tải tài nguyên lên"
+
+[outcomes title]
+en = "OUTCOMES"
+vn = "KẾT QUẢ"
+
+[outcome edit title]
+en = "EDIT OUTCOME"
+vn = "CHỈNH SỬA KẾT QUẢ"
+
+[outcomes menu new]
+en = "New Outcome"
+vn = "Kết quả mới"
+
+[outcomes menu delete]
+en = "Delete Outcome"
+vn = "Xóa kết quả"
+
+[data menu new]
+en = "New $id$"
+vn = "$id$ mới"
+
+[data menu delete]
+en = "Delete"
+vn = "Xóa"
+
+[vocabulary picture title]
+en = "PICTURE"
+vn = "HÌNH ẢNH"
+
+[vocabulary audio title]
+en = "AUDIO"
+vn = "ÂM THANH"
+
+[vocabulary terms title]
+en = "VOCABULARY"
+vn = "TỪ VỰNG"
+
+[vocabulary term title]
+en = "EDIT TERM"
+vn = "CHỈNH SỬA THUẬT NGỮ"
+
+[vocabulary menu new]
+en = "New Term"
+vn = "Thuật ngữ mới"
+
+[vocabulary menu delete]
+en = "Delete"
+vn = "Xóa"
+
+[lessons title]
+en = "LESSONS"
+vn = "BÀI HỌC"
+
+[lesson edit title]
+en = "EDIT LESSON"
+vn = "CHỈNH SỬA BÀI HỌC"
+
+[lesson cover title]
+en = "COVER"
+vn = "BÌA"
+
+[lesson presentation title]
+en = "PRESENTATION"
+vn = "BÀI THUYẾT TRÌNH"
+
+[lesson homework title]
+en = "HOMEWORK"
+vn = "BÀI TẬP VỀ NHÀ"
+
+[lessons menu new]
+en = "New Lesson"
+vn = "Bài học mới"
+
+[lessons menu delete]
+en = "Delete"
+vn = "Xóa"
+
+[lesson documents title]
+en = "DOCUMENTS"
+vn = "TÀI LIỆU"
+
+[lesson dialogue title]
+en = "DIALOGUE"
+vn = "HỘI THOẠI"
+
+[lesson bookpage title]
+en = "BOOK"
+vn = "SÁCH"
+
+[dialogue title]
+en = "DIALOGUE"
+vn = "HỘI THOẠI"
+
+[dialogue edit title]
+en = "EDIT DIALOGUE"
+vn = "CHỈNH SỬA HỘI THOẠI"

@@ -1,0 +1,60 @@
+
+[popup title]
+en = "Test Azure Speech Service"
+vn = "Kiểm tra thử thiết bị lời thoại Azure"
+
+[button speak]
+en = "SPEAK"
+vn = "NÓI"
+
+[button save]
+en = "SAVE"
+vn = "LƯU"
+
+[button close]
+en = "CLOSE"
+vn = "ĐÓNG"
+
+[voice parameters]
+pitch = "default,x-low,low,medium,high,x-high"
+rate = "default,x-slow,slow,medium,fast,x-fast"
+
+[x-low]
+en = "Extra Low"
+vn = "Cực nhỏ"
+
+[low]
+en = "Low"
+vn = "Nhỏ"
+
+[default]
+en = "Default"
+vn = "Mặc định"
+
+[medium]
+en = "Medium"
+vn = "Vừa"
+
+[high]
+en = "High"
+vn = "Cao"
+
+[x-high]
+en = "Extra High"
+vn = "Cực cao"
+
+[x-slow]
+en = "Extra Slow"
+vn = "Cực chậm"
+
+[slow]
+en = "Slow"
+vn = "Chậm"
+
+[fast]
+en = "Fast"
+vn = "Nhanh"
+
+[x-fast]
+en = "Extra Fast"
+vn = "Cực nhanh"

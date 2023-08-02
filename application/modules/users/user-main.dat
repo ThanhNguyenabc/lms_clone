@@ -1,0 +1,104 @@
+
+[id]
+en = "Id"
+vn = "Id"
+
+[role]
+en = "Role"
+vn = "Vai trò"
+
+[center]
+en = "Center"
+vn = "Trung tâm"
+
+[password]
+en = "Password"
+vn = "Mật khẩu"
+
+[status]
+en = "Status"
+vn = "Trạng thái"
+
+[firstname]
+en = "First Name"
+vn = "Tên"
+
+[lastname]
+en = "Last Name"
+vn = "Họ"
+
+[midname]
+en = "Middle Name"
+vn = "Tên đệm"
+
+[nickname]
+en = "Nickname"
+vn = "Biệt danh"
+
+[nationality]
+en = "Nationality"
+vn = "Quốc tịch"
+
+[birthdate]
+en = "Birth Date"
+vn = "Ngày Tháng Năm sinh"
+
+[gender]
+en = "Gender"
+vn = "Giới tính"
+
+[idcard]
+en = "Id Number / Passport"
+vn = "Id Số / Passport"
+
+[taxcode]
+en = "Tax Code"
+vn = "Mã thuế"
+
+[staffcode]
+en = "Staff Code"
+vn = "Mã số Nhân viên"
+
+[country]
+en = "Country"
+vn = "Nước"
+
+[city]
+en = "City"
+vn = "Thành phố"
+
+[province]
+en = "Province"
+vn = "Tỉnh"
+
+[address]
+en = "Address"
+vn = "Địa chỉ"
+
+[email]
+en = "Email"
+vn = "Email"
+
+[mobile]
+en = "Mobile"
+vn = "Số điện thoại"
+
+[im]
+en = "Messenger"
+vn = "Tin nhắn"
+
+[manager_id]
+en = "Managed By"
+vn = "Quản lý bởi"
+
+[family_id]
+en = "Family or Company"
+vn = "Gia đình hoặc Công ty"
+
+[notes]
+en = "Notes"
+vn = "Ghi chú"
+
+[picture]
+en = "Picture"
+vn = "Hình ảnh"

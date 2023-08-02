@@ -1,0 +1,16 @@
+
+[none]
+en = "None"
+vn = "Không có"
+
+[underline]
+en = "Underline"
+vn = "Gạch dưới"
+
+[overline]
+en = "Overline"
+vn = "Gạch trên"
+
+[line-through]
+en = "Strikethrough"
+vn = "Gạch ngang"

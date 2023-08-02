@@ -1,0 +1,18 @@
+
+[info]
+type = "type:select; source:types; default:match-items; edit:hidden"
+en = "type:text;default:Drag and Match the items"
+vn = "type:text;default:Kéo và nối các mục"
+outcome = "type:select; source:outcomes"
+
+[question]
+text = "type:text"
+picture = "type:select; source:image"
+audio = "type:select; source:audio"
+pdf = "type:select; source:pdf"
+
+[item NN]
+column = "type:select; values:left,right; default:left"
+text = "type:text"
+picture = "type:select; source:image"
+audio = "type:select; source:audio"

@@ -1,0 +1,24 @@
+
+[tomorrow]
+en = "Tomorrow"
+vn = "Ngày mai"
+
+[this week]
+en = "End of the Week"
+vn = "Cuối tuần"
+
+[next week]
+en = "End of Next Week"
+vn = "Cuối tuần sau"
+
+[this month]
+en = "End of the Month"
+vn = "Cuối tháng"
+
+[next month]
+en = "End of Next Month"
+vn = "Cuối tháng sau"
+
+[anytime]
+en = "Any Time"
+vn = "Bất cứ thời gian"

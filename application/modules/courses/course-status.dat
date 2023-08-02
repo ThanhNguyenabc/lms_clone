@@ -1,0 +1,12 @@
+
+[design]
+en = "In Design"
+vn = "Đang thiết lập"
+
+[open]
+en = "Open for registration"
+vn = "Sẵn sàng để đăng ký"
+
+[closed]
+en = "Closed"
+vn = "Đã đóng"

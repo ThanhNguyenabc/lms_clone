@@ -1,0 +1,36 @@
+
+[lastclass title]
+en = "YOUR LAST CLASS"
+vn = "LỚP HỌC TRƯỚC CỦA BẠN"
+
+[lastclass action]
+en = "Go back to this Lesson to see your Teacher's assessment and Test yourself to see how much you have improved"
+vn = "Quay lại bài học này để xem đánh giá của giáo viên và kiểm tra bản thân để xem sự tiến bộ của bạn."
+
+[nextclass title]
+en = "YOUR NEXT CLASS"
+vn = "LỚP HỌC TIẾP THEO"
+
+[nextclass action]
+en = "Prepare for your next lesson. Take the assessment test and practice new Vocabulary"
+vn = "Chuẩn bị cho bài học tiếp theo. Hãy làm bài đánh giá và luyện tập với từ vựng mới."
+
+[title outstanding assessments]
+en = "OUTSTANDING ASSESSMENTS"
+vn = "ĐÁNH GIÁ CHƯA HOÀN THÀNH"
+
+[missing extra skills]
+en = "21th Century Skills"
+vn = "Kỹ năng thế kỉ 21"
+
+[missing core skills]
+en = "Core Skills"
+vn = "Kỹ năng cốt lõi"
+
+[missing outcomes]
+en = "Outcomes"
+vn = "Kết quả"
+
+[missing attendance]
+en = "Attendance"
+vn = "Điểm danh"

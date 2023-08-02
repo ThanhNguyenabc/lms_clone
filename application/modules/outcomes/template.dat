@@ -1,0 +1,33 @@
+
+[info]
+en = "type:text"
+vn = "type:text"
+
+[cefr]
+level = "type:select; values:pr,a1,a2,b1,b2,c1,c2"
+skill = "type:select; values:reading,writing,speaking,listening"
+system = "type:select; values:vocabulary,grammar,pronunciation,interaction"
+parent = "type:select; source:outcomes"
+
+[meta]
+tags = "type:text"
+
+[lv 1]
+en = "type:text"
+vn = "type:text"
+
+[lv 2]
+en = "type:text"
+vn = "type:text"
+
+[lv 3]
+en = "type:text"
+vn = "type:text"
+
+[lv 4]
+en = "type:text"
+vn = "type:text"
+
+[lv 5]
+en = "type:text"
+vn = "type:text"

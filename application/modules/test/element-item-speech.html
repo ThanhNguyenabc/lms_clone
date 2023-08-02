@@ -1,0 +1,28 @@
+<div data-uid = "speech-item" class = "container-row shadow-sharp-right" style = "width:384px; height:128px; align-items:center; overflow:hidden; background-color:var(--color-light);">
+
+	<img data-uid = "picture" class = "padding-medium" style = "width:128px; height:128px; background-color:var(--color-white);" />
+
+	<div data-uid = "text"  class = "container-row padding-medium text-title-medium"  style = "height:100%; width:240px; align-items:center; justify-content:center; background-color:var(--color-white);">
+		$text$
+	</div>
+	
+	<element data-uid = "audio"   style = "height:100%; width:240px; background-color:var(--color-white); align-items:center; justify-content:center;" audio-player-plain />
+		
+	<div class = "container-row" style = "height:100%; flex-grow:1; align-items:center; justify-content:flex-end">	
+		
+		<div data-uid = "listen" class = "container-column style-clickable content-centered" style = "height:100%; width:64px; visibility:hidden">
+			<li data-uid = "icon" class = "fa-solid fa-ear-listen" style = "font-size:24px"></li>
+		</div>
+		
+		<div data-uid = "speak" class = "container-column style-clickable content-centered" style = "position:relative; height:100%; width:64px">
+			
+			<canvas data-uid = "canvas" class = "structure-absolute-center" style = "width:64px; height:64px;z-index:20; pointer-events:none;">
+			</canvas>
+			
+			<li data-uid = "icon" class = "fa-solid fa-microphone structure-absolute-center" style = "z-index:10; font-size:24px;"></li>
+			
+		</div>
+		
+	</div>
+	
+</div>

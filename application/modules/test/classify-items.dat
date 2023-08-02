@@ -1,0 +1,20 @@
+
+[instructions]
+en = "type:text; default:Drag and put items in the right group"
+vn = "type:text;default:Kéo và thả mục vào đúng nhóm"
+
+[info]
+type = "type:select; source:types; default:classify-items; edit:hidden"
+outcome = "type:select; source:outcomes"
+
+[question]
+text = "type:text"
+picture = "type:select; source:image"
+audio = "type:select; source:audio"
+pdf = "type:select; source:pdf"
+
+[item NN]
+category = "type:text"
+text = "type:text"
+picture = "type:select; source:image"
+audio = "type:select; source:audio"

@@ -1,0 +1,36 @@
+
+[offline title]
+en = "Not Streaming Online"
+vn = "Không phát trực tuyến"
+
+[offline text]
+en = "This is an offline class. There will be no Online Stream. Stay on this page to receive an alert if anything changes"
+vn = "Đây là lớp học trực tiếp và sẽ không phát trực tuyến. Xin hãy ở lại trang này để nhận thông báo nếu có gì thay đổi."
+
+[not yet title]
+en = "It's not class time yet"
+vn = "Chưa đến giờ học"
+
+[noy yet text]
+en = "Stay on this page to receive an alert when the class starts and you are enabled to join"
+vn = "Xin hãy ở lại trang này để nhận thông báo khi lớp học bắt đầu và được phép tham gia."
+
+[no stream title]
+en = "Stream not started yet"
+vn = "Phát trực tuyến chưa được bắt đầu"
+
+[no stream text]
+en = "The stream hasn't started yet. Stay on this page to receive an alert as soon as your Teacher starts streaming"
+vn = "Phát tuyến chưa được bắt đầu. Xin hãy ở lại trang này để nhận thông báo ngay khi giáo viên của bạn bắt đầu phát trực tuyến."
+
+[streaming title]
+en = "STREAMING"
+vn = "PHÁT TRỰC TUYẾN"
+
+[streaming text]
+en = "The Online Classroom is open and streaming: click the button below to enter"
+vn = "Lớp trực tuyến đã được mở và đang được phát: bấm vào nút bên dưới để vào"
+
+[button enter]
+en = "ENTER"
+vn = "VÀO"

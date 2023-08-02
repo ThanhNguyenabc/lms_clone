@@ -1,0 +1,28 @@
+
+[10]
+en = "10 Seconds"
+vn = "10 giây"
+
+[30]
+en = "30 Seconds"
+vn = "30 giây"
+
+[60]
+en = "1 Minute"
+vn = "1 phút"
+
+[300]
+en = "5 Minutes"
+vn = "5 phút"
+
+[600]
+en = "10 Minutes"
+vn = "10 phút"
+
+[900]
+en = "15 Minutes"
+vn = "15 phút"
+
+[1800]
+en = "30 Minutes"
+vn = "30 phút"

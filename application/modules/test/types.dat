@@ -1,0 +1,36 @@
+
+[multiple-choice]
+en = "Multiple Choice"
+vn = "Trắc nghiệm"
+
+[open-answers]
+en = "Open Answers"
+vn = "Câu hỏi mở"
+
+[fill-blanks]
+en = "Fill the Blanks"
+vn = "Điền vào chỗ trống"
+
+[highlight-text]
+en = "Highlight Text"
+vn = "Làm nổi bật văn bản"
+
+[match-items]
+en = "Match Items"
+vn = "Nối trùng các mục"
+
+[order-items]
+en = "Order Items"
+vn = "Sắp xếp các mục"
+
+[classify-items]
+en = "Classify Items"
+vn = "Phân loại các mục"
+
+[identify-items]
+en = "Identify Items"
+vn = "Nhận dạng các mục"
+
+[speech-recognition]
+en = "Speech Recognition"
+vn = "Nhận dạng giọng nói"

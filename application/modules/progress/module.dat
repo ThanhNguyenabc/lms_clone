@@ -1,0 +1,53 @@
+
+[module]
+menu-icon = "progress"
+en = "Progress"
+vn = "Tiến triển"
+
+[module header title]
+en = "PROGRESS"
+vn = "TIẾN TRIỂN"
+
+[module header overall]
+en = "OVERALL"
+vn = "TỔNG THỂ"
+
+[module header core]
+en = "CORE SKILLS"
+vn = "KỸ NĂNG CỐT LÕI"
+
+[module header extra]
+en = "21th CENTURY SKILLS"
+vn = "KỸ NĂNG THẾ KỈ 21"
+
+[module header outcomes]
+en = "OUTCOMES"
+vn = "KẾT QUẢ"
+
+[module header vocabulary]
+en = "VOCABULARY"
+vn = "TỪ VỰNG"
+
+[classes header title]
+en = "OVERALL SCORES"
+vn = "ĐIỂM TỔNG THỂ"
+
+[coreskills header title]
+en = "CORE SKILLS"
+vn = "KỸ NĂNG CỐT LÕI"
+
+[coreskills header all]
+en = "All"
+vn = "Tất cả"
+
+[extraskills header title]
+en = "21th CENTURY SKILLS"
+vn = "KỸ NĂNG THẾ KỈ 21"
+
+[profilematch header title]
+en = "ORIENTATION:"
+vn = "ĐỊNH HƯỚNG:"
+
+[outcomes levels title]
+en = "CEFR Levels"
+vn = "Cấp độ CEFR"

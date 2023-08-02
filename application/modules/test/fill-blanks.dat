@@ -1,0 +1,16 @@
+
+[info]
+type = "type:select; source:types; default:fill-blanks; edit:hidden"
+en = "type:text;default:Fill in the blanks"
+vn = "type:text;default:Điền vào chỗ trống"
+outcome = "type:select; source:outcomes"
+assisted = "type:select; values:yes,all,no; default:no"
+
+[question]
+text = "type:text"
+picture = "type:select; source:image"
+audio = "type:select; source:audio"
+pdf = "type:select; source:pdf"
+
+[paragraph NN]
+text = "type:text;default:{blanked text} bla bla bla {blanked text} bla bla {blanked text}"

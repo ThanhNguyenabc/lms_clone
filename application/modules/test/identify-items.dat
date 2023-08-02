@@ -1,0 +1,20 @@
+
+[info]
+type = "type:select; source:types; default:identify-items; edit:hidden"
+en = "type:text;default:Find and click items on the picture"
+vn = "type:text;default:Tìm và nhấp vào các mục trong ảnh"
+outcome = "type:select; source:outcomes"
+multiple = "type:select; values:yes, no; default:no"
+
+[question]
+text = "type:text"
+picture = "type:select; source:image"
+audio = "type:select; source:audio"
+pdf = "type:select; source:pdf"
+
+[item NN]
+name = "type:text"
+left = "type:text; default:0"
+top = "type:text; default:0"
+width = "type:text; default:100"
+height = "type:text; default:100"

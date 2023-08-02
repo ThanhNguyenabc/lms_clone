@@ -1,0 +1,36 @@
+
+[none]
+en = "None"
+vn = "Không có"
+
+[solid]
+en = "Solid"
+vn = "Đường liền"
+
+[dotted]
+en = "Dotted"
+vn = "Đường chấm chấm"
+
+[dashed]
+en = "Dashed"
+vn = "Đường vạch đứt"
+
+[double]
+en = "Double"
+vn = "Đường đôi"
+
+[groove]
+en = "Groove"
+vn = "Đường rãnh"
+
+[ridge]
+en = "Ridge"
+vn = "Đường chóp"
+
+[inset]
+en = "Inset"
+vn = "Đường bóng bên trong"
+
+[outset]
+en = "Outset"
+vn = "Đường bóng bên ngoài"

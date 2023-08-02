@@ -1,0 +1,12 @@
+
+[yes]
+en = "Attended the class on time"
+vn = "Đến lớp đúng giờ"
+
+[late]
+en = "Arrived late"
+vn = "Đến trễ"
+
+[miss]
+en = "Missed the class"
+vn = "Vắng mặt trong lớp"

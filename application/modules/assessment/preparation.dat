@@ -1,0 +1,16 @@
+
+[vocabulary label]
+en = "VOCABULARY"
+vn = "TỪ VỰNG"
+
+[test label]
+en = "TESTS"
+vn = "BÀI KIỂM TRA"
+
+[materials title]
+en = "Preparation for this Lesson"
+vn = "Bài soạn chuẩn bị cho bài học này"
+
+[recentclasses title]
+en = "Last $n$ classes"
+vn = "$n$ lớp học trước"

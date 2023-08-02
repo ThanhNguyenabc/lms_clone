@@ -1,0 +1,20 @@
+
+[today]
+en = "Today"
+vn = "Hôm nay"
+
+[yesterday]
+en = "Yesterday"
+vn = "Hôm qua"
+
+[this week]
+en = "This Week"
+vn = "Tuần này"
+
+[last week]
+en = "Last Week"
+vn = "Tuần trước"
+
+[last month]
+en = "One Month Ago"
+vn = "Một tháng trước"

@@ -1,0 +1,16 @@
+
+[students]
+en = "STUDENTS"
+vn = "HỌC VIÊN"
+
+[staff]
+en = "STAFF"
+vn = "NHÂN VIÊN"
+
+[families]
+en = "FAMILIES"
+vn = "GIA ĐÌNH"
+
+[search]
+en = "SEARCH"
+vn = "TÌM KIẾM"

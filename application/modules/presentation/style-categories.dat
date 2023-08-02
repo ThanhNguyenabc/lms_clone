@@ -1,0 +1,25 @@
+
+[border]
+en = "Border"
+icon = "border-top-left"
+vn = "Đường viền"
+
+[content]
+en = "Content"
+icon = "align-justify"
+vn = "Nội dung"
+
+[rotation]
+en = "Rotation"
+icon = "arrow-rotate-right"
+vn = "Xoay vòng"
+
+[shadow]
+en = "Shadow"
+icon = "cube"
+vn = "Bóng"
+
+[effects]
+en = "Effects"
+icon = "palette"
+vn = "Hiệu ứng"

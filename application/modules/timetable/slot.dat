@@ -1,0 +1,20 @@
+
+[teacher unknown]
+en = "Other Teacher"
+vn = "Giáo viên khác"
+
+[teacher missing]
+en = "No Teacher yet"
+vn = "Chưa có Giáo viên"
+
+[center unknown]
+en = "Other Center"
+vn = "Trung tâm khác"
+
+[room unknown]
+en = "Other Center"
+vn = "Trung tâm khác"
+
+[room tbd]
+en = "Room TBD"
+vn = "Phòng học đang được cập nhật"

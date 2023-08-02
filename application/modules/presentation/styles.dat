@@ -1,0 +1,80 @@
+
+[element-content-centered]
+en = "Center Content"
+type = "content"
+vn = "Nội dung trung tâm"
+
+[element-rotate-right-30]
+en = "Tilted Right 30"
+type = "rotation"
+vn = "Nghiêng phải 30"
+
+[element-rotate-left-30]
+en = "Tilted Left 30"
+type = "rotation"
+vn = "Nghiêng trái 30"
+
+[element-rotate-right-45]
+en = "Tilted Right 45"
+type = "rotation"
+vn = "Nghiêng phải 45"
+
+[element-rotate-left-45]
+en = "Tilted Left 45"
+type = "rotation"
+vn = "Nghiêng trái 45"
+
+[element-rotate-right-60]
+en = "Tilted Right 60"
+type = "rotation"
+vn = "Nghiêng phải 60"
+
+[element-rotate-left-60]
+en = "Tilted Left 60"
+type = "rotation"
+vn = "Nghiêng trái 60"
+
+[element-rotate-right]
+en = "Rotated Right"
+type = "rotation"
+vn = "Xoay phải"
+
+[element-rotate-left]
+en = "Rotated Left"
+type = "rotation"
+vn = "Xoay trái"
+
+[element-mirrored-horizontal]
+en = "Mirrored"
+type = "rotation"
+vn = "Phản chiếu"
+
+[element-mirrored-vertical]
+en = "Flipped"
+type = "rotation"
+vn = "Lật"
+
+[element-shadowed-outline]
+en = "Outer Shadow"
+type = "shadow"
+vn = "Bóng ngoài"
+
+[element-shadowed-text]
+en = "Text Shadow"
+type = "shadow"
+vn = "Bóng văn bản"
+
+[element-shadowed-image]
+en = "Picture Shadow"
+type = "shadow"
+vn = "Bóng hình"
+
+[element-translucent]
+en = "Translucent"
+type = "effects"
+vn = "Trong suốt"
+
+[element-blurred]
+en = "Blurred"
+type = "effects"
+vn = "Mờ"

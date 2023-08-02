@@ -1,0 +1,41 @@
+
+[module]
+menu-icon = "timeoff"
+en = "TIME OFF"
+vn = "THỜI GIAN NGHỈ"
+
+[module header title]
+en = "TIME OFF"
+vn = "THỜI GIAN NGHỈ"
+
+[entity myself]
+en = "Myself"
+vn = "Bản thân"
+
+[entity centers]
+en = "Centers"
+vn = "Trung tâm"
+
+[entity teacher]
+en = "Teachers"
+vn = "Giáo viên"
+
+[period hours]
+en = "$hours$ Hours"
+vn = "$hours$ Tiếng"
+
+[period halfday]
+en = "Half Day"
+vn = "Nữa ngày"
+
+[period fullday]
+en = "All Day"
+vn = "Toàn ngày"
+
+[item timefrom caption]
+en = "From"
+vn = "Từ"
+
+[item timeto caption]
+en = "To"
+vn = "Đến"

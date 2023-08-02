@@ -1,0 +1,32 @@
+<div data-uid = "vocabulary-term" class = "container-row gap-large padding-large">
+
+	<div class = "border-rounded shadow-sharp-bottom" style = "overflow:hidden; width:352px; height:352px;">
+		<img data-uid = "picture" class = "style-blurred-heavy style-clickable" style = "width:100%; height:100%; object-fit:cover; transition:all 2s ease" />
+	</div>
+	
+    <div class = "container-column gap-large">
+	
+		<div data-component = "item" class = "container-column shadow-sharp-right gap-medium padding-medium" style = "overflow:hidden; width:480px; height:96px; background-color:var(--color-light)">
+			<div style = "width:100%" class = "caption-noted-medium">%practice caption meaning%</div>
+			<element data-uid = "meaning" style = "width:100%" control-dropdown-plain />
+		</div>
+		
+		<div data-component = "item" class = "container-column shadow-sharp-right gap-medium padding-medium" style = "overflow:hidden; width:480px; height:96px; background-color:var(--color-light)">
+			<div style = "width:100%" class = "caption-noted-medium">%practice caption spelling%</div>
+			<element data-uid = "spelling" style = "width:100%" control-edit-plain />
+		</div>
+		
+		<div data-uid = "pronunciation" data-component = "item" class = "container-row shadow-sharp-right gap-medium padding-medium" style = "justify-content:space-between; overflow:hidden; width:480px; height:96px; background-color:var(--color-light)">
+			<div class = "container-column" style = "">
+				<div style = "width:100%" class = "caption-noted-medium">%practice caption pronunciation%</div>
+				<div style = "width:100%"></div>
+			</div>
+			
+			<div data-uid = "record" class = "container-column content-centered style-clickable" style = "width:64px; height:64px;">
+				<li data-uid  = "microphone" class = "fa-solid fa-microphone"></li>
+			</div>
+		</div>
+	
+	</div>
+	
+</div>

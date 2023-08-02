@@ -1,0 +1,27 @@
+
+[title]
+en = "Vocabulary →"
+vn = "Từ vựng →"
+
+[text]
+en = "Edit vocabulary items that will be used to create context-sensitive flashcards across all teaching and learning activities"
+vn = "Chỉnh sửa từ vựng sẽ được sử dụng thẻ từ vựng trong tất cả hoạt động giảng dạy và học tập"
+
+[media]
+card = "cover-dictionary.jpg"
+
+[popup new title]
+en = "Enter an ID for the new Term"
+vn = "Nhập ID cho thuật ngữ mới"
+
+[popup new placeholder]
+en = "TERM_X"
+vn = "TERM_X"
+
+[popup delete title]
+en = "DELETE TERM"
+vn = "XÓA THUẬT NGỮ"
+
+[popup delete subtitle]
+en = "Are you sure to delete this Term? To confirm, type the Term ID <b>$id$</b>"
+vn = "Bạn có chắc xóa thuật ngữ này không? Để xác nhận thao tác này, hãy nhập ID thuật ngữ <b>$id$</b>"

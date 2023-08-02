@@ -1,0 +1,248 @@
+
+[warmer]
+en = "Warmer/Review"
+vn = "Bài Khởi động/Ôn tập"
+
+[leadin]
+en = "Lead-in"
+vn = "Dẫn vào"
+
+[meaning]
+en = "Presentation: Meaning"
+vn = "Bài thuyết trình: Ngữ nghĩa"
+
+[form]
+en = "Presentation: Form"
+vn = "Bài thuyết trình: Thể từ"
+
+[pronunciation]
+en = "Pronunciation"
+vn = "Phát âm"
+
+[conprac]
+en = "Controlled Practice"
+vn = "Bài tập có kiểm soát"
+
+[sconprac]
+en = "Semi-controlled Practice"
+vn = "Bài tập bán kiểm soát"
+
+[freepractice]
+en = "Freer Practice"
+vn = "Bài tập tự do"
+
+[error]
+en = "Delayed Error Correction"
+vn = "Sửa lỗi bị trì hoãn"
+
+[noticing]
+en = "Noticing"
+vn = "Gây chú ý"
+
+[rulehyp]
+en = "Rule Hypothesizing"
+vn = "Giả thuyết quy tắc"
+
+[ruletest]
+en = "Rule Testing"
+vn = "Kiểm tra quy tắc"
+
+[ruleclar]
+en = "Rule Clarification"
+vn = "Làm rõ quy tắc"
+
+[flexi]
+en = "Flexi Stage"
+vn = "Giai đoạn linh hoạt"
+
+[prelisten]
+en = "Pre-listening"
+vn = "Nghe khi trước"
+
+[listen]
+en = "Listening"
+vn = "Nghe"
+
+[postlisten]
+en = "Post-listening"
+vn = "Sau khi nghe"
+
+[preread]
+en = "Pre-reading"
+vn = "Trước khi đọc"
+
+[read]
+en = "Reading"
+vn = "Đọc"
+
+[postread]
+en = "Post-reading"
+vn = "Sau khi đọc"
+
+[prespeak]
+en = "Pre-speaking"
+vn = "Trước khi nói"
+
+[speak]
+en = "Speaking"
+vn = "Nói"
+
+[postspeak]
+en = "Post-speaking"
+vn = "Sau khi nói"
+
+[prewrite]
+en = "Pre-writing"
+vn = "Trước khi viết"
+
+[write]
+en = "Writing"
+vn = "Viết"
+
+[postwrite]
+en = "Post-writing"
+vn = "Sau khi viết"
+
+[prevocab]
+en = "Pre-Vocabulary"
+vn = "Trước khi học từ vựng"
+
+[vocab]
+en = "Vocabulary"
+vn = "Học từ vựng"
+
+[postvocab]
+en = "Post-Vocabulary"
+vn = "Sau khi học từ vựng"
+
+[pretask]
+en = "Pre-task"
+vn = "Hướng dẫn làm hoạt động"
+
+[task]
+en = "Task"
+vn = "Hoạt động"
+
+[posttask]
+en = "Post-task"
+vn = "Sau khi làm hoạt động"
+
+[gist]
+en = "Gist"
+vn = "Ý chính"
+
+[detail]
+en = "Detail"
+vn = "Chi tiết"
+
+[specific]
+en = "Specific"
+vn = "Cụ thể"
+
+[comprehension]
+en = "Comprehension"
+vn = "Hiểu biết"
+
+[projectdemo]
+en = "Project Demo"
+vn = "Dự án làm thử"
+
+[materialprep]
+en = "Materials Prep"
+vn = "Chuẩn bị tài nguyên"
+
+[project]
+en = "Project"
+vn = "Dự án"
+
+[context]
+en = "Context Setting"
+vn = "Thiết lập ngử cảnh"
+
+[testintro]
+en = "Test Introduction"
+vn = "Kiểm tra thử giới thiệu"
+
+[testpractice]
+en = "Test Practice"
+vn = "Kiểm tra thử bài luyện tập"
+
+[test]
+en = "Test"
+vn = "Kiểm tra thử"
+
+[teach]
+en = "Teach"
+vn = "Giảng dạy"
+
+[skillstrats]
+en = "Skills and Strategies"
+vn = "Kỹ năng và Phương thức"
+
+[reflection]
+en = "Reflection"
+vn = "Nhận xét"
+
+[opening]
+en = "Opening Sequence"
+vn = "Trình tự mở đầu"
+
+[circle]
+en = "Circle Time"
+vn = "Ngồi thành vòng tròn"
+
+[review]
+en = "Review"
+vn = "Ôn tập"
+
+[refocusing]
+en = "Refocusing"
+vn = "Tập trung lại"
+
+[targlang]
+en = "Target Language Introduction"
+vn = "Giới thiệu Ngôn ngữ chính"
+
+[funclang]
+en = "Introduction to Functional Language"
+vn = "Giới thiệu Ngôn ngữ chức năng"
+
+[langref]
+en = "Language Reflection"
+vn = "Ôn tập Ngôn ngữ"
+
+[grouprec1]
+en = "Group Receptive 1"
+vn = "Hoạt động tiếp thu nhóm 1"
+
+[grouprec2]
+en = "Group Receptive 2"
+vn = "Hoạt động tiếp thu nhóm 2"
+
+[indrec1]
+en = "Individual Receptive 1"
+vn = "Hoạt động tiếp thu cá nhân 1"
+
+[indrec2]
+en = "Individual Receptive 2"
+vn = "Hoạt động tiếp thu cá nhân 2"
+
+[groupprod]
+en = "Group Productive"
+vn = "Hoạt đông sản xuất nhóm"
+
+[indprod]
+en = "Individual Productive"
+vn = "Hoạt đông sản xuất cá nhân"
+
+[fwact]
+en = "Follow-up Activities"
+vn = "Hoạt động nối tiếp"
+
+[cleanup]
+en = "Clean-up"
+vn = "Dọn dẹp"
+
+[goodbye]
+en = "Rewards and Goodbye"
+vn = "Trao thưởng và Tạm biệt"

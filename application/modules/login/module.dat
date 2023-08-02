@@ -1,0 +1,21 @@
+
+[placeholder username]
+en = "ID, Email or Mobile"
+vn = "ID, Email hoặc Số điện thoại"
+
+[placeholder password]
+en = "Password"
+vn = "Mật khẩu"
+
+[login failed text]
+en = "Can't login with these credentials"
+vn = "Không thể đăng nhập bằng những thông tin đăng nhập này"
+
+[login button text]
+en = "LOGIN"
+vn = "ĐĂNG NHẬP"
+
+[ssologin button text]
+en = "LOGIN"
+vn = "ĐĂNG NHẬP"
+ssologin-icon = "google-logo"

@@ -1,0 +1,245 @@
+/*------------------------------------------------------------------------------------------------*/
+/*                                                                                                */
+/*                                      S T R U C T U R E                                         */
+/*                                                                                                */
+/*------------------------------------------------------------------------------------------------*/
+
+
+html 
+{
+ box-sizing: border-box;  
+ 
+ margin:  0px; 
+ padding: 0px;
+ border:  0px;
+}
+
+
+*, *:before, *:after 
+{
+ box-sizing: inherit;
+}
+
+
+body 
+{
+ margin:   0px;
+ padding:  0px;
+ border:   0px;
+ 
+ overflow: hidden;
+}
+
+
+
+
+
+canvas 
+{
+ -webkit-touch-callout: none;
+ -webkit-user-select:   none;
+ -moz-user-select:      none;
+ -ms-user-select:       none;
+ user-select:           none;
+}
+
+
+
+hr 
+{
+ border:     none;
+ border-top: 3px double var(--color-dark);
+ color:      var(--color-dark);
+ overflow:   visible;
+ text-align: center;
+ height:     5px;
+}
+
+
+
+textarea
+{
+ resize:none;
+}
+
+
+
+
+
+/* 15inch pc - 19inch wide pc */
+
+.wrap 
+{
+ min-width: 1024px;
+ max-width: 1280px;
+ width:     100%;
+ margin:    0 auto;
+ padding:   0;
+ overflow:  hidden;    
+}
+
+
+/* ipad horizontal - 15inch pc */
+
+@media screen and (max-width:1024px) 
+{
+ .wrap 
+ {
+  max-width: 1024px;
+  min-width: 768px;
+  width:     100%;
+  margin:    0 auto;
+  padding:   0px;    
+ }
+}
+
+
+/* iphone6p - ipad horizontal */
+
+@media screen and (max-width: 780px) 
+{
+ .wrap 
+ {
+  min-width: 420px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  overflow: hidden;    
+ }
+}
+
+
+/* min - iphone6p */
+
+@media screen and (max-width: 420px) 
+{
+ .wrap 
+ {
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  overflow: hidden;    
+ }
+}
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------*/
+/*                                                                                                */
+/*                            S T A N D A R D    E L E M E N T S                                  */
+/*                                                                                                */
+/*------------------------------------------------------------------------------------------------*/
+
+
+video::webkit-media-controls-fullscreen-button
+{
+ display: none !important; 
+}
+
+
+
+video::-webkit-media-controls-panel,
+audio::-webkit-media-controls-panel
+{
+ background-color: transparent;
+ border-radius:4px;
+}
+
+
+
+video::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-mute-button 
+{ 
+ display: none !important; 
+} 
+
+
+video::-webkit-media-controls-volume-slider,
+audio::-webkit-media-controls-volume-slider 
+{ 
+ display: none !important; 
+}
+
+
+video::-webkit-media-controls-volume-slider,
+audio::-webkit-media-controls-current-time-display
+{
+ display: none;
+}
+
+
+video::-webkit-media-controls-volume-slider,
+audio::-webkit-media-controls-time-remaining-display 
+{
+ display: none;
+}
+
+
+video::-webkit-media-controls-enclosure,
+audio::-webkit-media-controls-enclosure 
+{
+ background-color: transparent;
+}
+
+
+
+
+
+::-webkit-scrollbar 
+{
+  width:  8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-button 
+{
+ width:  0px;
+ height: 0px;
+}
+
+::-webkit-scrollbar-thumb 
+{
+ background:    rgba(0,0,0,0.15);
+ border:        0px none transparent;
+ border-radius: 4px;
+}
+
+
+::-webkit-scrollbar-thumb:active 
+{
+ background: var(--color-accented);
+}
+
+::-webkit-scrollbar-track 
+{
+ background:    transparent;
+ border:        0px none transparent;
+ border-radius: 4px;
+}
+
+::-webkit-scrollbar-track:active 
+{
+ background: transparent;
+}
+
+::-webkit-scrollbar-corner 
+{
+ background: transparent;
+}
+
+
+
+
+input:focus, textarea:focus, select:focus
+{
+ outline: none;
+}
+
+
+input::placeholder, textarea::placeholder
+{ 
+ opacity: 0.5;
+}

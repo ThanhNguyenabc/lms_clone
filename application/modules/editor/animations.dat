@@ -1,0 +1,9 @@
+[Headshake]
+animation = "headShake 0.75s linear 1"
+
+[Fade In Up]
+animation = "fadeInUp 1.5s ease-out 1"
+
+
+[Attention Catch]
+animation = "pulse 1s linear 3"

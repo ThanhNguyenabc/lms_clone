@@ -1,0 +1,9 @@
+
+[module]
+menu-icon = "manage"
+en = "Admin"
+vn = "Quản trị"
+
+[module header title]
+en = "ADMIN"
+vn = "QUẢN TRỊ"

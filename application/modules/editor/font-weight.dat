@@ -1,0 +1,16 @@
+
+[normal]
+en = "normal"
+vn = "Chữ bình thường"
+
+[bold]
+en = "Bold"
+vn = "Chữ in đậm"
+
+[bolder]
+en = "Bolder"
+vn = "Chữ in đậm hơn"
+
+[lighter]
+en = "Lighter"
+vn = "Chữ in nhẹ hơn"

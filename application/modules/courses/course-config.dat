@@ -1,0 +1,14 @@
+
+[online]
+en = "Online"
+vn = "Trực tuyến"
+
+[local native]
+en = "Alternate Local/Native"
+vn = "Chuyển đổi giáo viên Việt Nam/bản ngữ"
+require = "teacher_id,local_id"
+
+[native local]
+en = "Alternate Native/Local"
+vn = "Chuyển đổi giáo viên bản ngữ/Việt Nam"
+require = "teacher_id,local_id"

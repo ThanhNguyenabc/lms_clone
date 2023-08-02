@@ -1,0 +1,111 @@
+
+[chart none text]
+en = "N/A"
+vn = "Không có sẵn"
+
+[chart none subtext]
+en = "No Result Yet"
+vn = "Chưa có kết quả"
+
+[chart post subtext]
+en = "Test Yourself Again"
+vn = "Tự kiểm tra lại"
+
+[chart post improvement]
+en = "You Improved $improvement$%"
+vn = "Bạn đã tiến bộ $improvement$%"
+
+[vocabulary]
+en = "VOCABULARY"
+vn = "TỪ VỰNG"
+icon = "book"
+
+[vocabulary action practice]
+en = "Practice new Words"
+vn = "Luyện tập từ vựng"
+icon = "book"
+
+[vocabulary action prelesson]
+en = "Test your Vocabulary"
+icon = "clipboard-check"
+vn = "Kiểm tra vốn từ vựng của bạn"
+
+[vocabulary action postlesson]
+en = "Check your Improvements"
+vn = "Xem sự tiến bộ của bạn"
+icon = "chart-line"
+
+[test]
+en = "HOMEWORK"
+vn = "BÀI TẬP VỀ NHÀ"
+icon = "clipboard-check"
+
+[test action practice]
+en = "Keep practicing"
+vn = "Hãy tiếp tục rèn luyện"
+icon = "book"
+
+[test action prelesson]
+en = "Test your knowledge"
+vn = "Kiểm tra kiến thức của bạn"
+icon = "clipboard-check"
+
+[test action postlesson]
+en = "Check your Improvements"
+vn = "Xem sự tiến bộ của bạn"
+icon = "chart-line"
+
+[video]
+en = "VIDEO"
+vn = "VIDEO"
+icon = "film"
+
+[video activity watch]
+en = "Watch"
+vn = "Xem"
+icon = "film"
+
+[video activity learn]
+en = "Learn"
+vn = "Học"
+icon = "book"
+
+[video activity readspeak]
+en = "Read and Repeat"
+vn = "Đọc và lặp lại"
+icon = "comment-dots"
+
+[video activity listenspeak]
+en = "Listen and Repeat"
+vn = "Nghe và lặp lại"
+icon = "ear-listen"
+
+[video activity listenwrite]
+en = "Listen and Write"
+vn = "Nghe và Viết"
+icon = "keyboard"
+
+[documents]
+en = "MATERIALS"
+vn = "TÀI NGUYÊN"
+icon = "file"
+
+[presentation]
+en = "CLASSROOM"
+vn = "LỚP HỌC"
+icon = "chalkboard"
+
+[presentation activity review]
+en = "Review Classroom Slides"
+vn = "Xem lại bài thuyết trình lớp học"
+icon = "chalkboard"
+
+[bookpage]
+en = "COURSEBOOK"
+vn = "Sách giáo khoa"
+icon = "book"
+
+[bookpage activity read]
+en = "Read Coursebook"
+vn = "Đọc sách giáo khoa"
+icon = "book"

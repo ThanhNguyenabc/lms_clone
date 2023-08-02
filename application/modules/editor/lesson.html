@@ -1,0 +1,54 @@
+<div class = "container-row padding-small gap-large" style = "overflow:hidden; height:100%; width:100%;">
+   
+    <!--
+	<div class = "container-column gap-medium" style = "width:160px; height:100%; flex-shrink:0">
+		
+		<div class = "container-row" style = "width:100%; justify-content:space-between">
+			<a class = "text-title-medium">%lessons title%</a>
+		</div>
+		
+		
+		<element data-uid = "lessons-list" style = "width:100%; flex-grow:1; overflow-y:scroll" control-listbox-plain />
+
+	</div>
+	-->
+
+    <div data-uid = "lesson-panel-edit" class = "container-column gap-medium" style = "width:512px; height:100%; visibility:visible; flex-shrink:0; scrollbar-gutter: stable;">
+	
+		<div class = "container-row gap-medium" style = "width:100%; align-items: center; justify-content:space-between">
+			
+			<div class = "container-row gap-medium" style = "align-items:center">
+				<a class = "text-title-medium">%lesson edit title%</a>
+			</div>
+			
+			
+			<div class = "container-row gap-medium" style = "align-items:center">
+				<element data-uid = "lessons-current" readonly control-edit-plain />
+				<li data-uid = "lessons-find"   class = "fa-solid fa-magnifying-glass style-clickable"></li>
+				<li data-uid = "lessons-new"    class = "fa-solid fa-folder-plus style-clickable"></li>
+				<li data-uid = "lessons-delete" class = "fa-solid fa-trash-can style-clickable"></li>
+			</div>
+		</div>
+		<!--
+		<element data-uid = "test-sheet-edit" style = "width:100%; height:100%; overflow:scroll; xwhite-space:nowrap;" control-text-plain />
+		-->
+		
+		<div data-uid = "lesson-edit" class = "border-rounded" style = "width:100%; height:100%; overflow:hidden; background-color:var(--color-white)"></div>
+	
+	</div>
+	
+	<div class = "container-row" style = "height:100%; flex-grow:1; justify-content:center">
+	
+		<div data-uid = "lesson-panel-components" class = "container-column gap-large" style = "width:100%; height:100%; visibility:hidden; overflow:hidden">
+					
+			<div data-uid = "components-header" class = "container-row" style = "width:100%">
+			</div>
+			
+			<div data-uid = "components-content" class = "container-column" style = "width:100%; flex-grow:1; overflow:hidden;">
+			</div>
+					
+		</div>
+		
+	</div>
+	
+</div>

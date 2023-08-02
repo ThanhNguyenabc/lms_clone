@@ -1,0 +1,28 @@
+[good]
+color     = "good"
+sound     = "right"
+animation = "bounce 1s linear 1"
+
+
+[right]
+color     = "good"
+sound     = "right"
+animation = "bounce 1s linear 1"
+
+
+[soso]
+color     = "soso"
+sound     = "right"
+animation = ""
+
+
+[bad]
+color     = "bad"
+sound     = "wrong"
+animation = "headShake 1s linear 1"
+
+
+[wrong]
+color     = "bad"
+sound     = "wrong"
+animation = "headShake 1s linear 1"

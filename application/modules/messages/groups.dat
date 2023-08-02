@@ -1,0 +1,20 @@
+
+[unread]
+en = "UNREAD"
+vn = "CHƯA ĐỌC"
+period = "unread"
+
+[last month]
+en = "LAST MONTH"
+vn = "THÁNG TRƯỚC"
+period = "last month"
+
+[last week]
+en = "LAST WEEK"
+vn = "TUẦN TRƯỚC"
+period = "last week"
+
+[this week]
+en = "THIS WEEK"
+vn = "TUẦN NÀY"
+period = "this week"

@@ -1,0 +1,40 @@
+
+[select list title]
+en = "Select a User"
+vn = "Tìm người dùng"
+
+[select list button]
+en = "SELECT"
+vn = "CHỌN"
+
+[placeholder firstname]
+en = "First Name"
+vn = "Tên"
+
+[placeholder lastname]
+en = "Last Name"
+vn = "Họ"
+
+[placeholder email]
+en = "Email"
+vn = "Email"
+
+[placeholder mobile]
+en = "Mobile"
+vn = "Số điện thoại"
+
+[placeholder id]
+en = "ID"
+vn = "ID"
+
+[select family title]
+en = "Assign to Family or Company"
+vn = "Nhập Gia đình hoặc Công ty"
+
+[family removeuser title]
+en = "Remove User"
+vn = "Xóa người dùng"
+
+[family removeuser text]
+en = "Are you sure you want to remove <b>$name$</b> from this family/company?"
+vn = "Bạn có chắc chắn muốn xóa <b>$name$</b> khỏi gia đình/công ty này không?"

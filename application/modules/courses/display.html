@@ -1,0 +1,83 @@
+<div class = "container-row gap-medium" style = "width:100%; height:100%; overflow:hidden">
+
+		<!-- SIDE PANEL -->
+		<div class = "container-column border-rounded padding-medium gap-medium" style = "width:256px; height:100%; justify-content:space-between; background-color:var(--color-light); overflow:hidden">
+			
+			<!-- SEARCH SECTION -->
+			<div class = "container-column gap-medium" style = "width:100%; height:100%; overflow:hidden">
+			
+				 
+				<div class = "container-column gap-small" style = "width:100%">
+					<div class = "text-title-medium">%search centers%</div>
+					<element data-uid = "search-centers"  style = "width:100%" control-dropdown-plain />
+				</div>
+				
+				<div class = "container-column gap-small" style = "width:100%">
+					<div class = "text-title-medium">%search status%</div>
+					<element data-uid = "search-status"   style = "width:100%" control-dropdown-plain />
+				</div>
+				
+				<div class = "container-row gap-medium" style = "width:100%; justify-content:space-between">
+					
+					<div class = "container-column gap-small">
+						<div class = "text-title-medium">%search program%</div>
+						<element data-uid = "search-program"  style = "width:100%" control-dropdown-plain />
+					</div>
+					
+					<div class = "container-column gap-small" style = "flex-grow:1">
+						<div class = "text-title-medium">%search level%</div>
+						<element data-uid = "search-level" style = "width:100%" control-dropdown-plain />
+					</div>
+					
+				</div>
+				
+				<div class = "container-column gap-small" style = "width:100%">
+					
+					<select data-uid = "search-datemode" class = "text-title-medium structure-seamless" style = "width:100%">
+					</select>
+					
+					<element data-uid = "search-datefrom" style = "width:100%" control-date-plain />
+				</div>
+				
+				<div class = "container-row gap-medium" style = "width:100%; justify-content:space-between">
+					<div class = "container-column gap-small" style = "width:100%">
+						<div class = "text-title-medium">%search timefrom%</div>
+						<element data-uid = "search-timefrom"   style = "width:100%" control-dropdown-plain />
+					</div>
+					
+					<div class = "container-column gap-small" style = "width:100%">
+						<div class = "text-title-medium">%search timeto%</div>
+						<element data-uid = "search-timeto"   style = "width:100%" control-dropdown-plain />
+					</div>
+				</div>
+				
+				
+				<div class = "container-column gap-small" style = "width:100%">
+					<div class = "text-title-medium">%search days%</div>
+					<element data-uid = "search-days" multiple="true" size = 7 style = "width:100%" control-dropdown-plain />
+				</div>
+				
+			</div>
+			
+			
+			<!-- BUTTONS SECTION -->
+			<div class = "container-column gap-medium" style = "width:100%">
+				<element data-uid = "button-course-search" {text:%button course search%} button-small-stretch /> 
+				
+				<element data-uid = "button-course-new" {text:%button course create%} button-small-stretch /> 
+			</div>
+			
+		</div>
+		
+		<!-- RESULTS PANEL -->
+		<div data-uid = "courses-list" class = "container-column gap-medium border-rounded" style = "width:384px; height:100%; overflow:hidden; background-color:var(--color-light); visibility:hidden">
+		
+		</div>
+		
+		
+		<!-- DISPLAY PANEL -->
+		<div data-uid = "course-display" class = "container-column gap-medium" style = "flex-grow:1; height:100%; overflow:hidden auto">
+		
+		</div>
+
+</div>

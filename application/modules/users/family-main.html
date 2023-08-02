@@ -1,0 +1,154 @@
+<div data-uid = "family-display" class = "container-column gap-large">
+
+	<!-- CORE -->
+	<div class = "container-row gap-medium">
+	
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%type%</div>
+			<element data-uid = "family-type"   style = "width:100%" control-dropdown-plain />
+		</div>
+		
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%status%</div>
+			<element data-uid = "family-status"   style = "width:100%" control-dropdown-plain />
+		</div>
+		
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%center%</div>
+			<element data-uid = "family-center"  style = "width:100%" control-dropdown-plain />
+		</div>
+		
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%manager_id%</div>
+			<element data-uid = "family-manager_id" readonly  style = "width:100%" control-edit-plain />
+		</div>
+
+	</div>
+	
+	
+	<!-- IDENTIFICATION -->
+	<div class = "container-row gap-medium">
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%name%</div>
+			<element data-uid = "family-name"     style = "width:100%" control-edit-plain />
+		</div>
+	
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%idnumber%</div>
+			<element data-uid = "family-idnumber"  style = "width:100%" control-edit-plain />
+		</div>
+		
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%taxcode%</div>
+			<element data-uid = "family-taxcode"   style = "width:100%" control-edit-plain />
+		</div>
+	</div>
+	
+	<!-- ADDRESS -->
+	<div class = "container-row gap-medium">
+	
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%country%</div>
+			<element data-uid = "family-country"     style = "width:100%" control-edit-plain />
+		</div>
+		
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%city%</div>
+			<element data-uid = "family-center"   style = "width:100%" control-edit-plain />
+		</div>
+		
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%province%</div>
+			<element data-uid = "family-province" style = "width:100%" control-edit-plain />
+		</div>
+		
+		<div class = "container-column gap-small" style = "width:128px">
+			<div class = "text-title-small">%address%</div>
+			<element data-uid = "family-address"   style = "width:100%" control-edit-plain />
+		</div>
+
+	</div>
+	
+	<!-- NOTES -->
+	<div class = "container-row gap-medium" style = "width:100%">
+		<div class = "container-column gap-small" style = "width:100%">
+			<div class = "text-title-small">%notes%</div>
+			<element data-uid = "family-notes"    style = "width:100%; height:128px; overflow:hidden auto" control-text-plain />
+		</div>
+	</div>
+	
+	
+	
+	
+	<!-- DATA IN SINGLE JSON FIELD -->
+	
+	
+	
+	
+	<!-- CONTACT 1 -->
+	<div class = "container-column gap-small">
+	
+		<div class = "container-row gap-medium text-title-small">
+		%contact%
+		</div>
+	
+		<div class = "container-row gap-medium">
+		
+			<div class = "container-column gap-small" style = "width:128px">
+				<div class = "text-title-small">%name%</div>
+				<element data-uid = "contact_1-name" data-type = "data"  style = "width:100%" control-edit-plain />
+			</div>
+			
+			<div class = "container-column gap-small" style = "width:128px">
+				<div class = "text-title-small">%position%</div>
+				<element data-uid = "contact_1-position"  data-type = "data" style = "width:100%" control-edit-plain />
+			</div>
+			
+			<div class = "container-column gap-small" style = "width:128px">
+				<div class = "text-title-small">%mobile%</div>
+				<element data-uid = "contact_1-mobile"  data-type = "data" style = "width:100%" control-edit-plain />
+			</div>
+			
+			<div class = "container-column gap-small" style = "width:128px">
+				<div class = "text-title-small">%email%</div>
+				<element data-uid = "contact_1-email" data-type = "data" style = "width:100%" control-edit-plain />
+			</div>
+
+		</div>
+		
+	</div>
+	
+	<!-- CONTACT 2 -->
+	<div class = "container-column gap-small">
+	
+		<div class = "container-row gap-medium text-title-small">
+		%contact%
+		</div>
+	
+		<div class = "container-row gap-medium">
+		
+			<div class = "container-column gap-small" style = "width:128px">
+				<div class = "text-title-small">%name%</div>
+				<element data-uid = "contact_2-name" data-type = "data"    style = "width:100%" control-edit-plain />
+			</div>
+			
+			<div class = "container-column gap-small" style = "width:128px">
+				<div class = "text-title-small">%position%</div>
+				<element data-uid = "contact_2-position" data-type = "data"   style = "width:100%" control-edit-plain />
+			</div>
+			
+			<div class = "container-column gap-small" style = "width:128px">
+				<div class = "text-title-small">%mobile%</div>
+				<element data-uid = "contact_2-mobile" data-type = "data"   style = "width:100%" control-edit-plain />
+			</div>
+			
+			<div class = "container-column gap-small" style = "width:128px">
+				<div class = "text-title-small">%email%</div>
+				<element data-uid = "contact_2-email" data-type = "data" style = "width:100%" control-edit-plain />
+			</div>
+
+		</div>
+	</div>
+	
+	
+</div>

@@ -1,0 +1,24 @@
+
+[day set title]
+en = "Add Time Off ($date$)"
+vn = "Thêm ngày thời gian ($date$)"
+
+[day set button]
+en = "SET"
+vn = "ĐẶT"
+
+[day set timefrom]
+en = "From"
+vn = "Từ"
+
+[day set timeto]
+en = "To"
+vn = "Đến"
+
+[day set timetotal]
+en = "Time"
+vn = "Thời gian"
+
+[day delete button]
+en = "DELETE"
+vn = "XÓA"

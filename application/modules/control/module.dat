@@ -1,0 +1,9 @@
+
+[module]
+menu-icon = "control"
+en = "CONTROL"
+vn = "ĐIỀU KHIỂN"
+
+[module header title]
+en = "CONTROL"
+vn = "ĐIỀU KHIỂN"

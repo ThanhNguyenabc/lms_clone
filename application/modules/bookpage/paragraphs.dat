@@ -1,0 +1,23 @@
+
+[info]
+paragraphs = "intro,content-1,content-2,content-3,conclusion"
+
+[intro]
+en = "Introduction"
+vn = "Giới thiệu"
+
+[content-1]
+en = "Content 1"
+vn = "Nội dung 1"
+
+[content-2]
+en = "Content 2"
+vn = "Nội dung 2"
+
+[content-3]
+en = "Content 3"
+vn = "Nội dung 3"
+
+[conclusion]
+en = "Conclusion"
+vn = "Kết luận"

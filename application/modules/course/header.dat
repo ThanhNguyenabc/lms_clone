@@ -1,0 +1,12 @@
+
+[teacher]
+en = "With <b>$text$</b>"
+vn = "Với <b>$text$</b>"
+
+[center]
+en = "At <b>$text$</b>"
+vn = "Tại <b>$text$</b>"
+
+[time]
+en = "$from$ - $to$"
+vn = "$from$ - $to$"

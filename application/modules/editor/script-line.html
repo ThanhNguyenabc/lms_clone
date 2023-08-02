@@ -1,0 +1,33 @@
+<div data-uid = "line" class = "container-row text-caption-medium gap-small padding-small style-selectable style-pushable" style = "width:100%">
+
+	<div class = "container-column gap-small" style = "width:10%">
+		%script line time%
+		
+		<element data-uid = "time" style = "width:100%; height:40px" control-edit-plain />
+	</div>
+	
+	
+	<div class = "container-column gap-small" style = "width:22.5%">
+		%script line element%
+		
+		<element data-uid = "element" data-source = "elements" style = "width:100%; height:40px" control-dropdown-plain />
+	</div>	
+	
+	<div class = "container-column gap-small" style = "width:22.5%">
+		%script line command%
+		
+		<element data-uid = "command" data-source = "commands" style = "width:100%; height:40px" control-dropdown-plain />
+	</div>	
+	
+	<div class = "container-column gap-small" style = "width:22.5%">
+		%script line params%
+		
+		<element data-uid = "params" style = "width:100%; height:40px" control-edit-plain />
+	</div>
+	
+	<div class = "container-column gap-small" style = "width:22.5%">
+		%script line sound%
+		
+		<element data-uid = "sound" data-source = "sounds" style = "width:100%; height:40px" control-dropdown-plain />
+	</div>	
+</div>

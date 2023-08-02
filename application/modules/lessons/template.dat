@@ -1,0 +1,55 @@
+
+[info]
+type = "type:select; source:lessons/types"
+
+[title]
+en = "type:text"
+vn = "type:text"
+
+[authors]
+lesson = "type:select; source:developers; field-value:id; field-text:name"
+presentation = "type:select; source:developers; field-value:id; field-text:name"
+homework = "type:select; source:developers; field-value:id; field-text:name"
+
+[desc-teacher]
+en = "type:text"
+vn = "type:text"
+
+[desc-student]
+en = "type:text"
+vn = "type:text"
+
+[cefr]
+level = "type:select; values:pr,a1,a2,b1,b2,c1,c2"
+skill = "type:select; values:reading,writing,speaking,listening"
+system = "type:select; values:vocabulary,grammar,pronunciation,interaction"
+
+[meta]
+tags = "type:text"
+
+[outcomes]
+outcome NN = "type:select; source:outcomes"
+
+[skills]
+skill NN = "type:select; source:skills"
+
+[project]
+en = "type:text"
+vn = "type:text"
+source = "type:select; source:projects"
+
+[vocabulary]
+term NN = "type:select; source:vocabulary"
+
+[vocabulary extras]
+term NN = "type:select; source:vocabulary"
+
+[link NN]
+en = "type:text"
+vn = "type:text"
+url = "type:text"
+
+[document NN]
+en = "type:text"
+vn = "type:text"
+file = "type:select; source:documents"

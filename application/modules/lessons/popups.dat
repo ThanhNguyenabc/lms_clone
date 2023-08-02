@@ -1,0 +1,20 @@
+
+[catalog select program]
+en = "Program"
+vn = "Chương trình"
+
+[catalog select level]
+en = "Level"
+vn = "Cấp độ"
+
+[catalog select lesson]
+en = "lesson"
+vn = "bài học"
+
+[catalog select select]
+en = "SELECT"
+vn = "CHỌN"
+
+[summary notes placeholder]
+en = "You can type some feedback here"
+vn = "Bạn có thể nhập nhận xét ở đây"

@@ -1,0 +1,16 @@
+
+[family]
+en = "Family"
+vn = "Gia đình"
+
+[company]
+en = "Company"
+vn = "Công ty"
+
+[institution]
+en = "Institution"
+vn = "Tổ chức"
+
+[government]
+en = "Government"
+vn = "Chính phủ"

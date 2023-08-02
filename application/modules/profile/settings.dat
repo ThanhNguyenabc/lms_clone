@@ -1,0 +1,32 @@
+
+[password change text]
+en = "Password"
+vn = "Mật khẩu"
+
+[password change action]
+en = "CHANGE"
+vn = "THAY ĐỔI"
+
+[preferences language text]
+en = "Language"
+vn = "Ngôn ngữ"
+
+[preferences size text]
+en = "Text Size"
+vn = "Kích cỡ văn bản"
+
+[preferences sound text]
+en = "Sound Effects"
+vn = "Hiệu ứng âm thanh"
+
+[preferences music text]
+en = "Music"
+vn = "Âm thanh"
+
+[account logout text]
+en = "Account"
+vn = "Tài khoản"
+
+[account logout action]
+en = "LOG OUT"
+vn = "ĐĂNG XUẤT"

@@ -1,0 +1,35 @@
+
+.extra-chart{
+    width:512px;
+    height:512px;
+}
+.area-chart{
+    height: 300px !important;
+}
+@media screen and (max-height: 500px) 
+{
+    .gap-large{
+        gap: 18px;
+    }
+
+    .area-chart{
+        height: 300px !important;
+    }
+
+    .extra-chart{
+        height: 280px !important;
+        width: 280px !important;
+    }
+
+    .text-cubital-medium{
+        font-size: 18px;
+    }
+
+    .text-cubital-big{
+        font-size: 24px;
+    }
+
+    .researcher-img{
+        width: 128px !important;
+    }
+}

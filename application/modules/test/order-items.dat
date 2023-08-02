@@ -1,0 +1,17 @@
+
+[info]
+type = "type:select; source:types; default:order-items; edit:hidden"
+en = "type:text;default:Drag and Order the items"
+vn = "type:text;default:Kéo và sắp xếp các mục"
+outcome = "type:select; source:outcomes"
+
+[question]
+text = "type:text"
+picture = "type:select; source:image"
+audio = "type:select; source:audio"
+pdf = "type:select; source:pdf"
+
+[item NN]
+text = "type:text"
+picture = "type:select; source:image"
+audio = "type:select; source:audio"

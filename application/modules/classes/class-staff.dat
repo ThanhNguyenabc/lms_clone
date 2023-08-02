@@ -1,0 +1,24 @@
+
+[teacher]
+en = "Native Teacher"
+vn = "Giáo viên bản ngữ"
+role = "teacher"
+field = "teacher_id"
+
+[ta1]
+en = "Ta #1"
+vn = "Trợ giảng #1"
+role = "ta"
+field = "ta1_id"
+
+[ta2]
+en = "Ta #2"
+vn = "Trợ giảng #2"
+role = "ta"
+field = "ta2_id"
+
+[ta3]
+en = "Ta #3"
+vn = "Trợ giảng #3"
+role = "ta"
+field = "ta3_id"

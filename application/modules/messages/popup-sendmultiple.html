@@ -1,0 +1,42 @@
+<div class = "container-column gap-medium" style = "width:100%; height:100%; overflow:hidden;">
+
+	<div class = "container-row gap-medium" style = "width:100%">
+	
+		<div class = "container-row gap-small" style = "align-items:center; flex-grow:1">
+			<div class = "text-title-small">%message subject%</div>
+			<element data-uid = "subject" style = "flex-grow:1" control-edit-plain />
+		</div>
+		
+		<div class = "container-row gap-small" style = "align-items:center">
+			<div class = "text-title-small">%message type%</div>
+			<element data-uid = "types" control-dropdown-plain />
+		</div>
+		
+		<div class = "container-row gap-small" style = "align-items:center">
+			<div class = "text-title-small">%message template%</div>
+			<element data-uid = "templates" control-dropdown-plain />
+		</div>
+		
+		<div class = "container-row gap-small" style = "align-items:center">
+			<div class = "text-title-small">%message expiration%</div>
+			<element data-uid = "expiration" control-date-plain />
+		</div>
+		
+	</div>
+	
+	<div class = "container-row gap-medium" style = "width:100%; flex-grow:1; overflow:hidden">
+		<div data-uid = "preview" class = "container-column border-rounded border-dark" style = "height:100%; flex-grow:1; background-color:var(--color-white); overflow:hidden auto">
+		</div>
+		
+		
+		<div class = "container-column gap-medium" style = "width:256px; height:100%">
+			
+			<!--<element data-uid = "queries" class = "container-column border-rounded gap-medium" style = "width:100%; display:none" control-dropdown-plain /> -->
+	
+			<div data-uid = "users" class = "container-column border-rounded gap-medium" style = "width:100%; flex-grow:1; background-color:var(--color-white); overflow:hidden">
+			</div>
+			
+		</div>
+	</div>
+	
+</div>

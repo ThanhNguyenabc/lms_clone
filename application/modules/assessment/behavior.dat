@@ -1,0 +1,25 @@
+
+[1]
+en = "Uncooperative and uninterested"
+vn = "Không hợp tác và không quan tâm"
+score = 1
+
+[2]
+en = "Distracted"
+vn = "Mất tập trung"
+score = 2
+
+[3]
+en = "Good"
+vn = "Tốt"
+score = 3
+
+[4]
+en = "Attentive"
+vn = "Chăm chú"
+score = 4
+
+[5]
+en = "Cooperative and engaged"
+vn = "Hợp tác và tham gia"
+score = 5

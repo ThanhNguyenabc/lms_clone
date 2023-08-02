@@ -1,0 +1,18 @@
+
+[activity test title]
+en = "Test"
+vb = ""
+vn = "Bài kiểm tra"
+
+[activity vocabulary title]
+en = "Vocabulary"
+vb = ""
+vn = "Từ vựng"
+
+[escape popup title]
+en = "Terminate Activity"
+vn = "Hủy bỏ hoạt động"
+
+[escape popup text]
+en = "Are you sure to terminate the activity? Progress will not be saved."
+vn = "Bạn có chắc chắn muốn hủy bỏ hoạt động này? Kết quả của bạn sẽ không được lưu."

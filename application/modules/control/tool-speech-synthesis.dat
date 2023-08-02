@@ -1,0 +1,12 @@
+
+[popup title]
+en = "Test Speech"
+vn = "Kiểm tra thử lời thoại"
+
+[button speak]
+en = "SPEAK"
+vn = "NÓI"
+
+[button save]
+en = "SAVE"
+vn = "LƯU"

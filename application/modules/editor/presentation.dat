@@ -1,0 +1,35 @@
+
+[title]
+en = "Presentations →"
+vn = "Bài thuyết trình →"
+
+[text]
+en = "Edit slides to be used in the Classroom, offline and online"
+vn = "Chỉnh sửa trang thuyết trình được sử dụng trực tiếp trong lớp học hoặc trực tuyến"
+
+[media]
+card = "cover-presentation.jpg"
+
+[template save title]
+en = "Save Slide as Template"
+vn = "Lưu trang thuyết trình dưới dạng mẫu"
+
+[template save name]
+en = "Name"
+vn = "Tên"
+
+[template save category]
+en = "Category"
+vn = "Thể loại"
+
+[template save button]
+en = "SAVE"
+vn = "LƯU"
+
+[template load title]
+en = "Load Template"
+vn = "Tải bản mẫu"
+
+[template load button]
+en = "LOAD"
+vn = "TẢI"

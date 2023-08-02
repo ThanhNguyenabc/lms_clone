@@ -1,0 +1,43 @@
+[watch]
+subtitles = "both"
+music     = true
+pause     = true
+back      = true
+stop      = false
+continue  = "play"
+
+
+[learn]
+subtitles = "analysis"
+music     = true
+pause     = false
+back      = true
+stop      = "important"
+continue  = "play"
+
+
+[listenwrite]
+subtitles = "none"
+music     = false
+pause     = false
+back      = false
+stop      = "after"
+continue  = "type"
+
+
+[readspeak]
+subtitles = "plain"
+music     = false
+pause     = false
+back      = false
+stop      = "before"
+continue  = "speak"
+
+
+[listenspeak]
+subtitles = "none"
+music     = false
+pause     = false
+back      = false
+stop      = "after"
+continue  = "speak"

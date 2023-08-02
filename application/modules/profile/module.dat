@@ -1,0 +1,57 @@
+
+[module]
+menu-icon = ""
+en = "Profile"
+vn = "Hồ sơ"
+
+[module header title]
+en = "PROFILE"
+vn = "HỒ SƠ"
+
+[profile aboutme title]
+en = "ABOUT ME"
+vn = "VỀ TÔI"
+
+[profile aboutme placeholder]
+en = "You can use this space to write something about yourself!"
+vn = "Bạn có thể sử dụng không gian này để viết về bản thân mình!"
+
+[logout popup title]
+en = "Logging Out"
+vn = "Đăng xuất"
+
+[logout popup text]
+en = "Are you sure you want to log out and close this session? Make sure you remember your password to log back in!"
+vn = "Bạn có chắc chắn muốn đăng xuất và đóng phiên này không? Hãy chắc chắn rằng bạn nhớ mật khẩu của mình để đăng nhập lại!"
+
+[password change title]
+en = "Change Password"
+vn = "Thay đổi mật khẩu"
+
+[password change button]
+en = "CHANGE"
+vn = "THAY ĐỔI"
+
+[password change current]
+en = "Current Password"
+vn = "Mật khẩu hiện tại"
+
+[password change new]
+en = "New Password"
+vn = "Mật khẩu mới"
+
+[password change repeat]
+en = "Repeat New Password"
+vn = "Nhập lại mật khẩu mới"
+
+[password change wrong]
+en = "Wrong Password"
+vn = "Sai Mật khẩu"
+
+[password change different]
+en = "Passwords don't match"
+vn = "Mật khẩu không trùng"
+
+[password change tooshort]
+en = "Too short. Min $n$ characters"
+vn = "Mật khẩu quá ngắn. Hãy điền ít nhất $n$ ký tự"

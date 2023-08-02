@@ -1,0 +1,62 @@
+
+[tool test classroom]
+en = "Test Lesson as Classroom"
+vn = "Kiểm tra thử bài học trong lớp học"
+icon = "chalkboard-user"
+f = "Control_Tool_LessonAsClassroom"
+
+[test classroom title]
+en = "Test Lesson"
+vn = "Kiểm tra thử bài học"
+
+[test classroom subtitle]
+en = "Enter Lesson ID"
+vn = "Nhập ID bài học"
+
+[tool test courselesson]
+en = "Test Lesson as Student"
+vn = "Kiểm tra thử bài học với tư cách là Học Sinh"
+icon = "book"
+f = "Control_Tool_LessonAsStudentCourse"
+
+[test courselesson title]
+en = "Test Lesson"
+vn = "Kiểm tra thử bài học"
+
+[test courselesson subtitle]
+en = "Enter Lesson ID"
+vn = "Nhập ID bài học"
+
+[tool speech test]
+en = "Test Speech Synthesis"
+vn = "Kiểm tra thử lời thoại tổng hợp"
+icon = "comment-dots"
+f = "Control_Tool_TestSpeechSynthesis"
+
+[speech test title]
+en = "Test Speech"
+vn = "Kiểm tra thử lời thoại"
+
+[tool speech azure]
+en = "Test Azure Speech"
+vn = "Kiểm tra thử thiết bị lời thoại Azure"
+icon = "comment-dots"
+f = "Control_Tool_AzureSpeechSynthesis"
+
+[azure test title]
+en = "Test Azure"
+vn = "Kiểm tra thử Azure"
+
+[tool role change]
+en = "Change Role"
+vn = "Thay đổi vai trò"
+icon = "hat-wizard"
+f = "Control_Tool_ChangeRole"
+
+[role change title]
+en = "Change Role"
+vn = "Thay đổi vai trò"
+
+[role change subtitle]
+en = "Become"
+vn = "Trở thành"

@@ -1,0 +1,40 @@
+
+[past]
+en = "PAST"
+vn = "QUÁ KHỨ"
+period = "past to start of last month"
+
+[last month]
+en = "LAST MONTH"
+vn = "THÁNG TRƯỚC"
+period = "last month"
+
+[last week]
+en = "LAST WEEK"
+vn = "TUẦN TRƯỚC"
+period = "last week"
+
+[this month]
+en = "THIS MONTH"
+vn = "THÁNG NÀY"
+period = "this month"
+
+[this week]
+en = "THIS WEEK"
+vn = "TUẦN NÀY"
+period = "this week"
+
+[next week]
+en = "NEXT WEEK"
+vn = "TUẦN SAU"
+period = "next week"
+
+[next month]
+en = "NEXT MONTH"
+vn = "THÁNG SAU"
+period = "next month"
+
+[future]
+en = "FUTURE"
+vn = "TƯƠNG LAI"
+period = "end of next month to future"

@@ -1,0 +1,33 @@
+
+[popup result title]
+en = "You have completed the activity"
+vn = "Bạn đã hoàn thành hoạt động này"
+
+[popup result animation]
+good = ""
+soso = ""
+bad = ""
+
+[good title]
+en = "Well done!"
+vn = "Tuyệt vời!"
+
+[good text]
+en = "You have completed this activity with good results. Keep on learning!"
+vn = "Bạn đã hoàn thành tốt hoạt động này. Hãy tiếp tục học tập nhé!"
+
+[soso title]
+en = "Average"
+vn = "Trung bình"
+
+[soso text]
+en = "Your result is satisfactory, but you can do better. Keep studying and try again to achieve a perfect score."
+vn = "Kết quả của bạn là thảo đáng, nhưng bạn có thể làm tốt hơn. Hãy tiếp tục học tập và thử lại để đạt được số điểm hoàn hảo nhé."
+
+[bad title]
+en = "Try Again"
+vn = "Hãy thử lại nhé!"
+
+[bad text]
+en = "You're not there yet! It seems you need to improve in this area. Keep studying, and try again."
+vn = "Có vẻ như bạn cần phải cải thiện phần này. Hãy tiếp tục nghiên cứu và thử lại."

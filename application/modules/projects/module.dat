@@ -1,0 +1,9 @@
+
+[module]
+menu-icon = "project"
+en = "Projects"
+vn = "Dự án"
+
+[module header title]
+en = "PROJECTS"
+vn = "DỰ ÁN"

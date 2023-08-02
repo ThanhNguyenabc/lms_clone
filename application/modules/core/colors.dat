@@ -1,0 +1,130 @@
+
+[F6EAC2]
+en = "Yellow #1"
+filter = "invert(87%) sepia(27%) saturate(292%) hue-rotate(352deg) brightness(105%) contrast(93%)"
+vn = "Vàng #1"
+
+[FFFFB5]
+en = "Yellow #2"
+filter = "invert(95%) sepia(4%) saturate(4460%) hue-rotate(324deg) brightness(119%) contrast(105%)"
+vn = "Vàng #2"
+
+[FFC8A2]
+en = "Yellow #3"
+filter = "invert(91%) sepia(20%) saturate(6515%) hue-rotate(307deg) brightness(128%) contrast(110%)"
+vn = "Vàng #3"
+
+[FFC5BF]
+en = "Red #1"
+filter = "invert(83%) sepia(4%) saturate(3705%) hue-rotate(314deg) brightness(103%) contrast(101%)"
+vn = "Đỏ #1"
+
+[FFAEA5]
+en = "Red #2"
+filter = "invert(67%) sepia(8%) saturate(2318%) hue-rotate(315deg) brightness(117%) contrast(101%)"
+vn = "Đỏ #2"
+
+[FCB9AA]
+en = "Red #3"
+filter = "invert(81%) sepia(24%) saturate(770%) hue-rotate(313deg) brightness(97%) contrast(103%)"
+vn = "Đỏ #3"
+
+[FED7C3]
+en = "Red #4"
+filter = "invert(89%) sepia(17%) saturate(1309%) hue-rotate(305deg) brightness(111%) contrast(99%)"
+vn = "Đỏ #4"
+
+[FEE1E8]
+en = "Purple #1"
+filter = "invert(84%) sepia(15%) saturate(481%) hue-rotate(304deg) brightness(109%) contrast(99%)"
+vn = "Tím #1"
+
+[ECD5E3]
+en = "Purple #2"
+filter = "invert(95%) sepia(25%) saturate(500%) hue-rotate(278deg) brightness(96%) contrast(92%)"
+vn = "Tím #2"
+
+[F3B0C3]
+en = "Purple #3"
+filter = "Purple #3"
+vn = "Tím #3"
+
+[CBAACB]
+en = "Purple #4"
+filter = "invert(99%) sepia(58%) saturate(1524%) hue-rotate(219deg) brightness(88%) contrast(78%)"
+vn = "Tím #4"
+
+[D4F0F0]
+en = "Blue #1"
+filter = "invert(99%) sepia(32%) saturate(731%) hue-rotate(152deg) brightness(94%) contrast(99%)"
+vn = "Xanh dương #1"
+
+[ABDEE6]
+en = "Blue #2"
+filter = "invert(90%) sepia(14%) saturate(599%) hue-rotate(144deg) brightness(93%) contrast(93%)"
+vn = "Xanh dương #2"
+
+[A2E1DB]
+en = "Blue #3"
+filter = "invert(84%) sepia(48%) saturate(194%) hue-rotate(120deg) brightness(93%) contrast(93%)"
+vn = "Xanh dương #3"
+
+[55CBCD]
+en = "Blue #4"
+filter = "invert(80%) sepia(58%) saturate(418%) hue-rotate(125deg) brightness(84%) contrast(89%)"
+vn = "Xanh dương #4"
+
+[97C1A9]
+en = "Green #1"
+filter = "invert(84%) sepia(10%) saturate(691%) hue-rotate(93deg) brightness(87%) contrast(87%)"
+vn = "Xanh lục #1"
+
+[B6CFB6]
+en = "Green #2"
+filter = "invert(94%) sepia(6%) saturate(896%) hue-rotate(65deg) brightness(90%) contrast(79%)"
+vn = "Xanh lục #2"
+
+[CCE2CB]
+en = "Green #3"
+filter = "invert(92%) sepia(5%) saturate(721%) hue-rotate(69deg) brightness(95%) contrast(93%)"
+vn = "Xanh lục #3"
+
+[C6DBDA]
+en = "Green #4"
+filter = "invert(94%) sepia(16%) saturate(189%) hue-rotate(126deg) brightness(92%) contrast(87%)"
+vn = "Xanh lục #4"
+
+[836853]
+en = "Brown #1"
+filter = "nvert(41%) sepia(41%) saturate(306%) hue-rotate(344deg) brightness(94%) contrast(89%)"
+vn = "Nâu #1"
+
+[AC9D8E]
+en = "Brown #2"
+filter = "invert(66%) sepia(18%) saturate(276%) hue-rotate(349deg) brightness(93%) contrast(90%)"
+vn = "Nâu #2"
+
+[E3CCB8]
+en = "Brown #3"
+filter = "invert(94%) sepia(9%) saturate(1086%) hue-rotate(317deg) brightness(92%) contrast(93%)"
+vn = "Nâu #3"
+
+[D1C3B7]
+en = "Brown #4"
+filter = "invert(84%) sepia(23%) saturate(146%) hue-rotate(346deg) brightness(91%) contrast(91%)"
+vn = "Nâu #4"
+
+[000000]
+en = "Black"
+filter = ""
+vn = "Đen"
+
+[ECEAE4]
+en = "Grey"
+filter = "invert(89%) sepia(6%) saturate(139%) hue-rotate(8deg) brightness(104%) contrast(96%)"
+vn = "Xám"
+
+[FFFFFF]
+en = "White"
+filter = "invert(100%) sepia(0%) saturate(0%) hue-rotate(111deg) brightness(105%) contrast(102%)"
+vn = "Trắng"

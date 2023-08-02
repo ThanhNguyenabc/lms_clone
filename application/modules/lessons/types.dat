@@ -1,0 +1,56 @@
+
+[standard]
+en = "Standard"
+vn = "Tiêu chuẩn"
+
+[speaking]
+en = "Speaking"
+vn = "Nói"
+
+[reading]
+en = "Reading"
+vn = "Đọc"
+
+[listening]
+en = "Listening"
+vn = "Nghe"
+
+[writing]
+en = "Writing"
+vn = "Viết"
+
+[vocabulary]
+en = "Vocabulary"
+vn = "Từ vựng"
+
+[grammar]
+en = "Grammar"
+vn = "Ngữ pháp"
+
+[language]
+en = "Language"
+vn = "Ngôn ngữ"
+
+[task]
+en = "Task-Based"
+vn = "Dựa trên nhiệm vụ"
+
+[cambridge]
+en = "Cambridge"
+vn = "Cambridge"
+
+[project]
+en = "Project"
+vn = "Dự án"
+
+[test]
+en = "Test"
+vn = "Bài kiểm tra"
+
+[review]
+en = "Review"
+vn = "Ôn tập"
+
+[final]
+en = "Final"
+vn = "Bài thi cuối khóa"

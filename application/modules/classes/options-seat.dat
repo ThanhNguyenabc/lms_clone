@@ -1,0 +1,8 @@
+
+[not required]
+en = "Not Required"
+vn = "Không bắt buộc"
+
+[required]
+en = "Required"
+vn = "Bắt buộc"

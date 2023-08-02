@@ -1,0 +1,32 @@
+
+[class delete title]
+en = "CANCEL LESSON"
+vn = "HỦY BỎ BUỔI HỌC"
+
+[class delete text]
+en = "Are you sure to delete this Lesson? The lesson will be completely erased and all resources (Teacher, TAs, Classroom) will be released. To confirm, type the class ID $id$"
+vn = "Bạn có chắc chắn muốn xóa buổi học này? Buổi học sẽ bị xóa hoàn toàn và tài nguyên (Giáo viên, Trợ giảng, Lớp học) sẽ được trả lại. Để xác nhận thao tác, hãy điền ID lớp học $id$"
+
+[create fail title]
+en = "Can't Create"
+vn = "Không thể tạo"
+
+[create no center]
+en = "Center not available at this date and time (Check Center's Time Off)"
+vn = "Trung tâm không khả dụng vào ngày giờ này (Kiểm tra thời gian nghỉ của trung tâm)"
+
+[create no teacher]
+en = "Teacher(s) not available at this time / for this lesson duration"
+vn = "(Các) giáo viên không rảnh vào lúc này/cho thời lượng của buổi học này"
+
+[create no room]
+en = "Room(s) not available at this time / for this lesson duration"
+vn = "(Các) phòng học không có sẵn vào thời điểm này/ cho thời lượng buổi học này"
+
+[teacher select title]
+en = "Select a Teacher"
+vn = "Chọn giáo viên"
+
+[class fail delete text]
+en = "The lesson is part of a course, please delete it from 'COURSES' function"
+vn = "Buổi học nằm trong một khóa học, vui lòng xóa ở chức năng 'COURSES'"

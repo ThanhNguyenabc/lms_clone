@@ -1,0 +1,20 @@
+
+[files]
+student = "brief,student"
+teacher = "brief,teacher,student"
+
+[file brief]
+en = "BRIEF"
+vn = "TÓM TẮT"
+
+[file student]
+en = "GUIDING POINTS"
+vn = "HƯỚNG DẪN"
+
+[file project]
+en = "PROJECT"
+vn = "DỰ ÁN"
+
+[file assessment]
+en = "TEACHER FEEDBACK"
+vn = "NHẬN XÉT CỦA GIÁO VIÊN"

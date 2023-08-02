@@ -1,0 +1,452 @@
+
+[grow]
+en = "Grow"
+type = "modify"
+hint = "time, factor"
+vn = "Làm lớn lên"
+
+[shrink]
+en = "Shrink"
+type = "modify"
+hint = "time, factor"
+vn = "Thu nhỏ"
+
+[move]
+en = "Move"
+type = "modify"
+hint = "time, x, y"
+vn = "Di chuyển"
+
+[bringtofront]
+en = "Bring To Front"
+type = "modify"
+hint = ""
+standalone = "yes"
+vn = "Đem lên phía trước"
+
+[sendtoback]
+en = "Send To Back"
+type = "modify"
+hint = ""
+standalone = "yes"
+vn = "Đem về phía sau"
+
+[center]
+en = "Center"
+type = "modify"
+hint = ""
+standalone = "yes"
+vn = "Trung tâm"
+
+[clearstyle]
+en = "Clear Styles"
+type = "modify"
+hint = ""
+standalone = "yes"
+vn = "Làm sạch phong cách"
+
+[reset]
+en = "Reset"
+type = "modify"
+hint = ""
+standalone = "yes"
+vn = "Đặt lại"
+
+[bounce]
+en = "Bounce"
+type = "animate"
+anim = "bounce 1s"
+standalone = "yes"
+vn = "Nhún nhẩy"
+
+[flash]
+en = "Flash"
+type = "animate"
+anim = "flash 1s"
+standalone = "yes"
+vn = "Sáng lấp lánh"
+
+[wobble]
+en = "Wobble"
+type = "animate"
+anim = "wobble 1s"
+standalone = "yes"
+vn = "Lắc lư"
+
+[rubberBand]
+en = "Rubberband"
+type = "animate"
+anim = "rubberBand 1s"
+standalone = "yes"
+vn = "Co giãn"
+
+[shakeY]
+en = "Shake 🡸🡺"
+type = "animate"
+anim = "shakeY 1s"
+standalone = "yes"
+vn = "Lắc 🡸🡺"
+
+[shakeX]
+en = "Shake 🡹🡻"
+type = "animate"
+anim = "shakeX 1s"
+standalone = "yes"
+vn = "Lắc 🡹🡻"
+
+[jello]
+en = "Jello"
+type = "animate"
+anim = "jello 1s"
+standalone = "yes"
+vn = "Lắc lư"
+
+[swing]
+en = "Swing"
+type = "animate"
+anim = "swing 1s"
+standalone = "yes"
+vn = "Đu đưa"
+
+[flip]
+en = "Flip"
+type = "animate"
+anim = "flip 1s"
+standalone = "yes"
+vn = "Lật"
+
+[tada]
+en = "Ta-da"
+type = "animate"
+anim = "tada 1s"
+standalone = "yes"
+vn = "Ta-da"
+
+[heartBeat]
+en = "Heartbeat"
+type = "animate"
+anim = "heartBeat 1s"
+standalone = "yes"
+vn = "Nhịp tim"
+
+[zoomOutUp]
+en = "Zoom Out 🡹"
+type = "hide"
+anim = "zoomOutUp 1s ease-in"
+standalone = "yes"
+vn = "Thu nhỏ 🡹"
+
+[zoomOutDown]
+en = "Zoom Out 🡻"
+type = "hide"
+anim = "zoomOutDown 1s ease-in"
+standalone = "yes"
+vn = "Thu nhỏ 🡻"
+
+[zoomOutLeft]
+en = "Zoom Out 🡸"
+type = "hide"
+anim = "zoomOutLeft 1s ease-in"
+standalone = "yes"
+vn = "Thu nhỏ 🡸"
+
+[zoomOutRight]
+en = "Zoom Out 🡺"
+type = "hide"
+anim = "zoomOutRight 1s ease-in"
+standalone = "yes"
+vn = "Thu nhỏ 🡺"
+
+[backOutUp]
+en = "Back Out 🡹"
+type = "hide"
+anim = "backOutUp 1s ease-in"
+standalone = "yes"
+vn = "Lùi lại 🡹"
+
+[backOutDown]
+en = "Back Out 🡻"
+type = "hide"
+anim = "backOutDown 1s ease-in"
+standalone = "yes"
+vn = "Lùi lại 🡻"
+
+[backOutLeft]
+en = "Back Out 🡸"
+type = "hide"
+anim = "backOutLeft 1s ease-in"
+standalone = "yes"
+vn = "Lùi lại 🡸"
+
+[backOutRight]
+en = "Back Out 🡺"
+type = "hide"
+anim = "backOutRight 1s ease-in"
+standalone = "yes"
+vn = "Lùi lại 🡺"
+
+[bounceOutUp]
+en = "Bounce Out 🡹"
+type = "hide"
+anim = "bounceOutUp 1s ease-in"
+standalone = "yes"
+vn = "Tung ra 🡹"
+
+[bounceOutDown]
+en = "Bounce Out 🡻"
+type = "hide"
+anim = "bounceOutDown 1s ease-in"
+standalone = "yes"
+vn = "Tung ra 🡻"
+
+[bounceOutLeft]
+en = "Bounce Out 🡸"
+type = "hide"
+anim = "bounceOutLeft 1s ease-in"
+standalone = "yes"
+vn = "Tung ra 🡸"
+
+[bounceOutRight]
+en = "Bounce Out 🡺"
+type = "hide"
+anim = "bounceOutRight 1s ease-in"
+standalone = "yes"
+vn = "Tung ra 🡺"
+
+[fadeOut]
+en = "Fade Out"
+type = "hide"
+anim = "fadeOut 1s ease-in"
+standalone = "yes"
+vn = "Mờ dần"
+
+[fadeOutUp]
+en = "Fade Out 🡹"
+type = "hide"
+anim = "fadeOutUp 1s ease-in"
+standalone = "yes"
+vn = "Mờ dần 🡹"
+
+[fadeOutDown]
+en = "Fade Out 🡻"
+type = "hide"
+anim = "fadeOutDown 1s ease-in"
+standalone = "yes"
+vn = "Mờ dần 🡻"
+
+[fadeOutLeft]
+en = "Fade Out 🡸"
+type = "hide"
+anim = "fadeOutLeft 1s ease-in"
+standalone = "yes"
+vn = "Mờ dần 🡸"
+
+[fadeOutRight]
+en = "Fade Out 🡺"
+type = "hide"
+anim = "fadeOutRight 1s ease-in"
+standalone = "yes"
+vn = "Mờ dần 🡺"
+
+[flipOutX]
+en = "Flip Out 🡺"
+type = "hide"
+anim = "flipOutX 1s ease-in"
+standalone = "yes"
+vn = "Lật ra 🡺"
+
+[flipOutY]
+en = "Flip Out 🡹"
+type = "hide"
+anim = "flipOutY 1s ease-in"
+standalone = "yes"
+vn = "Lật ra 🡹"
+
+[lightSpeedInLeft]
+en = "Speed In 🡸"
+type = "show"
+anim = "lightSpeedInLeft 1s ease-out"
+standalone = "yes"
+vn = "Phóng nhanh vào 🡸"
+
+[lightSpeedInRight]
+en = "Speed In 🡺"
+type = "show"
+anim = "lightSpeedInRight 1s ease-out"
+standalone = "yes"
+vn = "Phóng nhanh vào 🡺"
+
+[rotateOut]
+en = "Rotate Out"
+type = "hide"
+anim = "rotateOut 1s ease-in"
+standalone = "yes"
+vn = "Xoay ra"
+
+[rollOut]
+en = "Roll Out"
+type = "hide"
+anim = "rollOut 1s ease-in"
+standalone = "yes"
+vn = "Lăn ra"
+
+[hinge]
+en = "Hinge"
+type = "hide"
+anim = "hinge 1s ease-in"
+standalone = "yes"
+vn = "Xoay trục"
+
+[zoomInUp]
+en = "Zoom In 🡹"
+type = "show"
+anim = "zoomInUp 1s ease-out"
+standalone = "yes"
+vn = "Phóng to 🡹"
+
+[zoomInDown]
+en = "Zoom In 🡻"
+type = "show"
+anim = "zoomInDown 1s ease-out"
+standalone = "yes"
+vn = "Phóng to 🡻"
+
+[zoomInLeft]
+en = "Zoom In 🡸"
+type = "show"
+anim = "zoomInLeft 1s ease-out"
+standalone = "yes"
+vn = "Phóng to 🡸"
+
+[zoomInRight]
+en = "Zoom In 🡺"
+type = "show"
+anim = "zoomInRight 1s ease-out"
+standalone = "yes"
+vn = "Phóng to 🡺"
+
+[backInUp]
+en = "Back In 🡹"
+type = "hide"
+anim = "show 1s ease-out"
+standalone = "yes"
+vn = "Lùi vào 🡹"
+
+[backInDown]
+en = "Back In 🡻"
+type = "show"
+anim = "backInDown 1s ease-out"
+standalone = "yes"
+vn = "Lùi vào 🡻"
+
+[backInLeft]
+en = "Back In 🡸"
+type = "show"
+anim = "backInLeft 1s ease-out"
+standalone = "yes"
+vn = "Lùi vào 🡸"
+
+[backInRight]
+en = "Back In 🡺"
+type = "show"
+anim = "backInRight 1s ease-out"
+standalone = "yes"
+vn = "Lùi vào 🡺"
+
+[bounceInUp]
+en = "Bounce In 🡹"
+type = "show"
+anim = "bounceInUp 1s ease-out"
+standalone = "yes"
+vn = "Tung vào 🡹"
+
+[bounceInDown]
+en = "Bounce In 🡻"
+type = "show"
+anim = "bounceInDown 1s ease-out"
+standalone = "yes"
+vn = "Tung vào 🡻"
+
+[bounceInLeft]
+en = "Bounce In 🡸"
+type = "show"
+anim = "bounceInLeft 1s ease-out"
+standalone = "yes"
+vn = "Tung vào 🡸"
+
+[bounceInRight]
+en = "Bounce In 🡺"
+type = "show"
+anim = "bounceInRight 1s ease-out"
+standalone = "yes"
+vn = "Tung vào 🡺"
+
+[fadeIn]
+en = "Fade In"
+type = "show"
+anim = "fadeIn 1s ease-out"
+standalone = "yes"
+vn = "Rõ dần"
+
+[fadeInUp]
+en = "Fade In 🡹"
+type = "show"
+anim = "fadeInUp 1s ease-out"
+standalone = "yes"
+vn = "Rõ dần 🡹"
+
+[fadeInDown]
+en = "Fade In 🡻"
+type = "show"
+anim = "fadeInDown 1s ease-out"
+standalone = "yes"
+vn = "Rõ dần 🡻"
+
+[fadeInLeft]
+en = "Fade In 🡸"
+type = "show"
+anim = "fadeInLeft 1s ease-out"
+standalone = "yes"
+vn = "Rõ dần 🡸"
+
+[fadeInRight]
+en = "Fade In 🡺"
+type = "show"
+anim = "fadeInRight 1s ease-out"
+standalone = "yes"
+vn = "Rõ dần 🡺"
+
+[flipInX]
+en = "Flip In 🡺"
+type = "show"
+anim = "flipInX 1s ease-out"
+standalone = "yes"
+vn = "Lật vào 🡺"
+
+[flipInY]
+en = "Flip In 🡹"
+type = "show"
+anim = "flipInY 1s ease-out"
+standalone = "yes"
+vn = "Lật vào 🡹"
+
+[rotateIn]
+en = "Rotate In"
+type = "show"
+anim = "rotateIn 1s ease-out"
+standalone = "yes"
+vn = "Xoay vào"
+
+[rollIn]
+en = "Roll In"
+type = "show"
+anim = "rollIn 1s ease-out"
+standalone = "yes"
+vn = "Lăn vào"
+
+[jackInTheBox]
+en = "Spring"
+type = "show"
+anim = "jackInTheBox 1s ease-out"
+standalone = "yes"
+vn = "Bung lên"

@@ -1,0 +1,16 @@
+
+[normal]
+en = "Normal"
+vn = "Bình thường"
+
+[1.5]
+en = 1.5
+vn = 1.5
+
+[2]
+en = "Double"
+vn = "Gấp đôi"
+
+[3]
+en = "Triple"
+vn = "Gấp ba"

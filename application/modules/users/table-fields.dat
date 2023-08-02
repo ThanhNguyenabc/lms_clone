@@ -1,0 +1,24 @@
+
+[firstname]
+en = "First Name"
+vn = "Tên"
+
+[lastname]
+en = "Last Name"
+vn = "Họ"
+
+[email]
+en = "Email"
+vn = "Email"
+
+[mobile]
+en = "Mobile"
+vn = "Số điện thoại"
+
+[id]
+en = "Id"
+vn = "Id"
+
+[propic]
+en = ""
+vn = ""

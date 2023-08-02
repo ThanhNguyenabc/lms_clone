@@ -1,0 +1,46 @@
+<div data-uid = "player" class = "container-column" style = "position:relative; width:100%; height:100%">
+
+
+	<video data-uid = "video"   style = "position:absolute; left:0px; top:0px; width:100%; height:100%; object-fit:contain; z-index:10">
+	</video>
+	
+	
+	<div data-uid = "curtain" class = "structure-overlay style-glass-thin" style = "pointer-events:none; z-index:20;"></div>
+	
+
+	
+	<div class = "container-row padding-large gap-large" style = "align-items:flex-end; left:0px; top:0px; width:100%; height:100%; z-index:40">
+	
+				
+			<div style = "width:256px;"></div>
+			
+			
+			<div data-uid = "subtitles" class = "container-blocks gap-medium" style = "justify-content:center; flex-grow:1; overflow:visible"></div>
+
+			<div data-uid = "type" class = "border-rounded shadow-sharp-bottom padding-medium" style = "display:none; height:64px; flex-grow:1; background-color:var(--color-accented);">
+				<input data-uid = "control-input" type = "text" placeholder = " ______________ " class = "text-caption-big" style = "width:100%; height:100%; border:none; background-color:transparent; color:var(--color-white)" />	
+			</div>
+			
+			<div data-uid = "speak" class = "border-rounded shadow-sharp-bottom padding-medium content-centered style-clickable" style = "display:none; height:64px; flex-grow:1; background-color:var(--color-accented);">
+				<li data-uid = "control-record" class = "text-caption-big fa-solid fa-microphone" style = "color:var(--color-white)">
+                </li>			
+			</div>
+
+			<div data-uid = "controls" class = "container-row gap-large" style = "width:256px; justify-content:flex-end; ">
+
+				<element data-uid = "control-redo"  {icon:arrow-rotate-right} button-round />
+
+				<element data-uid = "control-back"  {icon:backward-step}      button-round />
+		
+				<element data-uid = "control-play"  {icon:play}               button-round />
+
+				<element data-uid = "control-pause" {icon:pause}              button-round />
+		
+			</div>
+
+				
+	</div>
+	
+	
+
+</div>

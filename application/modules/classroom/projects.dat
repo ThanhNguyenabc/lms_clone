@@ -1,0 +1,12 @@
+
+[files header]
+en = "Files"
+vn = "Tài liệu"
+
+[groups header]
+en = "Groups"
+vn = "Số nhóm"
+
+[group header]
+en = "Group"
+vn = "Nhóm"

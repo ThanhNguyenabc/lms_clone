@@ -1,0 +1,40 @@
+
+[popup close title]
+en = "Close Presentation"
+vn = "Đóng bài thuyết trình"
+
+[popup close subtitle]
+en = "Are you sure to close the Presentation Window? You can reopen the window later, but the presentation will be reset to its initial state."
+vn = "Bạn có chắc chắn muốn đóng cửa số bài thuyết trình không? Bạn có thể mở lại cửa sổ nhưng bài thuyết trình sẽ được mở lại ở trạng thái ban đầu."
+
+[menu projector clean]
+en = "Clean Window"
+vn = "Dọn sạch cửa sổ"
+
+[menu presentation vocabulary]
+en = "Vocabulary"
+vn = "Từ vựng"
+
+[menu presentation links]
+en = "Links"
+vn = "Đường dẫn"
+
+[menu presentation documents]
+en = "Documents"
+vn = "Tài liệu"
+
+[menu slide reset]
+en = "Reset Slide"
+vn = "Khởi động lại trang thuyết trình"
+
+[menu slide return]
+en = "Return to this Slide"
+vn = "Trở lại trang thuyết trình"
+
+[slide instructions title]
+en = "INSTRUCTIONS"
+vn = "HƯỚNG DẪN"
+
+[slide scripts title]
+en = "SCRIPTS"
+vn = "KỊCH BẢN"

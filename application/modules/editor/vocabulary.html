@@ -1,0 +1,58 @@
+<div class = "container-row padding-small gap-medium" style = "overflow:hidden; height:100%; width:100%;">
+   
+	<div class = "container-column gap-medium" style = "width:384px; height:100%; flex-shrink:0">
+		
+		<div class = "container-row" style = "width:100%; justify-content:space-between; align-items:center">
+			
+			<a class = "text-title-medium">%vocabulary terms title%</a>
+			
+			<div class = "container-row gap-medium" style = "overflow:hidden">
+				<li data-uid = "vocab-find"   class = "fa-solid fa-magnifying-glass style-clickable" style = "display:none"></li> <!-- DISABLED FOR NOW -->
+				<li data-uid = "vocab-new"    class = "fa-solid fa-folder-plus style-clickable"></li>
+				<li data-uid = "vocab-delete" class = "fa-solid fa-trash-can style-clickable"></li>
+			</div>
+		</div>
+		
+		<element data-uid = "terms-list" style = "width:100%; flex-grow:1; overflow:hidden auto; text-overflow:ellipsis" control-listbox-plain />
+
+	</div>
+
+
+    <div data-uid = "term-panel-edit" class = "container-column gap-medium" style = "width:512px; height:100%; visibility:hidden; flex-shrink:0; scrollbar-gutter: stable;">
+	
+		<a class = "text-title-medium">%vocabulary term title%</a>
+		
+		<div data-uid = "term-edit" class = "border-rounded" style = "width:100%; height:100%; overflow:hidden; background-color:var(--color-white)"></div>
+	
+	</div>
+	
+	
+	<div data-uid = "term-media-preview" class = "container-column gap-medium" style = "height:100%; visibility:hidden; overflow:hidden">
+		
+		<a class = "text-title-medium">%vocabulary picture title%</a>
+		
+		<div class = "container-column padding-medium gap-medium border-rounded" style = "background-color:var(--color-light); overflow:hidden">
+		
+			<!-- PICTURE -->
+			<img data-uid = "term-picture" class = "container-row gap-medium border-rounded style-clickable" style = "width:512px; aspect-ratio:1; object-fit:contain; background-color:var(--color-dark); overflow:hidden" />	
+		
+			<!-- AUDIO -->
+			<a class = "text-title-medium">%vocabulary audio title%</a>
+		
+			<div data-uid = "term-audio" class = "container-row gap-medium padding-medium border-rounded" style = "width:100%; background-color:var(--color-dark); overflow:hidden">
+			
+				<div data-uid = "term-audio-upload" class = "container-row style-clickable" style = "height:100%; flex-grow:1">
+				</div>
+			
+				<div data-uid = "term-audio-listen" class = "container-row gap-medium style-clickable content-centered" style = "height:100%; width:64px">
+					<li data-uid = "icon" class = "fa-solid fa-ear-listen" style = "font-size:24px"></li>
+				</div>
+		
+			</div>
+			
+		</div>
+	
+		
+	</div>
+    
+</div>

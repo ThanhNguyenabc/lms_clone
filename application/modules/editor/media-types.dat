@@ -1,0 +1,20 @@
+
+[image]
+en = "Picture"
+icon = "image"
+vn = "Hình ảnh"
+
+[audio]
+en = "Audio"
+icon = "volume-high"
+vn = "Âm thanh"
+
+[video]
+en = "Video"
+icon = "film"
+vn = "Video"
+
+[pdf]
+en = "Pdf"
+icon = "file-pdf"
+vn = "Pdf"

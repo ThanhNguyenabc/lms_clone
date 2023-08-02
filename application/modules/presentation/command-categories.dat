@@ -1,0 +1,16 @@
+
+[modify]
+en = "MODIFY"
+vn = "SỬA ĐỔI"
+
+[show]
+en = "SHOW"
+vn = "CHO XEM"
+
+[hide]
+en = "HIDE"
+vn = "GIẤU"
+
+[animate]
+en = "ANIMATE"
+vn = "LÀM CHUYỂN ĐỘNG"

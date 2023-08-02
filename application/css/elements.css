@@ -1,0 +1,589 @@
+/*------------------------------------------------------------------------------------------------*/
+/*                                                                                                */
+/*                                    C O N T A I N E R S                                         */
+/*                                                                                                */
+/*------------------------------------------------------------------------------------------------*/
+
+
+.container-column
+{
+ display:         flex;
+ flex-direction:  column;
+ align-items:     flex-start;
+ justify-content: flex-start;
+}
+
+
+
+.container-row
+{
+ display:flex;
+ flex-direction:  row;
+ align-items:     flex-start;
+ justify-content: flex-start;
+}
+
+
+
+.container-blocks
+{
+ display:         flex;
+ flex-direction:  row;
+ align-items:     flex-start;
+ justify-content: flex-start;
+ align-content:   flex-start;
+ flex-wrap:       wrap;
+ overflow-x:      hidden;
+ overflow-y:      auto;
+}
+
+.container-blocks-expandable
+{
+ display:         flex;
+ flex-direction:  row;
+ align-items:     flex-start;
+ justify-content: flex-start;
+ align-content:   flex-start;
+ flex-wrap:       wrap;
+}
+
+
+
+
+
+.container-row-centered
+{
+ display:flex;
+ flex-direction:  row;
+ align-items:     center;
+ justify-content: center;
+}
+
+
+
+.container-rigid
+{
+ flex-grow:   0;
+ flex-shrink: 0;
+}
+
+
+
+.content-centered
+{
+ justify-content: center;
+ align-items    : center;
+}
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------*/
+/*                                                                                                */
+/*                                          T E X T                                               */
+/*                                                                                                */
+/*------------------------------------------------------------------------------------------------*/
+
+
+
+.paragraph-plain-plain
+{
+ font-family: main-plain; 
+ font-size:   14px;
+ color:       var(--color-black);
+}
+
+
+
+.paragraph-plain-bold
+{
+ font-family: main-bold; 
+ font-size:   14px;
+ color:       var(--color-black);
+}
+
+
+.paragraph-plain-cursive
+{
+ font-family: main-cursive; 
+ font-size:   16px;
+ color:       var(--color-black);
+}
+
+
+.paragraph-justified-bold
+{
+ font-family: main-bold; 
+ font-size:   16px;
+ color:       var(--color-black);
+ text-align:  justify;
+}
+
+
+.paragraph-justified-cursive
+{
+ font-family: main-cursive; 
+ font-size:   16px;
+ color:       var(--color-black);
+ text-align:  justify;
+}
+
+
+.paragraph-justified-small
+{
+ font-family: main-plain; 
+ font-size:   16px;
+ color:       var(--color-black);
+ text-align:  justify;
+}
+
+
+.paragraph-justified-medium
+{
+ font-family: main-plain; 
+ font-size:   20px;
+ color:       var(--color-black);
+ text-align:  justify;
+}
+
+
+
+.paragraph-justified-big
+{
+ font-family: main-plain; 
+ font-size:   28px;
+ color:       var(--color-black);
+}
+
+
+
+
+.caption-noted-huge
+{
+ font-family: main-plain; 
+ font-size:   36px;
+ color:       var(--color-noted);
+}
+
+
+.caption-noted-big
+{
+ font-family: main-plain; 
+ font-size:   24px;
+ color:       var(--color-noted);
+}
+
+
+
+.caption-noted-medium
+{
+ font-family: main-plain; 
+ font-size:   16px;
+ color:       var(--color-noted);
+}
+
+
+
+.caption-cursive-small
+{
+ font-family: main-cursive;
+ font-size:   12px;
+ color:       var(--color-black);
+}
+
+
+.caption-cursive-medium
+{
+ font-family: main-cursive;
+ font-size:   16px;
+ color:       var(--color-black);
+}
+
+
+
+.caption-cursive-big
+{
+ font-family: main-cursive;
+ font-size:   24px;
+ color:       var(--color-black);
+}
+
+
+
+.text-ellipsis
+{
+ overflow:      hidden   !important; 
+ white-space:   nowrap   !important; 
+ text-overflow: ellipsis !important; 
+}
+
+
+
+.text-vertical-downup
+{
+ writing-mode: vertical-lr; 
+ transform:    scale(-1, -1)
+}
+
+
+.text-vertical-updown
+{
+ writing-mode: vertical-lr; 
+}
+
+
+
+.text-size-small
+{
+ font-size: 8px !important;
+}
+
+
+.text-size-medium
+{
+ font-size: 12px !important;
+}
+
+
+.text-size-large
+{
+ font-size: 24px !important;
+}
+
+
+
+
+.text-caption-small
+{
+ font-family: main-plain;
+ font-size:   12px;
+}
+
+
+
+.text-caption-medium
+{
+ font-family: main-plain;
+ font-size:   16px;
+}
+
+
+.text-caption-mediumbig
+{
+ font-family: main-plain;
+ font-size:   20px;
+}
+
+
+.text-caption-big
+{
+ font-family: main-plain;
+ font-size:   24px;
+}
+
+
+
+.text-title-small
+{
+ font-family: main-bold;
+ font-size:   12px;
+}
+
+
+.text-title-medium
+{
+ font-family: main-bold;
+ font-size:   16px;
+}
+
+
+
+.text-title-mediumbig
+{
+ font-family: main-bold;
+ font-size:   20px;
+}
+
+
+
+.text-title-big
+{
+ font-family: main-bold;
+ font-size:   24px;
+}
+
+
+.text-cubital-small
+{
+ font-family: main-bold;
+ font-size:   18px;
+}
+
+
+.text-cubital-medium
+{
+ font-family: main-bold;
+ font-size:   24px;
+}
+
+
+.text-cubital-mediumbig
+{
+ font-family: main-bold;
+ font-size:   30px;
+}
+
+
+.text-cubital-big
+{
+ font-family: main-bold;
+ font-size:   36px;
+}
+
+
+.text-cubital-huge
+{
+ font-family: main-bold;
+ font-size:   64px;
+}
+
+
+
+.text-item-small
+{
+ font-family: main-plain;
+ font-size:   12px;
+}
+
+
+
+.text-item-medium
+{
+ font-family: main-plain;
+ font-size:   16px;
+}
+
+
+.text-control-input
+{
+ font-family: main-plain;
+ font-size:   14px;
+}
+
+
+.text-control-small
+{
+ font-family: main-plain;
+ font-size:   12x;
+}
+
+
+.text-control-listbox
+{
+ font-family: main-plain;
+ font-size:   14px;
+}
+
+
+
+.text-button-medium
+{
+ font-family: main-plain;
+ font-size:   12px;
+}
+
+.text-button-large
+{
+ font-family: main-bold;
+ font-size:   18px;
+}
+
+
+
+.text-popup-title
+{
+ font-family: main-bold;
+ font-size:   18px;
+}
+
+
+.text-popup-subtitle
+{
+ font-family: main-bold;
+ font-size:   12px;
+}
+
+
+.text-menu
+{
+ font-family: main-plain;
+ xfont-size:   12px;
+}
+
+
+
+.text-option-category
+{
+ font-family: main-bold;
+ font-size:   18px;
+}
+
+
+.text-paragraph
+{
+ text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------*/
+/*                                                                                                */
+/*                                         I M A G E S                                            */
+/*                                                                                                */
+/*------------------------------------------------------------------------------------------------*/
+
+.image-icon-small
+{
+ width:  16px;
+ height: 16px;
+}
+
+.image-icon-medium
+{
+ width:  24px;
+ height: 24px;
+}
+
+.image-icon-large
+{
+ width:  48px;
+ height: 48px;
+}
+
+
+
+.image-user-propic
+{
+ width:         64px;
+ height:        64px;
+ border-radius: 32px;
+ object-fit:    cover;
+}
+
+
+.image-cover
+{
+ object-fit: cover;
+}
+
+
+
+.image-thumbnail
+{
+ object-fit: scale-down;
+}
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------*/
+/*                                                                                                */
+/*                                         T A B L E S                                            */
+/*                                                                                                */
+/*------------------------------------------------------------------------------------------------*/
+
+.table-standard
+{
+ width:  100%;
+ height: 100%;
+}
+
+.table-standard-row
+{
+ width:  100%;
+}
+
+.table-standard-header
+{
+ text-align:       center;
+ vertical-align:   center;
+ padding:          8px;
+ font-weight:      bold;
+ font-family:      main-bold;
+ font-size:        16px;
+ color:            var(--color-black);
+ background-color: var(--color-dark);
+}
+
+
+.table-standard-cell
+{
+ text-align:       center;
+ vertical-align:   center;
+ padding:          8px;
+ font-family:      main-plain;
+ font-size:        16px;
+ color:            var(--color-black);
+ background-color: var(--color-light);
+}
+
+.table-standard-actions
+{
+ display:          flex;
+ flex-direction:   row;
+ align-items:      center;
+ justify-content:  space-between;
+ gap:              8px;
+ padding:          8px;
+ font-family:      main-plain;
+ font-size:        16px;
+ color:            var(--color-black);
+ background-color: var(--color-light);
+}
+
+
+.table-cursive
+{
+ width:  100%;
+ height: 100%;
+}
+
+.table-cursive-row
+{
+ width: 100%;
+}
+
+.table-cursive-header
+{
+ text-align:       center;
+ vertical-align:   center;
+ padding:          8px;
+ font-weight:      bold;
+ font-family:      main-cursive;
+ font-size:        16px;
+ color:            var(--color-black);
+ background-color: var(--color-dark);
+}
+
+.table-cursive-cell
+{
+ text-align:       center;
+ vertical-align:   center;
+ padding:          8px;
+ font-family:      main-cursive;
+ font-size:        16px;
+ color:            var(--color-black);
+ background-color: var(--color-light);
+}
